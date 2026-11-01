@@ -52,6 +52,7 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | — | Observation (terme premier) | ACCEPTÉ | Stipulation acceptée |
 | D15 | Établi sans observation | DÉFINITION | Stipulation acceptée |
 | D16 | Établi avec observation | DÉFINITION | Stipulation acceptée |
+| D17 | Concevable | DÉFINITION | Stipulation acceptée |
 | — | Monde = l'univers physique | CONTESTÉ | Refusé : présuppose ses limites |
 | — | Nécessaire au sens logique | CONTESTÉ | Écarté : réfute D1 d'emblée (T4) |
 
@@ -71,6 +72,7 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | T3c | `◇G` et `◇¬G` incompatibles | DÉMONTRÉ | P1, N, K, T, A4, U |
 | T4 | Au sens logique de « nécessaire », `¬G` | DÉMONTRÉ sous réserve | N, K, T, L2 non vérifiés pour ce sens |
 | T5 | `(¬E(x) → ¬L) ↔ E(x)` quand L est vrai | DÉMONTRÉ | A3, S |
+| T6 | « Tout concevable est possible » mène à une contradiction | DÉMONTRÉ sous réserve | P1, N, K, T, A4, U ; « dépendre » encore libre |
 
 ## Thèses à examiner
 

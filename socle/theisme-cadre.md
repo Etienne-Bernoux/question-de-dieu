@@ -114,6 +114,7 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 | D14 | Mesure | observation qui attribue une valeur numérique à une propriété, selon une procédure que n'importe qui peut reproduire | |
 | D15 | Établi sans observation | énoncé démontré à partir du cadre sans qu'aucune prémisse soit une observation | « A priori » : le mot latin se lit couramment « avant coup » et invite l'équivoque |
 | D16 | Établi avec observation | énoncé démontré avec au moins une observation parmi ses prémisses | « A posteriori » : se lit couramment « après coup » |
+| D17 | Concevable | un énoncé est concevable s'il existe une interprétation où le cadre et cet énoncé sont vrais ensemble : le supposer n'engendre aucune contradiction | Le pas « concevable, donc possible » ne vaut pas en général (T6) |
 
 Avertissement : exister **en soi** (être une substance, D10) n'est pas exister **par soi** (D1). Un arbre existe en soi, non par soi : il dépend de causes. Les confondre ferait de toute substance un candidat à D1.
 
@@ -121,7 +122,7 @@ Conséquence de D11 : toute chose a « exister » dans toutes les situations pos
 
 Règle de lecture : tant que M4 et M5 ne sont pas faits, « Dieu existe » signifie seulement « un être nécessaire existe », sans rien dire de sa personnalité ni de sa bonté.
 
-Mots non définis, interdits dans une inférence avant leur définition : « concevable » (employé par les profils de la population, à définir avant son premier passage), « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). Termes premiers, admis sans définition : « situation possible » ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens, par un instrument, ou par le constat, fait par celui qui raisonne, que son propre acte a lieu. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « intelligible », employé par D5, est à définir ou à déclarer premier.
+Mots non définis, interdits dans une inférence avant leur définition : « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). Termes premiers, admis sans définition : « situation possible » ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens, par un instrument, ou par le constat, fait par celui qui raisonne, que son propre acte a lieu. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « intelligible », employé par D5, est à définir ou à déclarer premier.
 
 ## 5. Constat d'existence
 

@@ -98,6 +98,17 @@ Soit `Dép(x) ≝ ¬E(x) → ¬L`, avec L « les lois logiques sont vraies ». L
 
 H1 exige donc une relation de dépendance définie autrement, à fixer en M6.
 
+### T6. « Concevable » n'entraîne pas « possible »
+
+Sous P1, N, K, T, A4 et U, le principe « tout énoncé concevable (D17) est possible » mène à une contradiction.
+
+1. `G` est concevable : une seule situation, un seul objet `a`, qui y existe et ne dépend de rien. `a` existe dans toute situation possible et ne dépend de rien : il est nécessaire. N, K, T et U sont vrais dans un modèle à une situation ; E1 aussi.
+2. `¬G` est concevable : une seule situation, deux objets `a` et `b`, chacun dépendant de l'autre. Aucun ne ne dépend de rien, aucun n'est nécessaire.
+3. Si tout concevable était possible : `◇G` (de 1) et `◇¬G` (de 2).
+4. T3c : `◇G` et `◇¬G` donnent `G` et `¬G`, contre A2.
+
+Réserve : 1 et 2 laissent « dépendre » libre, faute de définition (M6). T6 sera revérifié quand « dépendre » sera défini. Conséquence : aucun camp ne peut fonder sa prémisse de possibilité sur la seule concevabilité ; elle doit être établie autrement, en M1 à M3.
+
 ## Validité et conditions d'usage
 
 Toutes les dérivations ci-dessus sont VALIDES : chaque pas cite sa règle. La solidité de T3 dépend de P1 et de la prémisse de possibilité, dont aucune n'est démontrée.
