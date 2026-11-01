@@ -24,7 +24,8 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 | N | Nécessitation : ce que la logique démontre seule est nécessaire | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; refus cohérent mais coûteux (§4 ter) |
 | K | `□(P → Q) → (□P → □Q)` | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; refus contradictoire sous D2 (§4 ter) |
 | T | `□P → P` | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; refus contradictoire sous D2 si la situation réelle est une situation possible (§4 ter) |
-| AM | `◇□P → □P` | à statuer (Q6bis, suspens jusqu'en M2) | Stipulation | M0 ; utile en M2 |
+| U | Les situations possibles forment un ensemble unique, le même quelle que soit la situation d'où l'on regarde ; `□P` : P vrai dans toutes, `◇P` : dans au moins une | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; « situation possible » est primitif |
+| AM | `◇□P → □P` | DÉMONTRÉ | Démontré ici, sous U (§4 ter) | M0 ; refus = refus de U |
 | D1 | Dieu : `x` existe par soi (nécessaire, D2 ; raison de son existence = sa nature, D5) | DÉFINITION | Brief, révisé (arbitrage D1, 2026-11-01) | M0 ; « Dieu existe » = « un être par soi existe » tant que M4, M5 ne sont pas faits |
 | D2 | Nécessaire : qui ne peut pas ne pas exister, au sens réel (ne dépend de rien, aucune situation possible ne le prive d'existence) | DÉFINITION | Brief, confirmé Q2 et Q2bis | M0 |
 | H1 | La validité de la logique et des mathématiques dépend d'un être | à statuer en M6 | Brief (Q2bis) | M0 ; « dépendre » à définir (T5) |
@@ -47,7 +48,7 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 | L1 | N, K ⊢ `□(P → Q) → (◇P → ◇Q)` | DÉMONTRÉ | Démontré ici | M0 |
 | L2 | N, K, A4 ⊢ `◇¬G → ¬□G` | DÉMONTRÉ | Démontré ici | M0 |
 | T3a | P1, N, K, T, A4 ⊢ `◇¬G → ¬G` | DÉMONTRÉ | Démontré ici | M0 |
-| T3b | P1, N, K, T, AM ⊢ `◇G → G` | DÉMONTRÉ | Démontré ici | M0 |
+| T3b | P1, N, K, T, AM ⊢ `◇G → G` (AM démontrée sous U) | DÉMONTRÉ | Démontré ici | M0 |
 | T3c | Sous P1, N, K, T, A4, AM : `◇G` et `◇¬G` incompatibles | DÉMONTRÉ | Démontré ici | M0 |
 | T5 | La dépendance lue comme `¬E(x) → ¬L` équivaut à `E(x)` | DÉMONTRÉ | Démontré ici | M0 |
 | T4 | Sous D2-L et P1, `¬G` | DÉMONTRÉ sous réserve | Démontré ici ; réserve : N, K, T, L2 pour `□_L` non vérifiés | M0 |
