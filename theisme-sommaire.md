@@ -15,16 +15,16 @@ Examen, module par module, des prémisses qui fondent l'existence d'un Dieu bon 
 
 ## Où en est l'examen
 
-M0 est rédigé (2026-11-01) : la logique seule ne tranche pas, et la question se ramène à une prémisse sur ce qui est possible. Prochaine étape : vérification de cohérence globale des notes, puis passage de M0 devant la population, puis M1.
+M0 est rédigé (2026-11-01) : la logique seule ne tranche pas, et, sous l'hypothèse P1, la question se ramène à une prémisse sur ce qui est possible. La vérification de cohérence globale est faite ; quatre points restent à statuer (cadre, fin de §4), puis M0 passe devant la population, puis M1.
 
 ## Sens de lecture
 
 | Ordre | Document | Dossier | But | Quand le lire |
 |---|---|---|---|---|
 | 1 | [[theisme-protocole]] | `methode/` | Les règles du jeu : contraintes épistémiques, déroulé d'un module, règles de conduite | Une fois, avant tout |
-| 2 | [[theisme-cadre]] | `socle/` | Ce qui est admis (principes, définitions, constat d'existence), et ce que coûterait le refus de chacun | Avant chaque module : tout raisonnement en part |
+| 2 | [[theisme-cadre]] | `socle/` | Les axiomes et définitions admis, E1 démontré avec observation, et ce que coûterait le refus de chaque axiome | Avant chaque module : tout raisonnement en part |
 | 3 | [[theisme-m0-resultats]] | `modules/` | Ce que la logique seule établit sur l'existence, et ce qui passe aux modules suivants | Dans l'ordre des modules |
-| 4 | [[theisme-registre]] | `socle/` | Le statut de chaque énoncé (admis, démontré, à statuer, contesté) | À consulter quand un texte cite un identifiant |
+| 4 | [[theisme-registre]] | `socle/` | Le statut de chaque énoncé (axiome, définition, démontré, démontré sous hypothèse, sous réserve, hypothèse, contesté) | À consulter quand un texte cite un identifiant |
 | 5 | [[theisme-journal]] | `methode/` | Les décisions de l'utilisateur, datées, avec ses mots | Pour savoir pourquoi un choix a été fait |
 | 6 | [[theisme-verifications]] | `annexes/` | Les calculs et le script exécuté qui prouvent les résultats mécaniques | Pour vérifier soi-même une preuve |
 | 7 | [[theisme-population]] | `population/` | Les agents qui produisent et éprouvent chaque module : partage des rôles, contradicteurs, règles communes, gabarit, profils | Pour savoir qui a critiqué quoi, et selon quelles règles |
@@ -45,7 +45,7 @@ Chaque énoncé vit à un seul endroit ; les autres notes y renvoient.
 |---|---|---|
 | M0 | Que peut établir la logique seule sur l'existence ? | rédigé ; passage devant la population à faire |
 | M1 | Toute chose a-t-elle une raison, externe ou par sa propre nature ? | à faire |
-| M2 | Le contingent a-t-il une raison ? Faut-il un être par soi ? (P1, H2) | à faire |
+| M2 | Le contingent a-t-il une raison ? Faut-il un être nécessaire ? (P1, H2) | à faire |
 | M3 | Le monde a-t-il commencé ? Un passé infini est-il cohérent ? | à faire |
 | M4 | Le fondement est-il personnel, unique ? (H3) | à faire |
 | M5 | Le bien et le mal sont-ils objectifs ? (H4) | à faire |

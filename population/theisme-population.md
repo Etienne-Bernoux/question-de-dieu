@@ -27,7 +27,7 @@ Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit qu
 ## Déroulé d'un module
 
 1. Le formalisateur rédige le brouillon.
-2. Premier tour, en parallèle et à l'aveugle : les quatre philosophes et le vérificateur lisent le brouillon, chacun sans voir les autres contributions. Des critiques indépendantes trouvent des failles plus variées que des critiques qui se lisent.
+2. Premier tour, en parallèle et à l'aveugle : les quatre philosophes et le vérificateur lisent le brouillon, chacun sans voir les autres contributions. Choix de méthode : des critiques qui ne se lisent pas ne peuvent pas s'aligner les unes sur les autres.
 3. Le synthétiseur rend des verdicts provisoires et repère les objections qui visent une prémisse défendue par un autre membre.
 4. Réplique, en un seul tour : chaque membre visé répond aux seules objections qui portent sur sa position. Retenir une objection sans entendre celui qu'elle vise serait unilatéral.
 5. Le synthétiseur rend ses verdicts définitifs ; le formalisateur applique les corrections retenues ; le vérificateur recontrôle les seuls pas modifiés.
@@ -58,14 +58,14 @@ Chacun tranche là où son jugement est indépendant de l'enjeu.
 
 ## Contradicteurs
 
-Chaque membre se définit par des thèses explicites, jamais par un nom ou un courant. Les trois questions qui les distinguent sont celles sur lesquelles M0 a montré que tout se joue.
+Chaque membre se définit par des thèses explicites, jamais par un nom ou un courant. Trois questions les distinguent.
 
-| Membre | Un être par soi existe-t-il ? | Est-il personnel ? | Ce qui fonde une connaissance | Profil |
+| Membre | Un être nécessaire existe-t-il ? | Est-il personnel ? | Ce qui fonde une connaissance | Profil |
 |---|---|---|---|---|
-| Le théiste | oui | oui | ce qui est établi sans observation peut porter sur la réalité ; toute chose a une raison | [[theisme-ph-theiste]] |
-| Le nécessitariste impersonnel | oui | non | ce qui est établi sans observation peut porter sur la réalité ; le fondement n'est pas une personne | [[theisme-ph-necessitariste]] |
+| Le théiste | oui | oui | ce qui est établi sans observation peut établir une possibilité ou une nécessité ; toute chose a une raison | [[theisme-ph-theiste]] |
+| Le nécessitariste impersonnel | oui | non | ce qui est établi sans observation peut établir une possibilité ou une nécessité ; le fondement n'est pas une personne | [[theisme-ph-necessitariste]] |
 | Le naturaliste | non | sans objet | ce qui est établi sans observation ne dit rien de ce qui existe ; seule une observation parmi les prémisses le peut | [[theisme-ph-naturaliste]] |
-| Le sceptique | suspend | suspend | rien sans démonstration | [[theisme-ph-sceptique]] |
+| Le sceptique | suspend | suspend | rien n'est acquis sans démonstration, hors axiomes et définitions admis | [[theisme-ph-sceptique]] |
 | Le vérificateur formel | aucune position | aucune position | la seule validité des inférences | [[theisme-verificateur-formel]] |
 
 Un cinquième philosophe, centré sur la morale et le sens, rejoindra la population à l'ouverture de M5.
@@ -74,10 +74,10 @@ Un cinquième philosophe, centré sur la morale et le sens, rejoindra la populat
 
 Elles s'appliquent à chaque membre et lui sont transmises avec son profil.
 
-1. **Un seul vocabulaire.** Tous les membres emploient les termes du [[theisme-cadre]], au sens qu'il fixe, et aucun autre. Un membre qui a besoin d'un terme nouveau ou d'un autre sens en propose la définition comme objection ; il ne l'emploie qu'une fois la définition admise au cadre. Les termes encore en attente de définition (liste du cadre, §4) sont définis avant le premier passage de la population.
+1. **Un seul vocabulaire.** Tous les membres emploient les termes du [[theisme-cadre]], au sens qu'il fixe, et aucun autre. Un membre qui a besoin d'un terme nouveau ou d'un autre sens en propose la définition comme objection ; il ne l'emploie qu'une fois la définition admise au cadre. Les termes employés par les profils et par le module examiné sont définis avant le passage de la population ; les autres, dans le module qui les traite.
 2. **Aucune autorité.** Ne citer ni philosophe, ni école, ni argument par son nom. Tout se démontre à partir du cadre, ou se source : données publiées pour un fait empirique.
-3. **Démontrer, pas affirmer.** Toute objection et toute prémisse posée portent leur dérivation, leur contre-modèle ou leur source ; la charge de la preuve suit la contrainte 7 du [[theisme-protocole]]. Une objection sans preuve est classée « intuition » et ne peut être retenue en l'état. Un membre peut écarter sans preuve une prémisse non démontrée ; s'il affirme sa négation, il en porte la charge.
-4. **Classer le refus.** Pour toute prémisse contestée : contradiction, coût métaphysique ou épistémique, coût existentiel ; jamais un coût présenté comme une contradiction.
+3. **Démontrer, pas affirmer.** Contraintes 6 à 8 du [[theisme-protocole]]. Une objection sans preuve est classée « intuition » et ne peut être retenue en l'état.
+4. **Classer le refus.** Contrainte 3 du protocole.
 5. **Défendre sa position sans la caricaturer chez les autres.** Chaque membre certifie que sa propre position est formulée fidèlement dans le livrable, ou propose la formulation exacte.
 6. **Rester dans le module.** Une objection qui relève d'un module ultérieur est signalée en une ligne avec le module visé.
 7. **Assumer totalement ses prémisses.** Quand un membre choisit d'accepter ou de refuser une prémisse, il l'inscrit dans sa fiche de position et en assume toutes les implications : sur sa vision du monde (ce qui, pour lui, existe ou non, et pourquoi) et sur son mode de vie (sens, morale, espérance, conduite). Il ne reprend pas plus tard une prémisse qu'il a refusée, ni ne lâche une prémisse acceptée quand elle le gêne, sans le déclarer et sans réviser ses choix antérieurs qui en dépendent. Les implications sur le mode de vie sont des coûts existentiels : elles sont dérivées de ses prémisses, jamais prêtées par caricature, et elles ne servent jamais d'argument pour ou contre la vérité d'une prémisse (pas d'appel aux conséquences).
@@ -89,7 +89,7 @@ Chaque membre rend une liste d'objections, puis son verdict de fidélité.
 | Champ | Contenu |
 |---|---|
 | Cible | Identifiant visé (D2, P1, T3b, ligne 6 de L1…) |
-| Type | invalidité · équivoque · prémisse glissée · composition · glissement de quantificateur · homme de paille · appel à l'ignorance · source manquante · coût mal classé · asymétrie de traitement |
+| Type | invalidité · équivoque · pétition de principe · faux dilemme · appel aux conséquences · prémisse glissée · composition · glissement de quantificateur · homme de paille · appel à l'ignorance · source manquante · coût mal classé · asymétrie de traitement |
 | Énoncé | L'objection en une ou deux phrases |
 | Preuve | Dérivation, contre-modèle ou source |
 | Proposition | Correction précise : nouvelle formulation, prémisse à ajouter, résultat à retirer |
@@ -105,4 +105,4 @@ Chaque profil porte la fiche de son membre : une ligne par prémisse tranchée, 
 
 ## Traces
 
-Les contributions brutes ne sont pas conservées. Pour chaque module, une note `modules/theisme-mN-debat` consigne chaque objection, son auteur, le verdict de l'orchestrateur (retenue, rejetée, transmise à l'utilisateur) avec sa raison, et l'effet sur les autres notes.
+Les contributions brutes ne sont pas conservées. Pour chaque module, une note `modules/theisme-mN-debat` consigne chaque objection, son auteur, le verdict du synthétiseur (retenue, rejetée, transmise à l'utilisateur) avec sa raison, et l'effet sur les autres notes.

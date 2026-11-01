@@ -20,7 +20,7 @@ Le brouillon du formalisateur, les contributions des quatre philosophes, le verd
 ## Ce qu'il produit
 
 1. **Un verdict par objection**, avec sa raison :
-   - retenue : l'objection est prouvée et ne touche à aucune décision de l'utilisateur ; il énonce la correction exacte à appliquer ;
+   - retenue : l'objection est prouvée, le vérificateur ne trouve rien à redire à sa preuve, et elle ne touche à aucune décision de l'utilisateur ; il énonce la correction exacte à appliquer ;
    - rejetée : la preuve manque, est invalide, ou l'objection sort du module ; il dit laquelle de ces raisons ;
    - transmise à l'utilisateur : l'objection est prouvée, mais la corriger changerait une prémisse, une définition ou une décision du journal.
 2. **Le contrôle de symétrie** (contrainte 4) : chaque coût du refus a-t-il en regard les coûts de l'acceptation ? La charge de la preuve (contrainte 7) est-elle répartie à égalité ?

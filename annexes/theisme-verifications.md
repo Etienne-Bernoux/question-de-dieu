@@ -17,7 +17,7 @@ Matrices citées dans [[theisme-cadre]] et [[theisme-m0-resultats]]. Une matrice
 |---|---|---|---|---|---|
 | 0 | 0, **1** | 1 − a | min / max | max(1 − a, b) | B et S : tout le retenu vaut |
 | 1 | 0, 1, **2** | 2 si a = 0, sinon 0 | min / max | 2 si a ≤ b, sinon b | T0 ; refus de A3 |
-| 2 | 0, **1**, **2** | 2 − a | min / max | max(2 − a, b) | refus de A2 : une contradiction n'entraîne pas tout |
+| 2 | 0, **1**, **2** | 2 − a | min / max | max(2 − a, b) | refus de A2 : un énoncé et sa négation tenus ensemble pour vrais n'entraînent pas tout ; la formule A2 y reste désignée |
 | 3 | 0, 1, **2** | 0 si a = 2, sinon 2 | min / max | 2 si a ≤ b, sinon b | refus de A4 sans S |
 | 4 | 0, 1, 2, **3** | 3 − a | et / ou bit à bit | (3 − a) ou b | refus de B |
 

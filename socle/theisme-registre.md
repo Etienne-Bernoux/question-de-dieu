@@ -11,7 +11,7 @@ updated: 2026-11-01
 
 # Registre
 
-Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, avec son paragraphe de refus. DÉFINITION : terme fixé, ou terme premier. DÉMONTRÉ : dérivé d'axiomes, de définitions et d'observations. HYPOTHÈSE : prémisse ni démontrée ni admise ; un module en tire ce qui suit sous la forme « si H, alors… », jamais H elle-même. CONTESTÉ : écarté. Un module ne s'appuie sans condition que sur AXIOME, DÉFINITION et DÉMONTRÉ (contrainte 8 du protocole). Contenu et paragraphes de refus : [[theisme-cadre]] et [[theisme-m0-resultats]] ; décisions : [[theisme-journal]].
+Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, avec son paragraphe de refus. DÉFINITION : terme fixé, ou terme premier. DÉMONTRÉ : dérivé d'axiomes, de définitions et d'observations. DÉMONTRÉ SOUS HYPOTHÈSE : dérivé avec l'hypothèse nommée parmi les prémisses ; ne vaut que si elle est vraie. SOUS RÉSERVE : la démonstration a une lacune nommée. HYPOTHÈSE : ni démontrée ni admise (contrainte 8 du [[theisme-protocole]]). CONTESTÉ : écarté. Contenu et paragraphes de refus : [[theisme-cadre]] et [[theisme-m0-resultats]] ; décisions : [[theisme-journal]].
 
 ## Principes
 
@@ -28,15 +28,15 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | K | Distribution | AXIOME | Stipulation |
 | T | Factivité | AXIOME | Stipulation |
 | U | Ensemble unique des situations possibles | AXIOME | Stipulation |
-| E1 | Quelque chose existe | DÉMONTRÉ | Établi avec observation (le constat que l'acte de nier a lieu, D8) ; refus performativement contradictoire |
-| P1 | `□(G → □G)` ; se ramène à : ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire (L3) | HYPOTHÈSE | Stipulation ; démontrable en M2 si ne dépendre de rien appartient à la nature d'un être nécessaire |
+| E1 | Quelque chose existe | DÉMONTRÉ | Établi avec observation (le constat que l'acte de nier a lieu, D8) ; refus : contradiction performative |
+| P1 | `□(G → □G)` | HYPOTHÈSE | Stipulation ; découle de L3 si ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire, question de M2 |
 
 ## Définitions
 
 | ID | Terme | Statut | Provenance |
 |---|---|---|---|
-| D1 | Dieu : être nécessaire au sens réel (existe par soi) | DÉFINITION | Brief, révisée par l'utilisateur |
-| D2 | Nécessaire, au sens réel | DÉFINITION | Brief, sens fixé par l'utilisateur |
+| D1 | Dieu : être nécessaire au sens de D2 | DÉFINITION | Brief, révisée par l'utilisateur |
+| D2 | Nécessaire (être), au sens réel ; « par soi » = ne dépendre de rien | DÉFINITION | Brief, sens fixé par l'utilisateur ; recouvrement avec D3 et D9 à statuer |
 | D3 | Contingent | DÉFINITION | Brief |
 | D4 | Cause | DÉFINITION | Stipulation acceptée |
 | D5 | Raison | DÉFINITION | Stipulation acceptée |
@@ -49,31 +49,32 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | D12 | Accident | DÉFINITION | Utilisateur, définition stipulée acceptée |
 | D13 | Expérience | DÉFINITION | Stipulation acceptée |
 | D14 | Mesure | DÉFINITION | Stipulation acceptée |
+| — | Situation possible (terme premier) | DÉFINITION | Stipulation acceptée |
 | — | Observation (terme premier) | DÉFINITION | Stipulation acceptée |
 | D15 | Établi sans observation | DÉFINITION | Stipulation acceptée |
 | D16 | Établi avec observation | DÉFINITION | Stipulation acceptée |
 | D17 | Concevable | DÉFINITION | Stipulation acceptée |
 | D18 | Rendre intelligible | DÉFINITION | Stipulation acceptée |
 | — | Monde = l'univers physique | CONTESTÉ | Refusé : présuppose ses limites |
-| — | Nécessaire au sens logique | CONTESTÉ | Écarté : réfute D1 d'emblée (T4) |
+| — | Nécessaire au sens logique | CONTESTÉ | Écarté : mène à une contradiction sous P1 (T4) |
 
 ## Résultats
 
 | ID | Énoncé | Statut | Repose sur |
 |---|---|---|---|
-| T0 | `¬¬P ⊢ P` et A3 ne se dérivent pas de A1, A2, A4 et R | DÉMONTRÉ | Matrice 1 |
-| T1 | Une définition n'implique jamais `∃x X(x)` | DÉMONTRÉ | Contre-modèle |
+| T0 | `¬¬P ⊢ P` ne se dérive pas de A1, A2, A4 et R ; il vaut sous B et S | DÉMONTRÉ | Matrices 1 et 0 |
+| T1 | Une définition de la forme `X ≝ F ∧ E` n'implique pas `∃x X(x)` | DÉMONTRÉ | Contre-modèle |
 | T2 | « Quelque chose existe » n'est pas une vérité logique | DÉMONTRÉ | Interprétation vide |
 | L1 | `□(P → Q) → (◇P → ◇Q)` | DÉMONTRÉ | N, K, R |
 | L2 | `◇¬G → ¬□G` | DÉMONTRÉ | N, K, A4, R |
 | AM | `◇□P → □P` | DÉMONTRÉ | U |
-| L3 | Si ne dépendre de rien appartient à la nature (D11) d'un être nécessaire, P1 est vraie | DÉMONTRÉ | U, D1, D11 |
-| T3a | `◇¬G → ¬G` | DÉMONTRÉ | P1, N, K, T, A4 |
-| T3b | `◇G → G` | DÉMONTRÉ | P1, N, K, T, U |
-| T3c | `◇G` et `◇¬G` incompatibles | DÉMONTRÉ | P1, N, K, T, A4, U |
-| T4 | Au sens logique de « nécessaire », `¬G` | DÉMONTRÉ sous réserve | N, K, T, L2 non vérifiés pour ce sens |
-| T5 | `(¬E(x) → ¬L) ↔ E(x)` quand L est vrai | DÉMONTRÉ | A3, S |
-| T6 | « Tout concevable est possible » mène à une contradiction | DÉMONTRÉ sous réserve | P1, N, K, T, A4, U ; « dépendre » encore libre |
+| L3 | Si ne dépendre de rien appartient à la nature (D11) de tout être nécessaire, P1 est vraie | DÉMONTRÉ SOUS RÉSERVE | U, D1, D2, D11 ; réserve : « dépendre » non défini |
+| T3a | `◇¬G → ¬G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, A4, R |
+| T3b | `◇G → G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, U (via AM), R |
+| T3c | `◇¬G → ¬◇G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, A4, U, R |
+| T4 | Le sens logique de « nécessaire » mène à une contradiction | DÉMONTRÉ SOUS HYPOTHÈSE P1, SOUS RÉSERVE | T3c, D17, A2 ; réserve : N, K, T, A4, AM non vérifiés pour ce sens, « dépendre » libre |
+| T5 | Sous B et S, quand L est vrai, `¬E(x) → ¬L` a la valeur de `E(x)` | DÉMONTRÉ | B, S |
+| T6 | « Tout concevable est possible » mène à une contradiction | DÉMONTRÉ SOUS HYPOTHÈSE P1, SOUS RÉSERVE | T3c, D17, A2, N, K, T, U ; réserve : « dépendre » libre |
 
 ## Thèses à examiner
 

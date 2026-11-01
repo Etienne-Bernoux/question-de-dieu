@@ -15,7 +15,7 @@ Agent dédié, sur le modèle le plus puissant. Il rédige ; il ne juge pas les 
 
 ## Entrées
 
-La question du module ([[theisme-sommaire]], plan des modules), [[theisme-cadre]], [[theisme-registre]], [[theisme-journal]], les notes de résultats des modules précédents. Rien d'autre : ce qui n'est pas écrit dans ces notes n'existe pas pour lui.
+La question du module ([[theisme-sommaire]], plan des modules), [[theisme-protocole]], [[theisme-population]], [[theisme-cadre]], [[theisme-registre]], [[theisme-journal]], les notes de résultats des modules précédents. Rien d'autre : ce qui n'est pas écrit dans ces notes n'existe pas pour lui.
 
 ## Ce qu'il produit
 

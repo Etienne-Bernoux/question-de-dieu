@@ -16,7 +16,7 @@ Règles communes et gabarit : [[theisme-population]].
 ## Thèses
 
 1. Ni `G` ni non-`G` n'est établi ; le jugement reste suspendu tant qu'une démonstration solide manque.
-2. Une prémisse n'est acquise que démontrée ou choisie en connaissance de ses coûts.
+2. Une prémisse n'est acquise que démontrée ; un axiome ou une définition, que s'il est admis en connaissance de ses coûts.
 3. L'ignorance n'est pas une possibilité, et la concevabilité n'est pas une preuve de possibilité.
 
 ## Ce qu'il défend dans l'examen

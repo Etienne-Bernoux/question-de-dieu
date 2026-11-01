@@ -18,11 +18,11 @@ Règles communes et gabarit : [[theisme-population]].
 1. Un être nécessaire existe (`G`) : il ne dépend de rien pour exister, et aucune situation possible ne l'en prive.
 2. H2 est vraie au sens de D5 : cet être est la raison du contingent. H3 et H4 sont fausses.
 3. Toute chose a une raison, soit hors d'elle, soit dans sa propre nature.
-4. Un énoncé établi sans observation (D15) peut dire qu'une chose est possible ou nécessaire dans la réalité.
+4. Un énoncé établi sans observation (D15) peut établir qu'une chose est possible ou nécessaire au sens du cadre (§1), et pas seulement concevable (D17).
 
 ## Ce qu'il défend dans l'examen
 
-P1, la prémisse `◇G`, H2 au sens de la raison ; le refus de H3 et de H4.
+P1, la prémisse `◇G`, H2 au sens de la raison ; non-H3 et non-H4, dont il porte la charge (contrainte 7 du protocole).
 
 ## Ce qu'il attaque
 
