@@ -11,7 +11,7 @@ updated: 2026-11-01
 
 # M0 — Fondations
 
-Protocole : [[theisme-protocole]]. Registre : [[theisme-registre]].
+Protocole : [[theisme-protocole]]. Registre : [[theisme-registre]]. Chaque énoncé porte sa provenance entre crochets : [Brief], [Stipulation], [Démontré ici] (cf. contrainte 6 du protocole). Aucun énoncé de M0 ne repose sur une source externe.
 
 ## 1. Question
 
@@ -19,123 +19,187 @@ Que peuvent établir les seuls axiomes logiques et des définitions sur l'existe
 
 ## 2. Argument formalisé (formalisateur)
 
-### Notation
+### Notation [Stipulation]
 
-`P`, `Q` : propositions. `F(x)` : « x a la propriété F ». `∃x F(x)` : « au moins une chose a F ». `□P` : « il est nécessaire que P ». `◇P` : « il est possible que P », défini par `◇P ≝ ¬□¬P`. `G` : « Dieu (au sens de D1) existe », c'est-à-dire `∃x Dieu(x)`.
+`P`, `Q` : propositions. `F(x)` : « x a la propriété F ». `∃x F(x)` : « au moins une chose a F ». `□P` : « il est nécessaire que P ». `◇P ≝ ¬□¬P` : « il est possible que P ». `P ↔ Q ≝ (P → Q) ∧ (Q → P)`. `G` : `∃x Dieu(x)`, « Dieu au sens de D1 existe ».
 
-### Axiomes logiques proposés
+Une **interprétation** est un domaine d'objets et une attribution, à chaque propriété, de l'ensemble des objets qui l'ont. `∃x F(x)` est vrai dans une interprétation si au moins un objet du domaine a F ; `∀x F(x)` si tous l'ont. Une inférence est **invalide** s'il existe une interprétation où ses prémisses sont vraies et sa conclusion fausse (contre-modèle).
 
-- A1 Identité : `a = a` pour tout terme `a` ; `P → P` pour toute proposition.
-- A2 Non-contradiction : `¬(P ∧ ¬P)`.
-- A3 Tiers exclu : `P ∨ ¬P`.
+### Axiomes logiques
 
-Règles d'inférence admises : modus ponens (`P → Q`, `P` ⊢ `Q`), modus tollens (`P → Q`, `¬Q` ⊢ `¬P`), syllogisme disjonctif (`P ∨ Q`, `¬P` ⊢ `Q`), élimination de la conjonction, contraposition, réduction à l'absurde négative (si `P` mène à `Q ∧ ¬Q`, alors `¬P`). L'élimination de la double négation (`¬¬P` ⊢ `P`) n'est valide que sous A3 : c'est elle qui permet de conclure qu'une chose **existe** parce que sa non-existence est absurde.
+- A1 Identité : `a = a` ; `P → P`. [Brief]
+- A2 Non-contradiction : `¬(P ∧ ¬P)`. [Brief]
+- A3 Tiers exclu : `P ∨ ¬P`. [Brief]
+- A4 Introduction de la double négation : `P → ¬¬P`. [Stipulation, nécessaire à L2 ; T0 montre qu'elle n'apporte pas A3]
 
-### Axiomes modaux proposés
+Règles d'inférence [Brief pour leur liste ouverte, « modus ponens, modus tollens, syllogisme disjonctif, etc. »] : modus ponens (MP), modus tollens (MT), syllogisme disjonctif (SD), élimination de la conjonction, enchaînement (`P → Q`, `Q → R` ⊢ `P → R`), contraposition `(P → Q) → (¬Q → ¬P)`, absurde négatif `(P → (Q ∧ ¬Q)) → ¬P`. Pas de preuve conditionnelle (raisonner sous hypothèse) : elle n'est pas couverte par la démonstration T0. L'élimination de la double négation (`¬¬P ⊢ P`) n'en fait pas partie : T0 montre qu'elle ne se dérive pas des précédentes sans A3.
 
-- K Distribution : `□(P → Q) → (□P → □Q)`, d'où l'on dérive `□(P → Q) → (◇P → ◇Q)`.
-- T Factivité : `□P → P` (ce qui est nécessaire est vrai).
-- AM Stabilité du possible : `◇□P → □P` (ce qui est possiblement nécessaire est nécessaire). Il revient à dire que ce qui est possible ou nécessaire ne varie pas selon l'état du monde qu'on suppose réalisé.
+### Axiomes modaux [Stipulation, à statuer]
+
+- N Nécessitation : si `P` est démontré à partir des seuls axiomes, alors `□P` est démontré.
+- K Distribution : `□(P → Q) → (□P → □Q)`.
+- T Factivité : `□P → P`.
+- AM : `◇□P → □P`, lu littéralement : « s'il est possible que P soit nécessaire, alors P est nécessaire ».
 
 ### Définitions
 
-| ID | Terme | Définition | Remarque |
+| ID | Terme | Définition | Provenance |
 |---|---|---|---|
-| D1 | Dieu | être nécessaire, personnel (intelligence, volonté), cause du monde, bon | « personnel » précisé en M4, « bon » en M5 ; d'ici là ces attributs ne servent à aucune inférence |
-| D2 | Nécessaire | qui ne peut pas ne pas exister | deux lectures, voir §3 : D2-L logique, D2-R réelle |
-| D3 | Contingent | qui pourrait ne pas exister | `¬□`(exister) |
-| D4 | Cause | ce qui produit l'existence ou l'occurrence d'autre chose | proposé : restreint à la **production** |
-| D5 | Raison | ce qui rend intelligible pourquoi une chose est ainsi plutôt qu'autrement ou pas du tout | proposé : séparé de D4 (une chose peut être sa propre raison, pas sa propre cause) |
-| D6 | Fait brut | ce qui existe ou a lieu sans cause ni raison | utilise D4 et D5 |
-| D7 | Monde | l'univers physique : espace, temps, matière-énergie et leurs régularités | proposé ; neutre sur l'existence d'autre chose |
-| D8 | Exister | `a` existe ≝ `∃x (x = a)` | l'existence est exprimée par le quantificateur |
+| D1 | Dieu | être nécessaire, personnel (intelligence, volonté), cause du monde, bon | Brief ; « personnel » précisé en M4, « bon » en M5, inutilisables d'ici là |
+| D2 | Nécessaire | qui ne peut pas ne pas exister | Brief ; deux lectures proposées en §3 |
+| D3 | Contingent | qui pourrait ne pas exister | Brief |
+| D4 | Cause | ce qui produit l'existence ou l'occurrence d'autre chose | Stipulation : restriction de la définition du brief (« ce qui rend raison ») à la production |
+| D5 | Raison | ce qui rend intelligible qu'une chose soit, ou soit ainsi | Stipulation : l'autre moitié de la définition du brief |
+| D6 | Fait brut | ce qui existe ou a lieu sans cause ni raison | Brief, relu avec D4 et D5 |
+| D7 | Monde | l'univers physique : espace, temps, matière-énergie et leurs régularités | Stipulation |
+| D8 | Exister | `a` existe ≝ `∃x (x = a)` | Stipulation |
 
-### Thèses dérivées
+### Thèses
 
-**T1. Une définition ne livre qu'un conditionnel.** Soit une définition `X(x) ≝ F(x) ∧ E(x)`, où `E` peut être « existe » ou « existe nécessairement ».
+**T0. La double négation ne se dérive pas sans A3.** [Démontré ici] Matrice à trois valeurs `{0, ½, 1}`, seule la valeur 1 est « désignée » (tenue pour vraie). `¬a = 1` si `a = 0`, sinon `0`. `a ∧ b = min(a, b)`, `a ∨ b = max(a, b)`. `a → b = 1` si `a ≤ b`, sinon `b`.
+
+1. A1, A2, A4, contraposition, absurde négatif valent 1 sous toutes les valuations ; MP, MT, SD, l'élimination de la conjonction et l'enchaînement ne mènent jamais, dans une même valuation, de prémisses désignées à une conclusion non désignée. Donc, valuation par valuation, tout ce qui se dérive de ces axiomes par ces règles vaut 1.
+2. Pour `P = ½` : `¬¬P = ¬0 = 1` est désigné, `P = ½` ne l'est pas. `P ∨ ¬P = max(½, 0) = ½` non plus.
+3. Donc ni `¬¬P ⊢ P` ni A3 ne se dérivent de A1, A2 et des règles.
+
+Vérifié par énumération exhaustive (3, 9 ou 27 valuations selon le nombre de variables), script en annexe. Conséquence : conclure qu'une chose **existe** parce que sa non-existence est absurde exige A3.
+
+**T1. Une définition ne livre qu'un conditionnel.** [Démontré ici] Soit `X(x) ≝ F(x) ∧ E(x)`, où `E` peut être « existe » ou « existe nécessairement ».
 
 1. `∀x (X(x) ↔ F(x) ∧ E(x))` (définition)
-2. `∀x (X(x) → E(x))` (de 1, élimination de la conjonction sous le quantificateur)
+2. `∀x (X(x) → E(x))` (de 1, sémantiquement : dans toute interprétation où 1 est vraie, chaque objet qui a X a F et E, donc E)
 
-`∃x X(x)` ne suit pas. Contre-modèle : domaine `{a}`, `F(a)` faux. La ligne 1 est vraie, la ligne 2 est vraie, `∃x X(x)` est faux. Appliqué à D1 : on obtient « tout ce qui est Dieu existe nécessairement », jamais « quelque chose est Dieu ».
+`∃x X(x)` ne suit pas. Contre-modèle : domaine `{a}`, `a` n'a pas F. La conjonction `F(a) ∧ E(a)` est fausse quel que soit `E(a)`, donc `X(a)` est faux, les lignes 1 et 2 sont vraies, `∃x X(x)` est faux. Appliqué à D1 avec F = « personnel » : on obtient « tout ce qui est Dieu existe nécessairement », jamais « quelque chose est Dieu ».
 
-**T2. « Quelque chose existe » n'est pas une vérité de logique pure.** Dans la logique du premier ordre usuelle, `∃x (x = x)` est un théorème, parce que sa sémantique impose un domaine non vide. C'est une convention : une logique qui admet le domaine vide est tout aussi cohérente et ce théorème n'y est plus démontrable. « Quelque chose existe » repose donc sur un constat (E1 au registre), pas sur la logique.
+**T2. « Quelque chose existe » dépend du choix des interprétations admises.** [Démontré ici]
 
-**T3. Ce que les axiomes modaux font de la question.** Prémisse P1 : `□(G → □G)` (si Dieu existe, il existe nécessairement, et cela vaut nécessairement puisque c'est une définition ; voir la réserve de portée en §3).
+1. Si toute interprétation a un domaine non vide : soit `d` un objet du domaine ; `d = d` (A1) ; donc `∃x (x = x)` est vrai dans toute interprétation.
+2. Si le domaine vide est admis : `∃x (x = x)` y est faux (aucun objet), `∀x F(x)` y est vrai (aucun objet ne fait exception). Chaque formule y reçoit une valeur et une seule, donc l'admettre n'engendre pas de contradiction.
+3. Donc la logique n'établit « quelque chose existe » qu'à la condition d'avoir exclu par stipulation le domaine vide. E1 au registre doit être accepté pour une autre raison (§4).
+
+**T3. Tout le poids passe sur une prémisse de possibilité.** [Démontré ici] Prémisse P1 : `□(G → □G)` (si Dieu existe, il existe nécessairement, et cela vaut nécessairement ; réserve de portée en §3).
+
+Lemme L1 : `□(P → Q) → (◇P → ◇Q)`.
+
+1. `(P → Q) → (¬Q → ¬P)` (contraposition)
+2. `□((P → Q) → (¬Q → ¬P))` (N sur 1)
+3. `□(P → Q) → □(¬Q → ¬P)` (K sur 2, MP)
+4. `□(¬Q → ¬P) → (□¬Q → □¬P)` (K)
+5. `□(P → Q) → (□¬Q → □¬P)` (3, 4, enchaînement)
+6. `(□¬Q → □¬P) → (¬□¬P → ¬□¬Q)` (contraposition), c'est-à-dire `◇P → ◇Q` (définition de `◇`)
+7. `□(P → Q) → (◇P → ◇Q)` (5, 6, enchaînement)
+
+Lemme L2 : `◇¬G → ¬□G`.
+
+1. `G → ¬¬G` (A4)
+2. `□G → □¬¬G` (N sur 1, K, MP)
+3. `¬□¬¬G → ¬□G` (contraposition de 2), c'est-à-dire `◇¬G → ¬□G`
 
 Branche du refus, prémisse P2r : `◇¬G`.
 
-1. `G → □G` (de P1, par T)
-2. `¬□G → ¬G` (de 1, contraposition)
-3. `◇¬G ↔ ¬□G` (définition de `◇`)
-4. `¬□G` (de P2r et 3, modus ponens)
-5. `¬G` (de 2 et 4, modus ponens)
+1. `G → □G` (P1, T, MP)
+2. `¬□G → ¬G` (1, contraposition)
+3. `¬□G` (P2r, L2, MP)
+4. `¬G` (2, 3, MP)
 
 Branche de l'acceptation, prémisse P2a : `◇G`.
 
-6. `◇G → ◇□G` (de P1, par la forme dérivée de K)
-7. `◇□G` (de P2a et 6, modus ponens)
-8. `□G` (de 7 et AM, modus ponens)
-9. `G` (de 8, par T)
+5. `◇G → ◇□G` (P1, L1, MP)
+6. `◇□G` (P2a, 5, MP)
+7. `□G` (6, AM, MP)
+8. `G` (7, T, MP)
 
-Résultats : sous P1 et T, « Dieu peut ne pas exister » entraîne « Dieu n'existe pas ». Sous P1, K, T et AM, « Dieu peut exister » entraîne « Dieu existe ». Sous P1 et AM, `◇G` et `◇¬G` sont incompatibles : l'idée commune « il peut exister comme ne pas exister » devient incohérente. La logique ne tranche pas entre P2a et P2r ; elle transfère tout le poids de la question sur une prémisse de possibilité. La branche du refus n'a pas besoin d'AM ; celle de l'acceptation en a besoin.
+Résultats. T3a : sous P1, N, K, T, A4, « Dieu peut ne pas exister » entraîne « Dieu n'existe pas », sans A3 ni AM. T3b : sous P1, N, K, T, AM, « Dieu peut exister » entraîne « Dieu existe ». T3c : sous P1, N, K, T, A4 et AM, `◇G` et `◇¬G` donnent `G` et `¬G`, donc ne peuvent être acceptés ensemble. La logique ne tranche pas entre P2a et P2r.
 
-**T4. Sous lecture logique de « nécessaire », l'être défini en D1 n'existe pas.** Avec D2-L, `□` signifie « dont la négation est contradictoire » et `◇` « non contradictoire ».
+**T4. Sous lecture logique de « nécessaire », l'être de D1 n'existe pas.** [Démontré ici] Lecture D2-L [Stipulation] : `◇_L P` ≝ « il existe une interprétation où les axiomes, les définitions et P sont vrais » ; `□_L P ≝ ¬◇_L¬P`.
 
-1. `◇¬G` : le contre-modèle de T1 montre que `¬G` est compatible avec la logique et les définitions.
-2. `¬G` (de 1 par les lignes 1 à 5 de T3).
+1. `◇_L ¬G` : le contre-modèle de T1 rend vraies les définitions et faux `∃x Dieu(x)`.
+2. `¬G` (1, branche du refus de T3 lue avec `◇_L`, `□_L`).
+
+Réserve : la ligne 2 suppose que N, K, T et L2 valent pour `□_L`. Ce n'est pas démontré ici ; T4 reste donc conditionnel à cette vérification, à faire si D2-L est retenu.
 
 ## 3. Verdict de validité (vérificateur)
 
-- T1 : VALIDE. L'invalidité de `définition ⊢ ∃x X(x)` est établie par contre-modèle.
-- T2 : VALIDE, énoncé métalogique.
-- T3 : VALIDE, chaque pas cite sa règle. La solidité dépend de P1, K, T, AM et de la prémisse de possibilité retenue, dont aucune n'est démontrée.
-- T4 : VALIDE sous D2-L et P1.
+- T0, T1, T2 : VALIDES.
+- T3, L1, L2 : VALIDES, chaque pas cite sa règle. La solidité dépend de P1, N, K, T, AM et de la prémisse de possibilité, dont aucune n'est démontrée.
+- T4 : VALIDE sous la réserve ci-dessus.
 
-Équivoques détectées :
+Équivoques détectées [Démontré ici, par inspection des définitions] :
 
-1. **« Nécessaire » (D2).** « Ne peut pas ne pas exister » admet deux sens. D2-L, logique : la non-existence implique une contradiction. D2-R, réelle : l'être existe, ne dépend de rien d'autre pour exister, et aucune circonstance possible ne l'en priverait. Passer de l'un à l'autre en cours de route est une équivoque ; T4 montre que D2-L clôt la question contre l'existence.
-2. **« Possible » (P2a, P2r).** Pour que T3 soit valide, `◇` doit avoir le **même** sens que dans D2. Si « possible » veut dire « pour ce que j'en sais » (sens épistémique), les lignes 6 à 9 ne s'appliquent pas : c'est une équivoque, et l'argument devient invalide.
-3. **Portée de la nécessité dans P1.** D2 dit qu'un être `a` existe nécessairement (`□∃y(y = a)`). P1 exige davantage : que l'énoncé « il existe un Dieu » soit nécessaire (`□∃x Dieu(x)`). Le passage suppose que `a` est **nécessairement** personnel, cause et bon, pas seulement nécessairement existant. Sans cette clause (D1 renforcée : « ses attributs lui sont essentiels »), P1 ne découle pas de D1 : glissement de portée.
-4. **« Cause » (D4 contre D5).** L'énoncé de départ fusionnait production et raison. M1 évoque une « raison par sa propre nature » : une chose peut être sa propre raison sans être sa propre cause. La séparation évite qu'un argument prouve une raison et conclue à une cause.
-5. **Composition dans D1.** D1 regroupe quatre attributs. Établir l'un d'eux (un être nécessaire, par exemple) n'établit pas les trois autres. Chaque attribut devra être démontré séparément.
+1. **« Nécessaire » (D2).** « Ne peut pas ne pas exister » admet deux lectures. D2-L : la non-existence est incompatible avec les axiomes et les définitions. D2-R [Stipulation] : l'être existe, ne dépend de rien d'autre pour exister, et aucune circonstance possible ne l'en priverait. Changer de lecture en cours de route est une équivoque.
+2. **« Possible » (P2a, P2r).** T3 n'est valide que si `◇` a le même sens dans la prémisse et dans D2. Si « possible » veut dire « pour ce que j'en sais », les lignes 5 à 8 ne s'appliquent pas.
+3. **Portée de la nécessité dans P1.** D2 dit qu'un être `a` existe nécessairement : `□∃y(y = a)`. P1 exige `□∃x Dieu(x)` : que soit nécessaire l'existence d'**un être qui a les quatre attributs**. Le passage de l'un à l'autre suppose que `a` a nécessairement les quatre attributs. Cette clause n'est pas dans D1 ; P1 n'en découle donc pas.
+4. **« Cause ».** La définition du brief, « ce qui rend raison », couvre la production et l'explication. M1 évoque une raison « par sa propre nature » : une chose peut être sa propre raison sans se produire elle-même. Sans la séparation D4 / D5, un argument qui établit une raison pourrait conclure à une cause.
+5. **Composition dans D1.** D1 conjoint quatre attributs. Par T1, établir qu'un objet a l'un d'eux n'établit pas qu'il a la conjonction.
 
 ## 4. Si on refuse… (explorateur des refus)
 
 | Prémisse refusée | Implication | Classement |
 |---|---|---|
-| A1 Identité | Un terme peut désigner autre chose que lui-même au cours d'une même démonstration ; le contrôle d'équivoque devient impossible | contradiction : le refus doit utiliser ses propres termes de manière identique pour être énoncé |
-| A2 Non-contradiction | Le refus affirme qu'au moins une proposition `P ∧ ¬P` est vraie | contradiction par construction. Il existe des systèmes formels qui tolèrent des contradictions locales sans tout trivialiser, mais l'examen ne peut plus distinguer un refus intenable d'un coût : il s'arrête |
-| A3 Tiers exclu | On ne peut plus conclure « X existe » de « la non-existence de X est absurde ». Toute preuve d'existence par l'absurde tombe, pour le théiste comme pour l'athée | coût épistémique, symétrique. Pas de contradiction : le refus est cohérent |
-| E1 Quelque chose existe | « Rien n'existe » est énoncé par quelqu'un qui raisonne ; l'énonciation est elle-même quelque chose | contradiction performative, à condition d'admettre qu'un acte de raisonnement existe |
-| D2-R (choisir D2-L) | T4 : l'être de D1 n'existe pas, sauf à montrer une contradiction cachée dans `¬G` | coût de l'acceptation, voir §5 |
-| P1 renforcée (attributs essentiels) | Un être nécessaire pourrait n'être personnel ou bon que par accident ; T3 ne s'applique plus à Dieu, seulement à « un être nécessaire » | coût métaphysique pour le théiste : la nécessité ne se transmet pas aux attributs |
-| AM | Certaines possibilités ne sont possibles que dans certains états du monde ; la branche de l'acceptation de T3 tombe, celle du refus tient | coût métaphysique modéré : il faut admettre que le possible lui-même est contingent |
-| K, T | Refuser T : un nécessaire pourrait être faux | contradiction avec le sens même de « nécessaire » |
-| D7 Monde = univers physique | Si le monde inclut tout ce qui existe, « le monde a une cause » oblige la cause à être dans le monde | coût de clarté : M2 glisserait vers une composition |
+| A1 | `a = a` faux pour un `a` : un même terme ne désigne plus la même chose d'une ligne à l'autre | contradiction performative, sous la prémisse que l'énoncé du refus emploie ses propres termes de façon stable ; pas de contradiction formelle démontrée |
+| A2 | Le refus pose qu'au moins une `P ∧ ¬P` est vraie : il affirme A et non-A | contradiction au sens du protocole. Ce refus ne force pourtant pas à tout accepter : matrice `F < B < V`, valeurs désignées `B` et `V`, `¬B = B`, `∧ = min` ; pour `P = B`, `Q = F`, `P ∧ ¬P` est désigné et `Q` ne l'est pas [Démontré ici, script en annexe]. L'examen s'arrête faute de pouvoir distinguer refus intenable et coût |
+| A3 | Par T0, on ne conclut plus « X existe » de « la non-existence de X est absurde », pour le théiste comme pour l'athée | coût épistémique, symétrique ; refus cohérent (la matrice de T0 satisfait A1, A2 et les règles) |
+| E1 | « Rien n'existe » est énoncé ; si un énoncé est quelque chose, l'énonciation contredit son contenu | contradiction performative, sous la prémisse « un acte d'énonciation existe » |
+| D2-R (donc retenir D2-L) | T4 : l'être de D1 n'existe pas, sauf à montrer que `¬G` cache une contradiction que les définitions ne livrent pas | coût de l'acceptation, §5 |
+| P1 | Un être nécessaire peut n'avoir ses autres attributs que par accident ; T3 s'applique à « un être nécessaire », pas à Dieu | coût pour le théiste : la nécessité ne se transmet pas aux attributs |
+| AM | La branche de l'acceptation de T3 tombe, celle du refus tient (T3a n'utilise pas AM) | coût métaphysique : admettre que ce qui est possiblement nécessaire peut ne pas être nécessaire |
+| T | Un énoncé nécessaire pourrait être faux | contradiction si D2 est lu « dans aucun cas possible, y compris le cas effectif » ; sans cette clause, aucune contradiction démontrée |
+| D7 | Si « monde » inclut tout ce qui existe, une cause du monde ne peut pas lui être extérieure | coût de clarté : M2 risque la composition |
 
 ## 5. Meilleure défense du refus et coûts de l'acceptation (avocat)
 
-Défense du refus. À ce stade, celui qui refuse n'a besoin de rien affirmer : T1 lui garantit qu'aucune définition ne lui impose une existence. Sa meilleure position en M0 : accepter D2-R et AM, et soutenir que la prémisse `◇¬G` n'est pas plus coûteuse que `◇G`. Avec T3, cela suffit pour `¬G`, sans axiome supplémentaire. Il exige en outre la démonstration séparée de chaque attribut de D1 (équivoque 5), ce qui multiplie la charge de preuve de l'acceptation.
+Défense du refus. Par T1, aucune définition n'impose une existence ; celui qui refuse n'a rien à affirmer en M0. Sa meilleure position : accepter D2-R et soutenir `◇¬G`. Par T3a, cela suffit pour `¬G`, sans A3 ni AM. Il exige en outre la démonstration séparée de chaque attribut (équivoque 5).
 
 Coûts symétriques de l'acceptation :
 
-- Avec D2-L, l'acceptation est réfutée (T4). Sa seule défense est de soutenir que « possible » ne se réduit pas à « non contradictoire dans ce système » et que `¬G` cache une contradiction non dérivable ici. Coût épistémique : la possibilité logique devient indécidable par nous, ce qui affaiblit aussi tout usage ultérieur de « possible ».
-- Avec AM, « Dieu est possible » n'est plus une concession bon marché : la prémisse vaut l'affirmation `G` elle-même. Celui qui accepte ne peut plus tenir « peut-être, peut-être pas » qu'au sens épistémique.
-- P1 renforcée suppose une thèse non démontrée : que personnalité et bonté appartiennent nécessairement à l'être nécessaire. C'est précisément l'objet de M4 et M5.
-- Coût symétrique pour le refus : accepter D2-R et AM pour ensuite poser `◇¬G` oblige à fonder cette possibilité autrement que par l'imaginabilité, sinon le théiste peut fonder `◇G` de la même façon. Le combat se déplace en M1 à M3.
+- Sous D2-L, l'acceptation est réfutée (T4, sous sa réserve). Sa seule défense : soutenir que « possible » ne se réduit pas à « vrai dans une interprétation ». La possibilité logique cesse alors d'être vérifiable par contre-modèle, ce qui affaiblit tout usage ultérieur de « possible », y compris par l'acceptation.
+- Sous AM, « Dieu est possible » vaut `G` (T3b) : celui qui accepte ne peut plus tenir « peut-être » qu'au sens épistémique, qui ne fait pas fonctionner T3 (équivoque 2).
+- P1 suppose que personnalité et bonté appartiennent nécessairement à l'être nécessaire : c'est l'objet de M4 et M5, non démontré.
+- Coût symétrique pour le refus : `◇¬G` doit être fondé autrement que par « je peux le concevoir », sinon `◇G` se fonde de la même façon et T3c rend les deux inutilisables.
 
-## 6. Mise à jour du registre (synthétiseur)
+## 6. Bilan (synthétiseur)
 
-Voir [[theisme-registre]]. Bilan de M0 : la logique seule n'établit ni l'existence ni l'inexistence de Dieu. Elle établit trois choses. Une définition ne produit qu'un conditionnel (T1). La lecture logique de « nécessaire » réfute l'être défini (T4), donc l'examen doit utiliser la lecture réelle D2-R. Sous D2-R et AM, la question se ramène entièrement à une prémisse de possibilité (T3), que la suite (M1 à M3) devra instruire par d'autres voies que la logique pure.
+Registre : [[theisme-registre]]. La logique seule n'établit ni l'existence ni l'inexistence de Dieu. Démontré ici : une définition ne produit qu'un conditionnel (T1) ; « quelque chose existe » dépend d'une stipulation sur les interprétations (T2) ; sous P1 et les axiomes modaux, la question se ramène à une prémisse de possibilité que la logique ne tranche pas (T3) ; la lecture logique de « nécessaire » réfute l'être défini, sous une réserve (T4). La suite doit instruire la prémisse de possibilité par d'autres voies.
 
 ## 7. Questions à l'utilisateur
 
-- Q1. A3 (tiers exclu) : accepté comme axiome ? Recommandation : oui, en marquant chaque preuve d'existence par l'absurde pour pouvoir la réévaluer si tu changes d'avis.
-- Q2. « Nécessaire » : D2-R (réelle) ou D2-L (logique) ? Recommandation : D2-R ; D2-L clôt la question avant tout examen (T4).
-- Q3. Séparer cause (D4, production) et raison (D5, intelligibilité) ? Recommandation : oui.
-- Q4. Monde = univers physique (D7) ? Recommandation : oui, sinon M2 glisse vers une composition.
-- Q5. « Personnel » et « bon » différés en M4 et M5, inutilisables d'ici là ? Recommandation : oui.
-- Q6. AM (stabilité du possible) : accepter, refuser, ou laisser en suspens jusqu'en M2 où il sert ? Recommandation : en suspens.
-- Q7. E1 (« quelque chose existe ») : accepté ? Recommandation : oui, son refus est performativement contradictoire.
-- Q8. P1 renforcée (les attributs de Dieu lui sont essentiels) : en suspens jusqu'en M4 ? Recommandation : oui.
+- Q1. A3 accepté ? Recommandation : oui, en marquant chaque preuve d'existence par l'absurde (T0).
+- Q2. « Nécessaire » : D2-R ou D2-L ? Recommandation : D2-R ; D2-L clôt la question avant examen (T4).
+- Q3. Séparer cause (D4) et raison (D5) ? Recommandation : oui.
+- Q4. Monde = univers physique (D7) ? Recommandation : oui.
+- Q5. « Personnel » et « bon » différés en M4 et M5 ? Recommandation : oui.
+- Q6. N, K, T acceptés ; AM en suspens jusqu'en M2 ? Recommandation : oui.
+- Q7. E1 accepté ? Recommandation : oui.
+- Q8. P1 en suspens jusqu'en M4 ? Recommandation : oui.
+
+## Annexe — vérification mécanique de T0 et de la matrice de A2
+
+Exécuté le 2026-11-01 (`python3 -I`), toutes les lignes attendues `True` le sont, les trois lignes « attendu False » le sont : A1, A2, A4, contraposition, absurde négatif, MP, MT, SD, élimination de la conjonction, enchaînement valent dans la matrice A ; A3 et `¬¬P ⊢ P` échouent. Dans la matrice B, `P ∧ ¬P ⊢ Q` échoue (témoin `P = B`, `Q = F`).
+
+```python
+from itertools import product
+V3 = [0, 0.5, 1]
+neg = lambda a: 1 if a == 0 else 0
+imp = lambda a, b: 1 if a <= b else b
+des = lambda a: a == 1
+def valid(f, n):
+    return all(des(f(*v)) for v in product(V3, repeat=n))
+def rule(prem, concl, n):
+    return all(des(concl(*v)) for v in product(V3, repeat=n) if all(des(p(*v)) for p in prem))
+print("A1", valid(lambda p: imp(p, p), 1))
+print("A2", valid(lambda p: neg(min(p, neg(p))), 1))
+print("A4 P->~~P", valid(lambda p: imp(p, neg(neg(p))), 1))
+print("contraposition", valid(lambda p, q: imp(imp(p, q), imp(neg(q), neg(p))), 2))
+print("absurde negatif", valid(lambda p, q: imp(imp(p, min(q, neg(q))), neg(p)), 2))
+print("MP", rule([lambda p, q: imp(p, q), lambda p, q: p], lambda p, q: q, 2))
+print("MT", rule([lambda p, q: imp(p, q), lambda p, q: neg(q)], lambda p, q: neg(p), 2))
+print("SD", rule([lambda p, q: max(p, q), lambda p, q: neg(p)], lambda p, q: q, 2))
+print("conj-elim", rule([lambda p, q: min(p, q)], lambda p, q: p, 2))
+print("enchainement", rule([lambda p, q, r: imp(p, q), lambda p, q, r: imp(q, r)], lambda p, q, r: imp(p, r), 3))
+print("A3 (attendu False)", valid(lambda p: max(p, neg(p)), 1))
+print("DNE (attendu False)", rule([lambda p: neg(neg(p))], lambda p: p, 1))
+F, B, T = 0, 1, 2
+nb = lambda a: {F: T, B: B, T: F}[a]
+db = lambda a: a in (B, T)
+print("explosion (attendu False)", all(db(q) for p, q in product([F, B, T], repeat=2) if db(min(p, nb(p)))))
+```

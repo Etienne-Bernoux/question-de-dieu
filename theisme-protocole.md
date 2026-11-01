@@ -41,6 +41,12 @@ Mémoire de la démonstration : [[theisme-registre|Registre]]. Un module ne s'ap
    Un coût n'est jamais présenté comme une contradiction.
 4. Symétrie : chaque coût du refus est mis en regard des coûts de l'acceptation.
 5. Contrôle d'équivoque : toute notion est définie avant usage et ne change pas de sens en cours de démonstration.
+6. Provenance obligatoire : le modèle sert à raisonner, jamais de source. Tout énoncé porte l'une de ces provenances, sinon il est retiré :
+   - **Brief** : posé par l'utilisateur dans le brief d'origine ou un arbitrage daté ;
+   - **Stipulation** : choix de vocabulaire proposé par l'agent, qui n'affirme rien sur le réel, à statuer par l'utilisateur ;
+   - **Démontré ici** : dérivation ou contre-modèle écrit dans la note, vérifiable par le lecteur sans rien croire ; une vérification mécanique est jointe quand elle a été exécutée ;
+   - **Source** : fait externe, avec sa source primaire.
+   Une affirmation tirée de la seule connaissance du modèle (« il existe des systèmes qui… », « la logique usuelle admet… ») est interdite : elle est démontrée ici ou retirée.
 
 ## Rôles appliqués à chaque module
 
