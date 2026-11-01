@@ -121,10 +121,12 @@ Conséquence de D11 : toute chose a « exister » dans toutes les situations pos
 
 Règle de lecture : tant que M4 et M5 ne sont pas faits, « Dieu existe » signifie seulement « un être nécessaire existe », sans rien dire de sa personnalité ni de sa bonté.
 
-Mots non définis, interdits dans une inférence avant leur définition : « concevable » (employé par les profils de la population, à définir avant son premier passage), « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). Termes premiers, admis sans définition : « situation possible » ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens ou par un instrument. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « intelligible », employé par D5, est à définir ou à déclarer premier.
+Mots non définis, interdits dans une inférence avant leur définition : « concevable » (employé par les profils de la population, à définir avant son premier passage), « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). Termes premiers, admis sans définition : « situation possible » ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens, par un instrument, ou par le constat, fait par celui qui raisonne, que son propre acte a lieu. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « intelligible », employé par D5, est à définir ou à déclarer premier.
 
 ## 5. Constat d'existence
 
 ### E1. Quelque chose existe
+
+Établi avec observation (D16) : il repose sur le constat que l'acte de nier a lieu.
 
 **Si tu le nies**, tu poses « rien n'existe », `¬∃x (x = x)`. Ce n'est pas une contradiction logique : dans une interprétation sans aucun objet, cet énoncé est vrai et aucune formule n'y est à la fois vraie et fausse (T2). La négation se heurte en revanche à l'acte qui la pose. Dire quoi que ce soit d'une chose, par exemple « l'acte de nier a lieu », n'a de valeur de vérité que si cette chose est un objet du domaine, donc si elle existe au sens de D8. Quiconque dit ou pense « rien n'existe » accomplit un acte qui a lieu ; cet acte existe ; la négation est fausse dès qu'elle est posée. La maintenir exige qu'un acte puisse avoir lieu sans exister, donc un second sens d'« être » : c'est l'équivoque que la contrainte 5 interdit. Si elle tenait malgré tout, l'examen n'aurait plus d'objet ni de juge. Accepter E1 engage peu : qu'au moins une chose existe ne dit pas laquelle, et `∃x (x = x)` n'implique `∃x F(x)` pour aucune propriété F (contre-modèle : un seul objet, qui n'a pas F). Ni l'univers physique, ni un corps, ni d'autres esprits n'en découlent.

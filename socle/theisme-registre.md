@@ -28,7 +28,7 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | K | Distribution | ACCEPTÉ | Stipulation |
 | T | Factivité | ACCEPTÉ | Stipulation |
 | U | Ensemble unique des situations possibles | ACCEPTÉ | Stipulation |
-| E1 | Quelque chose existe | ACCEPTÉ | Constat ; refus performativement contradictoire |
+| E1 | Quelque chose existe | ACCEPTÉ | Établi avec observation ; refus performativement contradictoire |
 | P1 | `□(G → □G)` ; se ramène à : ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire (L3) | à statuer en M2 | Stipulation |
 
 ## Définitions
