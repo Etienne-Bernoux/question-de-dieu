@@ -1,6 +1,6 @@
 ---
-title: Examen des prémisses du théisme — protocole
-type: moc
+title: Examen du théisme — protocole
+type: reference
 scope: perso
 projet: []
 domaine: [philosophie, logique]
@@ -9,36 +9,9 @@ status: draft
 updated: 2026-11-01
 ---
 
-# Examen des prémisses du théisme
+# Protocole de l'examen
 
-Examen, module par module, des prémisses qui fondent l'existence d'un Dieu bon et personnel, et des implications de leur refus. Aucune conclusion n'est fixée d'avance : si une démonstration solide est impossible, on le dit ; si un refus est cohérent, on le dit.
-
-## Organisation
-
-| Note | Contenu |
-|---|---|
-| [[theisme-cadre]] | Ce qui est admis : notation, principes logiques et modaux, définitions, constat d'existence ; chaque principe suivi de ce qu'implique sa négation |
-| [[theisme-m0-resultats]] | Résultats démontrés de M0, conditions d'usage, positions, ce qui est transmis à la suite |
-| [[theisme-registre]] | Statut de chaque énoncé |
-| [[theisme-journal]] | Décisions de l'utilisateur, datées, avec leurs mots |
-| [[theisme-verifications]] | Matrices et script exécuté qui prouvent les résultats mécaniques |
-
-Chaque énoncé vit à un seul endroit ; les autres notes y renvoient.
-
-## État
-
-| Module | Question | État |
-|---|---|---|
-| M0 | Que peut établir la logique seule sur l'existence ? | clos le 2026-11-01 ; S reste à statuer |
-| M1 | Toute chose a-t-elle une raison, externe ou par sa propre nature ? | à faire |
-| M2 | Le contingent a-t-il une raison ? Faut-il un être par soi ? (P1, H2) | à faire |
-| M3 | Le monde a-t-il commencé ? Un passé infini est-il cohérent ? | à faire |
-| M4 | Le fondement est-il personnel, unique ? (H3) | à faire |
-| M5 | Le bien et le mal sont-ils objectifs ? (H4) | à faire |
-| M6 | Qu'est-ce qui garantit la fiabilité de la raison ? (H1) | à faire |
-| M7 | Que devient le but de l'existence selon chaque option ? | à faire |
-| M8 | Objections : souffrance, silence, cohérence des attributs | à faire |
-| M9 | Tableau comparatif des coûts de chaque position cohérente | à faire |
+Les règles qui s'appliquent à chaque module. Point d'entrée et sens de lecture : [[theisme-sommaire]]. Aucune conclusion n'est fixée d'avance : si une démonstration solide est impossible, on le dit ; si un refus est cohérent, on le dit.
 
 ## Contraintes épistémiques
 
@@ -55,7 +28,7 @@ Rôles tenus successivement : formaliser (prémisses numérotées, règle nommé
 
 Livrables :
 
-- une note `theisme-mN-resultats` : question, argument formalisé, verdict de validité, positions, ce qui est transmis ;
+- une note `modules/theisme-mN-resultats` : question, argument formalisé, verdict de validité, positions, ce qui est transmis ;
 - tout nouveau principe ou définition admis entre au cadre, avec son paragraphe « si tu le nies, voici ce que cela implique » ;
 - registre, journal et vérifications mis à jour.
 

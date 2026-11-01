@@ -192,3 +192,33 @@ for n in product(V, repeat=3):
                 found += 1
 print("== Recherche : cadres a trois valeurs respectant tout le retenu et refusant A4 :", found)
 ```
+
+## Énumération des calculs de « si... alors » à deux valeurs
+
+Les 16 façons de calculer « si P alors Q » à partir des valeurs de P et Q, testées contre A1, A4, la contraposition, l'absurde négatif, le modus ponens, le modus tollens et l'enchaînement. Deux passent : celle de S `(1, 1, 0, 1)` et celle où « si P alors Q » est vrai exactement quand P et Q ont la même valeur `(1, 0, 0, 1)`. Exécuté le 2026-11-01 (`python3 -I`).
+
+```text
+si P alors Q, valeurs pour (P,Q) = (0,0) (0,1) (1,0) (1,1) : (1, 0, 0, 1)
+si P alors Q, valeurs pour (P,Q) = (0,0) (0,1) (1,0) (1,1) : (1, 1, 0, 1)
+```
+
+```python
+from itertools import product
+V = [0, 1]
+neg = lambda a: 1 - a
+for bits in product(V, repeat=4):
+    f = {(0, 0): bits[0], (0, 1): bits[1], (1, 0): bits[2], (1, 1): bits[3]}
+    imp = lambda a, b: f[(a, b)]
+    d = lambda a: a == 1
+    ok = all([
+        all(d(imp(p, p)) for p in V),
+        all(d(imp(p, neg(neg(p)))) for p in V),
+        all(d(imp(imp(p, q), imp(neg(q), neg(p)))) for p, q in product(V, V)),
+        all(d(imp(imp(p, min(q, neg(q))), neg(p))) for p, q in product(V, V)),
+        all(d(q) for p, q in product(V, V) if d(imp(p, q)) and d(p)),
+        all(d(neg(p)) for p, q in product(V, V) if d(imp(p, q)) and d(neg(q))),
+        all(d(imp(p, r)) for p, q, r in product(V, V, V) if d(imp(p, q)) and d(imp(q, r))),
+    ])
+    if ok:
+        print("si P alors Q, valeurs pour (P,Q) = (0,0) (0,1) (1,0) (1,1) :", bits)
+```

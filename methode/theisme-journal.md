@@ -30,3 +30,4 @@ Décisions de l'utilisateur, avec ses mots quand ils fixent un sens, et leur eff
 | AM | Ensemble unique des situations possibles retenu | U admis ; AM démontrée |
 | E1 | Accepté | Cadre, §5 |
 | B | Acceptée | Cadre, §2 |
+| S | Accepté | Cadre, §2 ; M0 clos |

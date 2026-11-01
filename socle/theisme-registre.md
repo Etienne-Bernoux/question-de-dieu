@@ -18,7 +18,7 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | ID | Énoncé | Statut | Provenance |
 |---|---|---|---|
 | B | Bivalence | ACCEPTÉ | Stipulation |
-| S | Calcul des connecteurs (et, ou, si... alors) | à statuer | Stipulation, utilisée par T5 et la justification de A4 |
+| S | Calcul des connecteurs (et, ou, si... alors) | ACCEPTÉ | Stipulation |
 | A1 | Identité | AXIOME | Brief |
 | A2 | Non-contradiction | AXIOME | Brief |
 | A3 | Tiers exclu | AXIOME | Brief ; refus cohérent, preuves d'existence par l'absurde marquées |
