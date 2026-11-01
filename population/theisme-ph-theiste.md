@@ -15,7 +15,7 @@ Règles communes et gabarit : [[theisme-population]].
 
 ## Thèses
 
-1. Un être qui existe par soi existe (`G` au sens de D1).
+1. Un être nécessaire existe (`G`) : il ne dépend de rien pour exister, et aucune situation possible ne l'en prive.
 2. H2, H3 et H4 sont vraies : cet être est la raison du contingent, il est personnel, il est bon.
 3. Toute chose a une raison, soit hors d'elle, soit dans sa propre nature.
 4. La raison a priori peut établir qu'une chose est possible ou nécessaire, sans passer par l'expérience.

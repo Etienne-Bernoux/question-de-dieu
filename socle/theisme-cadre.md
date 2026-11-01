@@ -98,7 +98,7 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 
 | ID | Terme | Définition | Écarté, et pourquoi |
 |---|---|---|---|
-| D1 | Dieu | `x` est Dieu si `x` existe par soi : `x` est nécessaire (D2) et la raison (D5) de son existence est sa propre nature | La version du brief (nécessaire, personnel, cause du monde, bon) conjoignait quatre attributs, chacun à démontrer séparément ; « cause du monde », avec D7, ferait de Dieu la cause d'une totalité qui le contient. Ces attributs deviennent les thèses H2 à H4 |
+| D1 | Dieu | `x` est Dieu si `x` est nécessaire au sens réel (D2) : il ne dépend de rien pour exister (il existe **par soi**), et aucune situation possible ne le prive d'existence | La version du brief (nécessaire, personnel, cause du monde, bon) conjoignait quatre attributs, chacun à démontrer séparément ; « cause du monde », avec D7, ferait de Dieu la cause d'une totalité qui le contient : ces attributs deviennent H2 à H4. Une clause « x est sa propre raison d'exister » supposait que toute chose a besoin d'une raison, ce que M1 examine : elle aurait tranché M1 d'avance |
 | D2 | Nécessaire | qui ne peut pas ne pas exister, au sens réel : ne dépend de rien pour exister, et aucune situation possible ne le prive d'existence ; dire qu'il n'existe pas n'est pas contradictoire | Le sens logique (sa non-existence serait contradictoire) réfute D1 d'emblée (T4). « Ce sans quoi la logique ne vaudrait pas » est une thèse, pas un sens (H1, T5) |
 | D3 | Contingent | qui pourrait ne pas exister | |
 | D4 | Cause | ce qui produit l'existence ou l'occurrence d'autre chose | Fusion avec « raison » : un argument qui établit une raison pourrait conclure à une cause |
@@ -115,7 +115,7 @@ Avertissement : exister **en soi** (être une substance, D10) n'est pas exister 
 
 Conséquence de D11 : toute chose a « exister » dans toutes les situations possibles où elle existe ; l'existence appartient donc à la nature de toute chose, contingente comprise.
 
-Règle de lecture : tant que M4 et M5 ne sont pas faits, « Dieu existe » signifie seulement « un être qui existe par soi existe », sans rien dire de sa personnalité ni de sa bonté.
+Règle de lecture : tant que M4 et M5 ne sont pas faits, « Dieu existe » signifie seulement « un être nécessaire existe », sans rien dire de sa personnalité ni de sa bonté.
 
 Mots non définis, interdits dans une inférence avant leur définition : « a priori », « expérience » et « mesure », « concevable » (employés par les profils de la population, à définir avant son premier passage), « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). « Situation possible » est premier et admis comme tel ; « intelligible », employé par D5, est à définir ou à déclarer premier.
 

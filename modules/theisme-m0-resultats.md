@@ -34,7 +34,7 @@ Soit `X(x) ≝ F(x) ∧ E(x)`.
 1. `∀x (X(x) ↔ F(x) ∧ E(x))` (définition).
 2. `∀x (X(x) → E(x))` : dans toute interprétation où 1 est vraie, chaque objet qui a X a F et E, donc E.
 
-`∃x X(x)` ne suit pas. Contre-modèle : un seul objet `a`, sans F ; 1 et 2 sont vraies, `∃x X(x)` est faux. Appliqué à D1, avec F = « la raison de son existence est sa nature » et E = « est nécessaire » : tout ce qui est Dieu est nécessaire, jamais « quelque chose est Dieu ».
+`∃x X(x)` ne suit pas. Contre-modèle : un seul objet `a`, sans F ; 1 et 2 sont vraies, `∃x X(x)` est faux. Appliqué à D1 : la définition dit ce qu'il faudrait pour être Dieu, jamais qu'une telle chose existe ; contre-modèle : un seul objet, contingent.
 
 ### T2. « Quelque chose existe » n'est pas une vérité logique
 
@@ -60,7 +60,9 @@ Soit `X(x) ≝ F(x) ∧ E(x)`.
 
 ### T3. La question se ramène à une prémisse de possibilité
 
-Prémisse P1, à statuer : `□(G → □G)`, « ce qui existe par soi existe par soi dans toute situation où il existe ».
+Prémisse P1, à statuer : `□(G → □G)`, « s'il existe un être nécessaire, il est nécessaire qu'il en existe un ».
+
+Lemme L3 : si ne dépendre de rien appartient à la nature (D11) d'un être nécessaire, P1 est vraie. Soit `x` nécessaire dans la situation réelle : `x` existe dans toute situation possible et ne dépend de rien. (1) Par U, l'ensemble des situations est le même vu de toute situation ; « `x` existe dans toute situation possible » vaut donc vu de chacune. (2) Si ne dépendre de rien appartient à la nature de `x`, `x` ne dépend de rien dans chaque situation où il existe, c'est-à-dire dans toutes. (3) `x` est donc nécessaire vu de toute situation : `□G`. P1 se ramène ainsi à une seule question, renvoyée en M2 : ne dépendre de rien peut-il être un accident (D12) d'un être nécessaire ?
 
 Branche du refus, prémisse `◇¬G` :
 
@@ -103,7 +105,7 @@ Toutes les dérivations ci-dessus sont VALIDES : chaque pas cite sa règle. La s
 Deux pièges invalident T3 si on les ignore :
 
 - **« Possible » doit garder le même sens partout.** Si « Dieu est possible » veut dire « pour ce que j'en sais », les lignes 5 à 8 ne s'appliquent pas. L'ignorance n'est pas une possibilité au sens de §1 du cadre.
-- **P1 ne découle pas de D1.** D2 donne `□∃y(y = a)` pour un être `a`. P1 exige `□∃x Dieu(x)`, donc que `a` existe par soi dans toute situation où il existe, et pas seulement dans les faits.
+- **P1 ne découle pas de D1 seule.** D1 dit d'un être `a` qu'il existe dans toute situation et ne dépend de rien. P1 exige que cela vaille vu de toute situation ; L3 montre que cela vaut si ne dépendre de rien appartient à la nature de `a`, ce que D1 n'affirme pas.
 
 ## Positions après M0
 
@@ -117,8 +119,9 @@ Deux pièges invalident T3 si on les ignore :
 
 | Énoncé | Contenu | Module |
 |---|---|---|
-| P1 | Exister par soi n'est pas accidentel | M2 |
+| P1 | Ne dépendre de rien n'est pas un accident d'un être nécessaire (L3) | M2 |
 | H2 | Si Dieu existe, il est cause ou raison du contingent | M2 |
+| Raison de l'être nécessaire | L'existence d'un être nécessaire a-t-elle une raison, ou n'en a-t-elle pas besoin ? | M1, M2 |
 | Prémisse de possibilité | `◇G` ou `◇¬G`, fondée autrement que par l'imagination | M1 à M3 |
 | H3 | Dieu est personnel | M4 |
 | H4 | Dieu est bon | M5 |

@@ -32,5 +32,6 @@ Décisions de l'utilisateur, avec ses mots quand ils fixent un sens, et leur eff
 | B | Acceptée | Cadre, §2 |
 | S | Accepté | Cadre, §2 ; M0 clos |
 | Nature | « Les bons mots ne seraient-ils pas substance et accident ? » ; trois définitions retenues : substance, nature, accident ; avertissement « en soi » / « par soi » | D10, D11, D12 au cadre |
+| D1, version finale | « Ce qui me gêne c'est fait brut et raison d'exister ; je ne comprends pas pourquoi x a besoin d'une raison pour exister » ; D1 ramené à « nécessaire au sens réel », confirmé | D1 révisée ; la question de la raison de l'être nécessaire passe en M1, M2 ; L3 |
 | Population, règles | « C'est important qu'ils aient le même vocabulaire, et quand un philosophe choisit une prémisse il doit l'assumer totalement sur sa vision du monde et les implications sur son mode de vie » | Règles 1 et 7 de [[theisme-population]] ; fiches de position ; implications sur le mode de vie classées coût existentiel, jamais argument |
 | Population | Quatre philosophes définis par leurs thèses (théiste, nécessitariste impersonnel, naturaliste, sceptique) et un vérificateur formel sans position ; un cinquième, centré sur la morale et le sens, à l'ouverture de M5 | [[theisme-population]] |

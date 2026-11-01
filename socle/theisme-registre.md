@@ -29,13 +29,13 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | T | Factivité | ACCEPTÉ | Stipulation |
 | U | Ensemble unique des situations possibles | ACCEPTÉ | Stipulation |
 | E1 | Quelque chose existe | ACCEPTÉ | Constat ; refus performativement contradictoire |
-| P1 | `□(G → □G)` | à statuer en M2 | Stipulation |
+| P1 | `□(G → □G)` ; se ramène à : ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire (L3) | à statuer en M2 | Stipulation |
 
 ## Définitions
 
 | ID | Terme | Statut | Provenance |
 |---|---|---|---|
-| D1 | Dieu : existe par soi | DÉFINITION | Brief, révisée par l'utilisateur |
+| D1 | Dieu : être nécessaire au sens réel (existe par soi) | DÉFINITION | Brief, révisée par l'utilisateur |
 | D2 | Nécessaire, au sens réel | DÉFINITION | Brief, sens fixé par l'utilisateur |
 | D3 | Contingent | DÉFINITION | Brief |
 | D4 | Cause | DÉFINITION | Stipulation acceptée |
@@ -60,6 +60,7 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | L1 | `□(P → Q) → (◇P → ◇Q)` | DÉMONTRÉ | N, K, R |
 | L2 | `◇¬G → ¬□G` | DÉMONTRÉ | N, K, A4, R |
 | AM | `◇□P → □P` | DÉMONTRÉ | U |
+| L3 | Si ne dépendre de rien appartient à la nature (D11) d'un être nécessaire, P1 est vraie | DÉMONTRÉ | U, D1, D11 |
 | T3a | `◇¬G → ¬G` | DÉMONTRÉ | P1, N, K, T, A4 |
 | T3b | `◇G → G` | DÉMONTRÉ | P1, N, K, T, U |
 | T3c | `◇G` et `◇¬G` incompatibles | DÉMONTRÉ | P1, N, K, T, A4, U |
