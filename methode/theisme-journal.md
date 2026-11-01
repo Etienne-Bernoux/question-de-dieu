@@ -31,3 +31,4 @@ Décisions de l'utilisateur, avec ses mots quand ils fixent un sens, et leur eff
 | E1 | Accepté | Cadre, §5 |
 | B | Acceptée | Cadre, §2 |
 | S | Accepté | Cadre, §2 ; M0 clos |
+| Population | Quatre philosophes définis par leurs thèses (théiste, nécessitariste impersonnel, naturaliste, sceptique) et un vérificateur formel sans position ; un cinquième, centré sur la morale et le sens, à l'ouverture de M5 | [[theisme-population]] |

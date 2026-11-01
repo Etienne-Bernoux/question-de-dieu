@@ -27,6 +27,7 @@ M0 est clos (2026-11-01) : la logique seule ne tranche pas, et la question se ra
 | 4 | [[theisme-registre]] | `socle/` | Le statut de chaque énoncé (admis, démontré, à statuer, contesté) | À consulter quand un texte cite un identifiant |
 | 5 | [[theisme-journal]] | `methode/` | Les décisions de l'utilisateur, datées, avec ses mots | Pour savoir pourquoi un choix a été fait |
 | 6 | [[theisme-verifications]] | `annexes/` | Les calculs et le script exécuté qui prouvent les résultats mécaniques | Pour vérifier soi-même une preuve |
+| 7 | [[theisme-population]] | `population/` | Les contradicteurs qui relisent chaque module : composition, règles communes, gabarit de contribution, profils | Pour savoir qui a critiqué quoi, et selon quelles règles |
 
 ## Organisation
 
@@ -34,6 +35,7 @@ M0 est clos (2026-11-01) : la logique seule ne tranche pas, et la question se ra
 - `socle/` : ce sur quoi tous les modules reposent.
 - `modules/` : une note de résultats par module, `theisme-mN-resultats`.
 - `annexes/` : les preuves mécaniques.
+- `population/` : les quatre philosophes et le vérificateur formel, un profil par membre ; leurs objections jugées sont consignées dans `modules/theisme-mN-debat`.
 
 Chaque énoncé vit à un seul endroit ; les autres notes y renvoient.
 
