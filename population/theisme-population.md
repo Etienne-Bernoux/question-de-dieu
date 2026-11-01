@@ -24,6 +24,15 @@ Les agents qui produisent et éprouvent chaque module. L'orchestrateur les lance
 
 Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit que les notes juge sur pièces, et ses erreurs signalent une décision non consignée.
 
+## Déroulé d'un module
+
+1. Le formalisateur rédige le brouillon.
+2. Premier tour, en parallèle et à l'aveugle : les quatre philosophes et le vérificateur lisent le brouillon, chacun sans voir les autres contributions. Des critiques indépendantes trouvent des failles plus variées que des critiques qui se lisent.
+3. Le synthétiseur rend des verdicts provisoires et repère les objections qui visent une prémisse défendue par un autre membre.
+4. Réplique, en un seul tour : chaque membre visé répond aux seules objections qui portent sur sa position. Retenir une objection sans entendre celui qu'elle vise serait unilatéral.
+5. Le synthétiseur rend ses verdicts définitifs ; le formalisateur applique les corrections retenues ; le vérificateur recontrôle les seuls pas modifiés.
+6. L'orchestrateur soumet à l'utilisateur, une par une, les décisions qui lui reviennent, dont tout point encore disputé après la réplique, puis consigne.
+
 ## Contradicteurs
 
 Chaque membre se définit par des thèses explicites, jamais par un nom ou un courant. Les trois questions qui les distinguent sont celles sur lesquelles M0 a montré que tout se joue.

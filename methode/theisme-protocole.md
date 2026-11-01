@@ -32,6 +32,8 @@ Les règles qui s'appliquent à chaque module. Point d'entrée et sens de lectur
 
 Rôles tenus successivement, par les agents de [[theisme-population]] : formaliser (prémisses numérotées, règle nommée à chaque pas) ; vérifier (chaque inférence ; pétition de principe, faux dilemme, équivoque, glissement de quantificateur, composition, appel aux conséquences, appel à l'ignorance, homme de paille) ; explorer les refus ; plaider le refus puis les coûts de l'acceptation ; synthétiser sans conclure au-delà de l'établi.
 
+Ordre des étapes : [[theisme-population]], « Déroulé d'un module ».
+
 Livrables :
 
 - une note `modules/theisme-mN-resultats` : question, argument formalisé, verdict de validité, positions, ce qui est transmis ;
