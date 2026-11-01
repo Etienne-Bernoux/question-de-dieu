@@ -32,3 +32,10 @@ Les deux camps, à égalité :
 - la composition, du membre au tout ou d'un attribut à la conjonction ;
 - les glissements de quantificateur (« chaque » vers « tout ») ;
 - toute conclusion qui excède ce que les prémisses donnent, dans le texte comme dans les bilans.
+
+## Fiche de position
+
+Format : [[theisme-population]], « Fiches de position ». À remplir au premier passage.
+
+| Module | Prémisse | Choix | Coûts métaphysiques et épistémiques assumés | Implications pour sa vision du monde | Implications pour son mode de vie |
+|---|---|---|---|---|---|

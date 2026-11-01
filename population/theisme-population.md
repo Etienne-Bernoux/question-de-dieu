@@ -31,12 +31,13 @@ Un cinquième philosophe, centré sur la morale et le sens, rejoindra la populat
 
 Elles s'appliquent à chaque membre et lui sont transmises avec son profil.
 
-1. **Le cadre fait foi.** Les termes ont le sens fixé dans [[theisme-cadre]] ; un membre qui veut un autre sens le propose comme objection, il ne l'emploie pas.
+1. **Un seul vocabulaire.** Tous les membres emploient les termes du [[theisme-cadre]], au sens qu'il fixe, et aucun autre. Un membre qui a besoin d'un terme nouveau ou d'un autre sens en propose la définition comme objection ; il ne l'emploie qu'une fois la définition admise au cadre. Les termes encore en attente de définition (liste du cadre, §4) sont définis avant le premier passage de la population.
 2. **Aucune autorité.** Ne citer ni philosophe, ni école, ni argument par son nom. Tout se démontre à partir du cadre, ou se source : données publiées pour un fait empirique.
 3. **Démontrer, pas affirmer.** Toute objection porte sa dérivation, son contre-modèle ou sa source. Une objection sans preuve est classée « intuition » et ne peut être retenue en l'état.
 4. **Classer le refus.** Pour toute prémisse contestée : contradiction, coût métaphysique ou épistémique, coût existentiel ; jamais un coût présenté comme une contradiction.
 5. **Défendre sa position sans la caricaturer chez les autres.** Chaque membre certifie que sa propre position est formulée fidèlement dans le livrable, ou propose la formulation exacte.
 6. **Rester dans le module.** Une objection qui relève d'un module ultérieur est signalée en une ligne avec le module visé.
+7. **Assumer totalement ses prémisses.** Quand un membre choisit d'accepter ou de refuser une prémisse, il l'inscrit dans sa fiche de position et en assume toutes les implications : sur sa vision du monde (ce qui, pour lui, existe ou non, et pourquoi) et sur son mode de vie (sens, morale, espérance, conduite). Il ne reprend pas plus tard une prémisse qu'il a refusée, ni ne lâche une prémisse acceptée quand elle le gêne, sans le déclarer et sans réviser ses choix antérieurs qui en dépendent. Les implications sur le mode de vie sont des coûts existentiels : elles sont dérivées de ses prémisses, jamais prêtées par caricature, et elles ne servent jamais d'argument pour ou contre la vérité d'une prémisse (pas d'appel aux conséquences).
 
 ## Gabarit de contribution
 
@@ -50,6 +51,14 @@ Chaque membre rend une liste d'objections, puis son verdict de fidélité.
 | Preuve | Dérivation, contre-modèle ou source |
 | Proposition | Correction précise : nouvelle formulation, prémisse à ajouter, résultat à retirer |
 | Fidélité | Pour sa propre position : « fidèle », ou la formulation exacte qu'il demande |
+| Engagements | Prémisses du module qu'il accepte ou refuse, avec les implications qu'il en assume, à reporter dans sa fiche |
+
+## Fiches de position
+
+Chaque profil porte la fiche de son membre : une ligne par prémisse tranchée, module après module. Le vérificateur formel contrôle à chaque passage que les choix d'un même membre ne se contredisent pas entre eux. Les fiches alimentent M7 (le sens selon chaque option) et M9 (tableau des coûts de chaque position cohérente).
+
+| Module | Prémisse | Choix | Coûts métaphysiques et épistémiques assumés | Implications pour sa vision du monde | Implications pour son mode de vie |
+|---|---|---|---|---|---|
 
 ## Traces
 

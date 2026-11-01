@@ -110,7 +110,7 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 
 Règle de lecture : tant que M4 et M5 ne sont pas faits, « Dieu existe » signifie seulement « un être qui existe par soi existe », sans rien dire de sa personnalité ni de sa bonté.
 
-Mots non définis, interdits dans une inférence avant leur définition : « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). « Situation possible » est premier et admis comme tel.
+Mots non définis, interdits dans une inférence avant leur définition : « nature » (employé par D1, à définir en priorité), « a priori », « expérience » et « mesure », « concevable » (employés par les profils de la population, à définir avant son premier passage), « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). « Situation possible » est premier et admis comme tel ; « intelligible », employé par D5, est à définir ou à déclarer premier.
 
 ## 5. Constat d'existence
 

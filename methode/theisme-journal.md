@@ -31,4 +31,5 @@ Décisions de l'utilisateur, avec ses mots quand ils fixent un sens, et leur eff
 | E1 | Accepté | Cadre, §5 |
 | B | Acceptée | Cadre, §2 |
 | S | Accepté | Cadre, §2 ; M0 clos |
+| Population, règles | « C'est important qu'ils aient le même vocabulaire, et quand un philosophe choisit une prémisse il doit l'assumer totalement sur sa vision du monde et les implications sur son mode de vie » | Règles 1 et 7 de [[theisme-population]] ; fiches de position ; implications sur le mode de vie classées coût existentiel, jamais argument |
 | Population | Quatre philosophes définis par leurs thèses (théiste, nécessitariste impersonnel, naturaliste, sceptique) et un vérificateur formel sans position ; un cinquième, centré sur la morale et le sens, à l'ouverture de M5 | [[theisme-population]] |

@@ -19,6 +19,8 @@ Règles communes et gabarit : [[theisme-population]]. Il n'a aucune position sur
 2. Chaque prémisse utilisée a-t-elle au registre ([[theisme-registre]]) un statut qui autorise son usage ?
 3. Chaque contre-modèle rend-il bien vraies les prémisses et fausse la conclusion ?
 4. Chaque résultat mécanique cité correspond-il à la sortie consignée dans [[theisme-verifications]] ? Si un calcul est modifié, il le réexécute.
+5. Les choix inscrits dans la fiche de position de chaque philosophe ne se contredisent-ils pas entre eux, d'un module à l'autre ?
+6. Chaque texte n'emploie-t-il que des termes définis au cadre ?
 
 ## Verdict
 

@@ -29,3 +29,10 @@ La prémisse `◇¬G` ; l'admissibilité du fait brut ; le refus de H1.
 - Toute extension d'un constat valable dans le monde observé à ce qui l'excède.
 - Le principe « toute chose a une raison » quand il est posé sans démonstration.
 - Toute caricature de sa position : le naturalisme admet la logique et les mathématiques ; ce qu'il conteste, c'est qu'elles exigent un être qui les fonde (H1).
+
+## Fiche de position
+
+Format : [[theisme-population]], « Fiches de position ». À remplir au premier passage.
+
+| Module | Prémisse | Choix | Coûts métaphysiques et épistémiques assumés | Implications pour sa vision du monde | Implications pour son mode de vie |
+|---|---|---|---|---|---|
