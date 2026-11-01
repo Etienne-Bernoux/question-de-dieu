@@ -15,7 +15,7 @@ Examen, module par module, des prémisses qui fondent l'existence d'un Dieu bon 
 
 ## Où en est l'examen
 
-M0 est clos (2026-11-01) : la logique seule ne tranche pas, et la question se ramène à une prémisse sur ce qui est possible. Prochaine étape : M1.
+M0 est rédigé (2026-11-01) : la logique seule ne tranche pas, et la question se ramène à une prémisse sur ce qui est possible. Prochaine étape : vérification de cohérence globale des notes, puis passage de M0 devant la population, puis M1.
 
 ## Sens de lecture
 
@@ -43,7 +43,7 @@ Chaque énoncé vit à un seul endroit ; les autres notes y renvoient.
 
 | Module | Question | État |
 |---|---|---|
-| M0 | Que peut établir la logique seule sur l'existence ? | clos |
+| M0 | Que peut établir la logique seule sur l'existence ? | rédigé ; passage devant la population à faire |
 | M1 | Toute chose a-t-elle une raison, externe ou par sa propre nature ? | à faire |
 | M2 | Le contingent a-t-il une raison ? Faut-il un être par soi ? (P1, H2) | à faire |
 | M3 | Le monde a-t-il commencé ? Un passé infini est-il cohérent ? | à faire |

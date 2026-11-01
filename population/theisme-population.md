@@ -33,6 +33,16 @@ Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit qu
 5. Le synthétiseur rend ses verdicts définitifs ; le formalisateur applique les corrections retenues ; le vérificateur recontrôle les seuls pas modifiés.
 6. L'orchestrateur soumet à l'utilisateur, une par une, les décisions qui lui reviennent, dont tout point encore disputé après la réplique, puis consigne.
 
+## Modèles
+
+| Agent | Modèle | Raison |
+|---|---|---|
+| Formalisateur, synthétiseur | Opus | rédiger et juger sont les tâches les plus difficiles de l'examen |
+| Vérificateur formel | Opus | son verdict de validité ne se discute pas ; une erreur passerait sans contrôle |
+| Les quatre philosophes | Sonnet, réflexion poussée | chercher des failles ; une objection faible est filtrée, puisqu'elle exige une preuve |
+
+Critère de bascule, mesuré au passage de M0 : si la plupart des objections des philosophes sont rejetées, ou si le vérificateur trouve des failles qu'aucun philosophe n'a vues, les philosophes passent sur Opus. Volume mesuré le 2026-11-01 : environ 48 Ko d'entrée par agent, environ quatorze appels par module.
+
 ## Règles de décision
 
 Chacun tranche là où son jugement est indépendant de l'enjeu.
