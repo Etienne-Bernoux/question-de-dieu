@@ -24,18 +24,22 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 | K | `□(P → Q) → (□P → □Q)` | à statuer (Q6bis) | Stipulation | M0 |
 | T | `□P → P` | à statuer (Q6bis) | Stipulation | M0 |
 | AM | `◇□P → □P` | à statuer (Q6bis, suspens jusqu'en M2) | Stipulation | M0 ; utile en M2 |
-| D1 | Dieu : être nécessaire, personnel, cause du monde, bon | DÉFINITION (provisoire) | Brief | M0 ; « personnel » → M4, « bon » → M5 (Q5) |
+| D1 | Dieu : `x` existe par soi (nécessaire, D2 ; raison de son existence = sa nature, D5) | DÉFINITION | Brief, révisé (arbitrage D1, 2026-11-01) | M0 ; « Dieu existe » = « un être par soi existe » tant que M4, M5 ne sont pas faits |
 | D2 | Nécessaire : qui ne peut pas ne pas exister, au sens réel (ne dépend de rien, aucune situation possible ne le prive d'existence) | DÉFINITION | Brief, confirmé Q2 et Q2bis | M0 |
 | H1 | La validité de la logique et des mathématiques dépend d'un être | à statuer en M6 | Brief (Q2bis) | M0 ; « dépendre » à définir (T5) |
+| H2 | Si Dieu existe, il est cause ou raison du contingent | à statuer en M2 | Brief (sorti de D1, Q4bis-2) | M0 |
+| H3 | Dieu est personnel (intelligence, volonté) | à statuer en M4 | Brief (sorti de D1) | M0 |
+| H4 | Dieu est bon | à statuer en M5 | Brief (sorti de D1) | M0 |
 | D3 | Contingent : qui pourrait ne pas exister | DÉFINITION | Brief | M0 |
 | D4 | Cause : ce qui produit l'existence ou l'occurrence d'autre chose | DÉFINITION | Stipulation, acceptée Q3 | M0 |
 | D5 | Raison : ce qui rend intelligible qu'une chose soit, ou soit ainsi | DÉFINITION | Stipulation, acceptée Q3 | M0 |
 | D6 | Fait brut : sans cause ni raison | DÉFINITION | Brief | M0 |
-| D7 | Monde : la totalité des choses qui existent de façon contingente | à statuer (Q4bis) | Stipulation | M0 |
+| D7 | Monde : tout ce qui existe, à quelque moment que ce soit ou hors du temps | DÉFINITION | Brief (Q4bis-1) | M0 |
 | D7-ancien | Monde : l'univers physique | CONTESTÉ | refusé Q4 : suppose démontrées les limites de l'univers physique | M0 |
-| D8 | Exister : `∃x (x = a)` | DÉFINITION | Stipulation | M0 |
+| D8 | Exister : `∃x (x = a)`, sans indication de temps | DÉFINITION | Stipulation, précisée Q4bis-1 | M0 |
+| D9 | Le contingent : tout ce qui existe sans être nécessaire | DÉFINITION | Stipulation, acceptée Q4bis-2 | M0 |
 | E1 | Quelque chose existe | à statuer (Q7bis) | refus performativement contradictoire | M0 ; pas une vérité logique (T2) |
-| P1 | `□(G → □G)` : les attributs de Dieu lui sont essentiels | à statuer en M4 (Q8) | Stipulation | M0 ; ne découle pas de D1 |
+| P1 | `□(G → □G)` : ce qui existe par soi existe par soi dans toute situation où il existe | à statuer en M2 | Stipulation | M0 ; ne découle pas de D1 |
 | T0 | `¬¬P ⊢ P` et A3 ne se dérivent pas de A1, A2, A4 et R | DÉMONTRÉ | Démontré ici (matrice, script exécuté) | M0 |
 | T1 | Une définition n'implique que des conditionnels, jamais `∃x X(x)` | DÉMONTRÉ | Démontré ici (contre-modèle) | M0 |
 | T2 | « Quelque chose existe » n'est valide que si le domaine vide est exclu | DÉMONTRÉ | Démontré ici | M0 |

@@ -45,14 +45,15 @@ Règles d'inférence [Brief pour leur liste ouverte, « modus ponens, modus toll
 
 | ID | Terme | Définition | Provenance |
 |---|---|---|---|
-| D1 | Dieu | être nécessaire, personnel (intelligence, volonté), cause du monde, bon | Brief ; « personnel » précisé en M4, « bon » en M5, inutilisables d'ici là |
+| D1 | Dieu | `x` est Dieu ≝ `x` existe par soi : `x` est nécessaire (D2) et la raison (D5) de son existence est sa propre nature | Brief, révisé le 2026-11-01 (arbitrage D1) : « cause du monde », « personnel », « bon » sortent de la définition et deviennent les thèses H2, H3, H4. Tant que M4 et M5 ne sont pas faits, « Dieu existe » signifie seulement « un être qui existe par soi existe » |
 | D2 | Nécessaire | qui ne peut pas ne pas exister, au sens réel : il ne dépend de rien pour exister, et aucune situation possible ne le prive d'existence ; affirmer « il n'existe pas » n'est pas pour autant contradictoire | Brief, confirmé Q2 ; sens réel retenu en Q2bis |
 | D3 | Contingent | qui pourrait ne pas exister | Brief |
 | D4 | Cause | ce qui produit l'existence ou l'occurrence d'autre chose | Stipulation : restriction de la définition du brief (« ce qui rend raison ») à la production |
 | D5 | Raison | ce qui rend intelligible qu'une chose soit, ou soit ainsi | Stipulation : l'autre moitié de la définition du brief |
 | D6 | Fait brut | ce qui existe ou a lieu sans cause ni raison | Brief, relu avec D4 et D5 |
-| D7 | Monde | la totalité des choses qui existent de façon contingente (D3), sans rien présupposer de ses limites ni de ce qu'elle contient | Stipulation (Q4bis) ; remplace « l'univers physique », refusé en Q4 |
-| D8 | Exister | `a` existe ≝ `∃x (x = a)` | Stipulation |
+| D7 | Monde | tout ce qui existe, à quelque moment que ce soit ou hors du temps ; les choses seulement possibles qui n'existent jamais en sont exclues | Brief (Q4bis-1) ; « temps » sera défini en M3 |
+| D8 | Exister | `a` existe ≝ `∃x (x = a)`, lu sans indication de temps : ce qui a existé ou existera existe en ce sens | Stipulation, précisée en Q4bis-1 |
+| D9 | Le contingent | tout ce qui existe sans être nécessaire | Stipulation (Q4bis-2) |
 
 ### Thèses
 
@@ -69,7 +70,7 @@ Vérifié par énumération exhaustive (3, 9 ou 27 valuations selon le nombre de
 1. `∀x (X(x) ↔ F(x) ∧ E(x))` (définition)
 2. `∀x (X(x) → E(x))` (de 1, sémantiquement : dans toute interprétation où 1 est vraie, chaque objet qui a X a F et E, donc E)
 
-`∃x X(x)` ne suit pas. Contre-modèle : domaine `{a}`, `a` n'a pas F. La conjonction `F(a) ∧ E(a)` est fausse quel que soit `E(a)`, donc `X(a)` est faux, les lignes 1 et 2 sont vraies, `∃x X(x)` est faux. Appliqué à D1 avec F = « personnel » : on obtient « tout ce qui est Dieu existe nécessairement », jamais « quelque chose est Dieu ».
+`∃x X(x)` ne suit pas. Contre-modèle : domaine `{a}`, `a` n'a pas F. La conjonction `F(a) ∧ E(a)` est fausse quel que soit `E(a)`, donc `X(a)` est faux, les lignes 1 et 2 sont vraies, `∃x X(x)` est faux. Appliqué à D1 avec F = « la raison de son existence est sa nature » et E = « est nécessaire » : on obtient « tout ce qui est Dieu est nécessaire », jamais « quelque chose est Dieu ».
 
 **T2. « Quelque chose existe » dépend du choix des interprétations admises.** [Démontré ici]
 
@@ -136,9 +137,9 @@ Conséquence : la thèse H1 (« la validité de la logique dépend d'un être »
 
 1. **« Nécessaire » (D2).** « Ne peut pas ne pas exister » admet deux lectures. D2-L : la non-existence est incompatible avec les axiomes et les définitions. D2-R [Stipulation] : l'être existe, ne dépend de rien d'autre pour exister, et aucune circonstance possible ne l'en priverait. Changer de lecture en cours de route est une équivoque.
 2. **« Possible » (P2a, P2r).** T3 n'est valide que si `◇` a le même sens dans la prémisse et dans D2. Si « possible » veut dire « pour ce que j'en sais », les lignes 5 à 8 ne s'appliquent pas.
-3. **Portée de la nécessité dans P1.** D2 dit qu'un être `a` existe nécessairement : `□∃y(y = a)`. P1 exige `□∃x Dieu(x)` : que soit nécessaire l'existence d'**un être qui a les quatre attributs**. Le passage de l'un à l'autre suppose que `a` a nécessairement les quatre attributs. Cette clause n'est pas dans D1 ; P1 n'en découle donc pas.
+3. **Portée de la nécessité dans P1.** D2 dit qu'un être `a` existe nécessairement : `□∃y(y = a)`. P1 exige `□∃x Dieu(x)` : que soit nécessaire l'existence d'**un être qui existe par soi**. Le passage suppose que `a` existe par soi dans toute situation où il existe, et pas seulement dans les faits. Cette clause n'est pas dans D1 ; P1 n'en découle donc pas.
 4. **« Cause ».** La définition du brief, « ce qui rend raison », couvre la production et l'explication. M1 évoque une raison « par sa propre nature » : une chose peut être sa propre raison sans se produire elle-même. Sans la séparation D4 / D5, un argument qui établit une raison pourrait conclure à une cause.
-5. **Composition dans D1.** D1 conjoint quatre attributs. Par T1, établir qu'un objet a l'un d'eux n'établit pas qu'il a la conjonction.
+5. **Composition dans D1.** La première version de D1 conjoignait quatre attributs, et établir l'un n'établissait pas les autres (T1). Résolu le 2026-11-01 : D1 ne retient plus que l'existence par soi ; les autres attributs sont les thèses H2 à H4, chacune à démontrer séparément.
 
 ## 4. Si on refuse… (explorateur des refus)
 
@@ -149,10 +150,10 @@ Conséquence : la thèse H1 (« la validité de la logique dépend d'un être »
 | A3 | Par T0, on ne conclut plus « X existe » de « la non-existence de X est absurde », pour le théiste comme pour l'athée | coût épistémique, symétrique ; refus cohérent (la matrice de T0 satisfait A1, A2 et les règles) |
 | E1 | Voir §4 bis | contradiction performative dans le cadre posé ; pas de contradiction logique (T2) |
 | D2-R (donc retenir D2-L) | T4 : l'être de D1 n'existe pas, sauf à montrer que `¬G` cache une contradiction que les définitions ne livrent pas | coût de l'acceptation, §5 |
-| P1 | Un être nécessaire peut n'avoir ses autres attributs que par accident ; T3 s'applique à « un être nécessaire », pas à Dieu | coût pour le théiste : la nécessité ne se transmet pas aux attributs |
+| P1 | Un être pourrait exister par soi dans les faits sans l'être dans toute situation possible ; T3 s'applique alors à « un être nécessaire », pas à « un être par soi » | coût métaphysique pour l'acceptation : il faut admettre que le mode d'existence d'un être peut varier |
 | AM | La branche de l'acceptation de T3 tombe, celle du refus tient (T3a n'utilise pas AM) | coût métaphysique : admettre que ce qui est possiblement nécessaire peut ne pas être nécessaire |
 | T | Un énoncé nécessaire pourrait être faux | contradiction si D2 est lu « dans aucun cas possible, y compris le cas effectif » ; sans cette clause, aucune contradiction démontrée |
-| D7 | Si « monde » désigne tout ce qui existe et que Dieu existe, Dieu appartient au monde dont D1 le dit cause. Si causer un tout, c'est causer chacune de ses parties (prémisse non démontrée), il se cause lui-même, ce que D4 et D2 excluent | contradiction conditionnelle à cette prémisse. Correction du 2026-11-01 : la première version présentait cette contradiction comme démontrée sans la prémisse |
+| D7 | Avec monde = tout ce qui existe, Dieu, s'il existe, appartient au monde. Tant que D1 le disait « cause du monde », et si causer un tout c'est causer chacune de ses parties (prémisse non démontrée), il se serait causé lui-même, ce que D4 et D2 excluent | résolu le 2026-11-01 : « cause » sort de D1 (H2 porte sur le contingent, D9). La première version présentait cette contradiction comme démontrée sans la prémisse |
 
 ## 4 bis. Ce qu'implique la négation de E1
 
@@ -166,7 +167,7 @@ Coûts symétriques de l'acceptation :
 
 - Sous D2-L, l'acceptation est réfutée (T4, sous sa réserve). Sa seule défense : soutenir que « possible » ne se réduit pas à « vrai dans une interprétation ». La possibilité logique cesse alors d'être vérifiable par contre-modèle, ce qui affaiblit tout usage ultérieur de « possible », y compris par l'acceptation.
 - Sous AM, « Dieu est possible » vaut `G` (T3b) : celui qui accepte ne peut plus tenir « peut-être » qu'au sens épistémique, qui ne fait pas fonctionner T3 (équivoque 2).
-- P1 suppose que personnalité et bonté appartiennent nécessairement à l'être nécessaire : c'est l'objet de M4 et M5, non démontré.
+- P1 suppose qu'exister par soi n'est pas accidentel à l'être qui existe par soi : non démontré.
 - Coût symétrique pour le refus : `◇¬G` doit être fondé autrement que par « je peux le concevoir », sinon `◇G` se fonde de la même façon et T3c rend les deux inutilisables.
 
 ## 6. Bilan (synthétiseur)
@@ -185,14 +186,16 @@ Registre : [[theisme-registre]]. La logique seule n'établit ni l'existence ni l
 | Q5 | Oui | « personnel » et « bon » différés en M4 et M5 |
 | Q6 | « Reformule » | reformulé en Q6bis |
 | Q7 | Paragraphe demandé | §4 bis ; décision à rendre (Q7bis) |
-| Q8 | Oui | P1 en suspens jusqu'en M4 |
+| Q8 | Oui | P1 en suspens. Révision du 2026-11-01 : depuis l'arbitrage D1, P1 ne porte plus sur la personnalité ni la bonté ; à statuer en M2 |
 | Q9 | « Pas d'approximation, langage clair, bien structuré » | règle de conduite ajoutée au protocole |
 | Q0bis | Partage retenu par défaut ; chaque prémisse, sourcée ou non, reçoit un paragraphe « si tu la nies » | protocole, contrainte 1 et format de sortie |
 | Q2bis | « Nécessaire dans le sens où sans son existence la logique ou les maths n'existent pas » ; après reformulation : thèse à examiner, pas définition | D2 au sens réel ; thèse H1 créée pour M6 ; T5 |
+| Q4bis-1 | « Tout ce qui existe, a existé ou existera si on est dans le temps ; hors du temps, tout ce qui existe » ; reformulation confirmée | D7 révisée ; D8 lu sans indication de temps |
+| Q4bis-2 | « D1 c'est celui qui est ; il n'a pas besoin d'être la causalité du reste pour être défini » | « cause du monde » sort de D1 → H2 (M2) ; D9 « le contingent » créé |
+| D1 | « Personnel et bon se démontrent plus tard, avec d'autres axiomes ; D1 se concentre sur nécessaire, dont la caractéristique intrinsèque est d'être, d'être sa propre causalité » ; reformulation confirmée : « sa propre causalité » lu comme « sa propre raison » (D5), non comme « sa propre cause » (D4) | D1 révisée ; H3 (personnel, M4), H4 (bon, M5) |
 
 ## 8. Questions ouvertes
 
-- **Q4bis. Monde.** « La totalité des choses qui existent de façon contingente », sans présupposé sur ses limites ni sur son contenu. Elle répond à ton objection et ne contient pas Dieu par construction, puisque Dieu est nécessaire. Avec « tout ce qui existe », D1 et D4 se contredisent (§4). Avec « tout sauf Dieu », un fondement nécessaire mais impersonnel ferait partie du monde qu'il fonde, et M4 deviendrait confus. Réserve : ce qui vaut pour chaque chose contingente ne vaut pas automatiquement pour leur totalité ; M2 devra le démontrer, pas le supposer.
 - **Q6bis. Règles qui gouvernent « nécessaire » et « possible ».** « Possible » veut dire « il n'est pas nécessaire que non ». Recommandation : accepter N, K, T, A4 ; laisser AM en suspens jusqu'en M2, où il sert.
   - N : ce que la logique démontre à partir de rien d'autre que ses axiomes est nécessaire. Exemple : « s'il pleut, il pleut » est nécessaire.
   - K : si « P entraîne Q » est nécessaire et que P est nécessaire, alors Q est nécessaire.
