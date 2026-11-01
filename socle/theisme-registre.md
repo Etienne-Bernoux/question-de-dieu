@@ -50,6 +50,8 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | D13 | Expérience | DÉFINITION | Stipulation acceptée |
 | D14 | Mesure | DÉFINITION | Stipulation acceptée |
 | — | Observation (terme premier) | ACCEPTÉ | Stipulation acceptée |
+| D15 | Établi sans observation | DÉFINITION | Stipulation acceptée |
+| D16 | Établi avec observation | DÉFINITION | Stipulation acceptée |
 | — | Monde = l'univers physique | CONTESTÉ | Refusé : présuppose ses limites |
 | — | Nécessaire au sens logique | CONTESTÉ | Écarté : réfute D1 d'emblée (T4) |
 

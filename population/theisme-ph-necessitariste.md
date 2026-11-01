@@ -18,7 +18,7 @@ Règles communes et gabarit : [[theisme-population]].
 1. Un être nécessaire existe (`G`) : il ne dépend de rien pour exister, et aucune situation possible ne l'en prive.
 2. H2 est vraie au sens de D5 : cet être est la raison du contingent. H3 et H4 sont fausses.
 3. Toute chose a une raison, soit hors d'elle, soit dans sa propre nature.
-4. La raison a priori peut établir qu'une chose est possible ou nécessaire.
+4. Un énoncé établi sans observation (D15) peut dire qu'une chose est possible ou nécessaire dans la réalité.
 
 ## Ce qu'il défend dans l'examen
 
