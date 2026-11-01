@@ -17,7 +17,7 @@ Règles communes et gabarit : [[theisme-population]].
 
 1. N'existe que ce qui peut être mesuré (D14), ou entrer en relation de cause (D4) avec ce qui l'est.
 2. Aucun être nécessaire n'existe (non-`G`) ; le contingent peut être un fait brut (D6), et une explication peut s'y arrêter sans faire défaut.
-3. Un énoncé établi sans observation (D15) dit ce qui découle de ses prémisses ; il ne dit qu'une chose existe, ou est possible dans la réalité, que si au moins une prémisse est une observation.
+3. Un énoncé établi sans observation (D15) dit ce qui découle de ses prémisses. Pour qu'un énoncé dise qu'une chose existe, ou est possible dans la réalité, il faut, sans que cela suffise, qu'au moins une de ses prémisses soit une observation.
 4. La thèse 1 n'est pas une observation : il la tient comme un choix de méthode, dont il assume les coûts dans sa fiche.
 
 Son terrain est la portée du raisonnement sans observation, pas la mesure : il raisonne sans observation comme les autres membres, et accepte toute la logique de M0.
@@ -36,6 +36,8 @@ La prémisse `◇¬G` ; l'admissibilité du fait brut ; le refus de H1.
 ## Fiche de position
 
 Format : [[theisme-population]], « Fiches de position ». À remplir au premier passage.
+
+Choix à faire lors de son premier engagement, en M1 : son critère positif, c'est-à-dire ce qui **suffit** à établir qu'une chose existe. La thèse 3 ne donne qu'une condition nécessaire ; sans critère positif, il bloquerait les preuves des autres sans dire ce qu'il accepte, ce que la symétrie interdit.
 
 | Module | Prémisse | Choix | Coûts métaphysiques et épistémiques assumés | Implications pour sa vision du monde | Implications pour son mode de vie |
 |---|---|---|---|---|---|

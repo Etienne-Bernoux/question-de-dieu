@@ -31,6 +31,7 @@ Les deux camps, à égalité :
 - les prémisses glissées : ce qu'un pas utilise sans que le registre l'admette ;
 - la composition, du membre au tout ou d'un attribut à la conjonction ;
 - les glissements de quantificateur (« chaque » vers « tout ») ;
+- l'appel à l'ignorance : conclure P parce que non-P n'a pas été montré, ou exiger de l'adversaire qu'il réfute une prémisse que son auteur n'a pas démontrée ;
 - toute conclusion qui excède ce que les prémisses donnent, dans le texte comme dans les bilans.
 
 ## Fiche de position

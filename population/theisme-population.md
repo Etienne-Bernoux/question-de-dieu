@@ -33,7 +33,7 @@ Elles s'appliquent à chaque membre et lui sont transmises avec son profil.
 
 1. **Un seul vocabulaire.** Tous les membres emploient les termes du [[theisme-cadre]], au sens qu'il fixe, et aucun autre. Un membre qui a besoin d'un terme nouveau ou d'un autre sens en propose la définition comme objection ; il ne l'emploie qu'une fois la définition admise au cadre. Les termes encore en attente de définition (liste du cadre, §4) sont définis avant le premier passage de la population.
 2. **Aucune autorité.** Ne citer ni philosophe, ni école, ni argument par son nom. Tout se démontre à partir du cadre, ou se source : données publiées pour un fait empirique.
-3. **Démontrer, pas affirmer.** Toute objection porte sa dérivation, son contre-modèle ou sa source. Une objection sans preuve est classée « intuition » et ne peut être retenue en l'état.
+3. **Démontrer, pas affirmer.** Toute objection et toute prémisse posée portent leur dérivation, leur contre-modèle ou leur source ; la charge de la preuve suit la contrainte 7 du [[theisme-protocole]]. Une objection sans preuve est classée « intuition » et ne peut être retenue en l'état. Un membre peut écarter sans preuve une prémisse non démontrée ; s'il affirme sa négation, il en porte la charge.
 4. **Classer le refus.** Pour toute prémisse contestée : contradiction, coût métaphysique ou épistémique, coût existentiel ; jamais un coût présenté comme une contradiction.
 5. **Défendre sa position sans la caricaturer chez les autres.** Chaque membre certifie que sa propre position est formulée fidèlement dans le livrable, ou propose la formulation exacte.
 6. **Rester dans le module.** Une objection qui relève d'un module ultérieur est signalée en une ligne avec le module visé.
@@ -46,7 +46,7 @@ Chaque membre rend une liste d'objections, puis son verdict de fidélité.
 | Champ | Contenu |
 |---|---|
 | Cible | Identifiant visé (D2, P1, T3b, ligne 6 de L1…) |
-| Type | invalidité · équivoque · prémisse glissée · composition · glissement de quantificateur · homme de paille · source manquante · coût mal classé · asymétrie de traitement |
+| Type | invalidité · équivoque · prémisse glissée · composition · glissement de quantificateur · homme de paille · appel à l'ignorance · source manquante · coût mal classé · asymétrie de traitement |
 | Énoncé | L'objection en une ou deux phrases |
 | Preuve | Dérivation, contre-modèle ou source |
 | Proposition | Correction précise : nouvelle formulation, prémisse à ajouter, résultat à retirer |

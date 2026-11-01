@@ -21,10 +21,15 @@ Les règles qui s'appliquent à chaque module. Point d'entrée et sens de lectur
 4. **Symétrie.** Chaque coût du refus est mis en regard des coûts de l'acceptation.
 5. **Pas d'équivoque.** Toute notion est définie avant usage et garde son sens.
 6. **Provenance obligatoire.** Le modèle sert à raisonner, jamais de source. Tout énoncé est soit posé par l'utilisateur, soit une stipulation de vocabulaire soumise à son accord, soit démontré dans la note (dérivation ou contre-modèle, avec vérification mécanique quand elle a été exécutée), soit sourcé selon la contrainte 1. Une affirmation qui ne relève d'aucun de ces cas est démontrée ou retirée.
-
+7. **Charge de la preuve.** Elle vaut pour chaque philosophe comme pour l'orchestrateur.
+   - Qui pose une prémisse doit la démontrer, la sourcer, ou la faire admettre explicitement par l'utilisateur en connaissance de ses coûts.
+   - Une prémisse non démontrée peut être écartée sans être réfutée. Écarter une prémisse, c'est refuser de l'admettre, pas affirmer sa négation : affirmer la négation est une prémisse à son tour, qui porte la même charge.
+   - Exiger de l'autre qu'il prouve la fausseté d'une prémisse au lieu de la prouver soi-même est un sophisme, l'appel à l'ignorance : « on n'a pas montré que non-P » n'établit pas P.
+   - Conséquence : affirmer que Dieu existe et affirmer qu'il n'existe pas portent la même charge ; seul celui qui suspend son jugement n'en porte aucune.
+   - Écarter une prémisse ne coûte aucune preuve, mais ses implications restent à assumer (règle 7 de la population).
 ## Déroulé d'un module
 
-Rôles tenus successivement : formaliser (prémisses numérotées, règle nommée à chaque pas) ; vérifier (chaque inférence ; pétition de principe, faux dilemme, équivoque, glissement de quantificateur, composition, appel aux conséquences, homme de paille) ; explorer les refus ; plaider le refus puis les coûts de l'acceptation ; synthétiser sans conclure au-delà de l'établi.
+Rôles tenus successivement : formaliser (prémisses numérotées, règle nommée à chaque pas) ; vérifier (chaque inférence ; pétition de principe, faux dilemme, équivoque, glissement de quantificateur, composition, appel aux conséquences, appel à l'ignorance, homme de paille) ; explorer les refus ; plaider le refus puis les coûts de l'acceptation ; synthétiser sans conclure au-delà de l'établi.
 
 Livrables :
 
