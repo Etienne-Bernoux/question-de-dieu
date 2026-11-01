@@ -44,6 +44,9 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | D7 | Monde : tout ce qui existe | DÉFINITION | Utilisateur |
 | D8 | Exister, sans indication de temps | DÉFINITION | Stipulation précisée par l'utilisateur |
 | D9 | Le contingent | DÉFINITION | Stipulation acceptée |
+| D10 | Substance | DÉFINITION | Utilisateur, définition stipulée acceptée |
+| D11 | Nature d'une chose | DÉFINITION | Stipulation acceptée |
+| D12 | Accident | DÉFINITION | Utilisateur, définition stipulée acceptée |
 | — | Monde = l'univers physique | CONTESTÉ | Refusé : présuppose ses limites |
 | — | Nécessaire au sens logique | CONTESTÉ | Écarté : réfute D1 d'emblée (T4) |
 

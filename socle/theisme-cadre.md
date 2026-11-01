@@ -107,10 +107,17 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 | D7 | Monde | tout ce qui existe, à quelque moment que ce soit ou hors du temps ; les choses seulement possibles qui n'existent jamais en sont exclues | « L'univers physique » présuppose connues ses limites. Inclure les simples possibles exigerait un second sens d'« être » |
 | D8 | Exister | `a` existe si `∃x (x = a)`, sans indication de temps : ce qui a existé ou existera existe en ce sens | |
 | D9 | Le contingent | tout ce qui existe sans être nécessaire | |
+| D10 | Substance | ce qui existe sans être une propriété d'autre chose | |
+| D11 | Nature d'une chose | les propriétés qu'elle a dans toutes les situations possibles où elle existe : ce qu'elle ne pourrait perdre sans cesser d'être elle-même | Laisser « nature » non défini : D1 reposerait sur un mot dont l'usage ne se vérifie pas |
+| D12 | Accident | propriété qu'une chose a dans certaines des situations possibles où elle existe, mais pas dans toutes | |
+
+Avertissement : exister **en soi** (être une substance, D10) n'est pas exister **par soi** (D1). Un arbre existe en soi, non par soi : il dépend de causes. Les confondre ferait de toute substance un candidat à D1.
+
+Conséquence de D11 : toute chose a « exister » dans toutes les situations possibles où elle existe ; l'existence appartient donc à la nature de toute chose, contingente comprise.
 
 Règle de lecture : tant que M4 et M5 ne sont pas faits, « Dieu existe » signifie seulement « un être qui existe par soi existe », sans rien dire de sa personnalité ni de sa bonté.
 
-Mots non définis, interdits dans une inférence avant leur définition : « nature » (employé par D1, à définir en priorité), « a priori », « expérience » et « mesure », « concevable » (employés par les profils de la population, à définir avant son premier passage), « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). « Situation possible » est premier et admis comme tel ; « intelligible », employé par D5, est à définir ou à déclarer premier.
+Mots non définis, interdits dans une inférence avant leur définition : « a priori », « expérience » et « mesure », « concevable » (employés par les profils de la population, à définir avant son premier passage), « temps » (M3), « personnel » (M4), « bon » (M5), « dépendre » (M6). « Situation possible » est premier et admis comme tel ; « intelligible », employé par D5, est à définir ou à déclarer premier.
 
 ## 5. Constat d'existence
 
