@@ -21,7 +21,7 @@ Chaque membre se définit par des thèses explicites, jamais par un nom ou un co
 |---|---|---|---|---|
 | Le théiste | oui | oui | ce qui est établi sans observation peut porter sur la réalité ; toute chose a une raison | [[theisme-ph-theiste]] |
 | Le nécessitariste impersonnel | oui | non | ce qui est établi sans observation peut porter sur la réalité ; le fondement n'est pas une personne | [[theisme-ph-necessitariste]] |
-| Le naturaliste | non | sans objet | l'expérience et la mesure | [[theisme-ph-naturaliste]] |
+| Le naturaliste | non | sans objet | ce qui est établi sans observation ne dit rien de ce qui existe ; seule une observation parmi les prémisses le peut | [[theisme-ph-naturaliste]] |
 | Le sceptique | suspend | suspend | rien sans démonstration | [[theisme-ph-sceptique]] |
 | Le vérificateur formel | aucune position | aucune position | la seule validité des inférences | [[theisme-verificateur-formel]] |
 
