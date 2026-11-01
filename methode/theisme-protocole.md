@@ -27,6 +27,7 @@ Les règles qui s'appliquent à chaque module. Point d'entrée et sens de lectur
    - Exiger de l'autre qu'il prouve la fausseté d'une prémisse au lieu de la prouver soi-même est un sophisme, l'appel à l'ignorance : « on n'a pas montré que non-P » n'établit pas P.
    - Conséquence : affirmer que Dieu existe et affirmer qu'il n'existe pas portent la même charge ; seul celui qui suspend son jugement n'en porte aucune.
    - Écarter une prémisse ne coûte aucune preuve, mais ses implications restent à assumer (règle 7 de la population).
+
 ## Déroulé d'un module
 
 Rôles tenus successivement : formaliser (prémisses numérotées, règle nommée à chaque pas) ; vérifier (chaque inférence ; pétition de principe, faux dilemme, équivoque, glissement de quantificateur, composition, appel aux conséquences, appel à l'ignorance, homme de paille) ; explorer les refus ; plaider le refus puis les coûts de l'acceptation ; synthétiser sans conclure au-delà de l'établi.
