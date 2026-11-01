@@ -17,7 +17,7 @@ Examen méthodique, module par module, des prémisses qui fondent l'existence d'
 
 | Module | Question | État |
 |---|---|---|
-| M0 : [[theisme-m0-fondations]] | Fondations : axiomes, définitions, ce que la logique seule établit | rédigé, en attente d'arbitrage (Q1 à Q8) |
+| M0 : [[theisme-m0-fondations]] | Fondations : axiomes, définitions, ce que la logique seule établit | arbitré le 2026-11-01, questions ouvertes Q0bis, Q2bis, Q4bis, Q6bis, Q7bis |
 | M1 | Explication : toute chose a-t-elle une raison ? | à faire |
 | M2 | Contingence et nécessité | à faire |
 | M3 | Commencement : un passé infini est-il cohérent ? | à faire |
@@ -32,7 +32,7 @@ Mémoire de la démonstration : [[theisme-registre|Registre]]. Un module ne s'ap
 
 ## Contraintes épistémiques
 
-1. Aucun appel à l'autorité : aucun philosophe, théologien, école ou argument nommé. Tout est dérivé ici à partir d'axiomes et de définitions explicites.
+1. Aucun appel à l'autorité : aucun argument n'est retenu parce qu'une autorité le soutient. Tout est dérivé ici à partir d'axiomes et de définitions explicites. Amendement du 2026-11-01 (Q0) : un énoncé peut être sourcé, à condition que les sources viennent de philosophes aux idées suffisamment différentes et fassent consensus ; la portée exacte de cet amendement est en attente (M0, Q0bis).
 2. Toujours distinguer validité (la conclusion découle des prémisses) et solidité (les prémisses sont vraies).
 3. Toujours classer la conséquence d'un refus :
    - contradiction logique (le refus implique A et non-A) : refus intenable ;
@@ -45,7 +45,7 @@ Mémoire de la démonstration : [[theisme-registre|Registre]]. Un module ne s'ap
    - **Brief** : posé par l'utilisateur dans le brief d'origine ou un arbitrage daté ;
    - **Stipulation** : choix de vocabulaire proposé par l'agent, qui n'affirme rien sur le réel, à statuer par l'utilisateur ;
    - **Démontré ici** : dérivation ou contre-modèle écrit dans la note, vérifiable par le lecteur sans rien croire ; une vérification mécanique est jointe quand elle a été exécutée ;
-   - **Source** : fait externe, avec sa source primaire.
+   - **Source** : fait externe, avec sa source primaire, selon le critère de la contrainte 1.
    Une affirmation tirée de la seule connaissance du modèle (« il existe des systèmes qui… », « la logique usuelle admet… ») est interdite : elle est démontrée ici ou retirée.
 
 ## Rôles appliqués à chaque module
@@ -65,4 +65,4 @@ Mémoire de la démonstration : [[theisme-registre|Registre]]. Un module ne s'ap
 - Un module à la fois ; attendre l'arbitrage avant le suivant.
 - Un refus déclaré « illogique » est testé : on cherche la contradiction explicite ; à défaut, on le dit et on le requalifie en coût.
 - Un refus de prémisse est poursuivi honnêtement.
-- Le brief d'origine est tronqué après « Langage précis, » : la suite de cette règle n'a pas été reçue.
+- Pas d'approximation, langage clair, structure nette (précision de l'utilisateur, 2026-11-01, Q9 : le brief d'origine s'arrêtait à « Langage précis, »).

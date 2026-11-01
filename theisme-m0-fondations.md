@@ -46,12 +46,12 @@ Règles d'inférence [Brief pour leur liste ouverte, « modus ponens, modus toll
 | ID | Terme | Définition | Provenance |
 |---|---|---|---|
 | D1 | Dieu | être nécessaire, personnel (intelligence, volonté), cause du monde, bon | Brief ; « personnel » précisé en M4, « bon » en M5, inutilisables d'ici là |
-| D2 | Nécessaire | qui ne peut pas ne pas exister | Brief ; deux lectures proposées en §3 |
+| D2 | Nécessaire | qui ne peut pas ne pas exister | Brief, confirmé en Q2 ; le sens de « ne peut pas » reste à fixer (Q2bis) |
 | D3 | Contingent | qui pourrait ne pas exister | Brief |
 | D4 | Cause | ce qui produit l'existence ou l'occurrence d'autre chose | Stipulation : restriction de la définition du brief (« ce qui rend raison ») à la production |
 | D5 | Raison | ce qui rend intelligible qu'une chose soit, ou soit ainsi | Stipulation : l'autre moitié de la définition du brief |
 | D6 | Fait brut | ce qui existe ou a lieu sans cause ni raison | Brief, relu avec D4 et D5 |
-| D7 | Monde | l'univers physique : espace, temps, matière-énergie et leurs régularités | Stipulation |
+| D7 | Monde | la totalité des choses qui existent de façon contingente (D3), sans rien présupposer de ses limites ni de ce qu'elle contient | Stipulation (Q4bis) ; remplace « l'univers physique », refusé en Q4 |
 | D8 | Exister | `a` existe ≝ `∃x (x = a)` | Stipulation |
 
 ### Thèses
@@ -139,12 +139,16 @@ Réserve : la ligne 2 suppose que N, K, T et L2 valent pour `□_L`. Ce n'est pa
 | A1 | `a = a` faux pour un `a` : un même terme ne désigne plus la même chose d'une ligne à l'autre | contradiction performative, sous la prémisse que l'énoncé du refus emploie ses propres termes de façon stable ; pas de contradiction formelle démontrée |
 | A2 | Le refus pose qu'au moins une `P ∧ ¬P` est vraie : il affirme A et non-A | contradiction au sens du protocole. Ce refus ne force pourtant pas à tout accepter : matrice `F < B < V`, valeurs désignées `B` et `V`, `¬B = B`, `∧ = min` ; pour `P = B`, `Q = F`, `P ∧ ¬P` est désigné et `Q` ne l'est pas [Démontré ici, script en annexe]. L'examen s'arrête faute de pouvoir distinguer refus intenable et coût |
 | A3 | Par T0, on ne conclut plus « X existe » de « la non-existence de X est absurde », pour le théiste comme pour l'athée | coût épistémique, symétrique ; refus cohérent (la matrice de T0 satisfait A1, A2 et les règles) |
-| E1 | « Rien n'existe » est énoncé ; si un énoncé est quelque chose, l'énonciation contredit son contenu | contradiction performative, sous la prémisse « un acte d'énonciation existe » |
+| E1 | Voir §4 bis | contradiction performative dans le cadre posé ; pas de contradiction logique (T2) |
 | D2-R (donc retenir D2-L) | T4 : l'être de D1 n'existe pas, sauf à montrer que `¬G` cache une contradiction que les définitions ne livrent pas | coût de l'acceptation, §5 |
 | P1 | Un être nécessaire peut n'avoir ses autres attributs que par accident ; T3 s'applique à « un être nécessaire », pas à Dieu | coût pour le théiste : la nécessité ne se transmet pas aux attributs |
 | AM | La branche de l'acceptation de T3 tombe, celle du refus tient (T3a n'utilise pas AM) | coût métaphysique : admettre que ce qui est possiblement nécessaire peut ne pas être nécessaire |
 | T | Un énoncé nécessaire pourrait être faux | contradiction si D2 est lu « dans aucun cas possible, y compris le cas effectif » ; sans cette clause, aucune contradiction démontrée |
-| D7 | Si « monde » inclut tout ce qui existe, une cause du monde ne peut pas lui être extérieure | coût de clarté : M2 risque la composition |
+| D7 | Si « monde » désigne tout ce qui existe, alors Dieu, s'il existe, appartient au monde ; « Dieu cause du monde » (D1) dit alors qu'il produit une totalité qui le contient, donc qu'il se produit lui-même, ce que D4 exclut (« autre chose ») | contradiction entre D1 et D4 sous cette lecture [Démontré ici] ; d'où la proposition D7 |
+
+## 4 bis. Ce qu'implique la négation de E1
+
+Nier E1, c'est poser « rien n'existe », formellement `¬∃x (x = x)`. Cette négation n'est pas une contradiction logique : T2 montre qu'une interprétation à domaine vide la rend vraie sans qu'aucune formule y reçoive deux valeurs [Démontré ici]. Elle se heurte en revanche à l'acte qui la pose. Dans le cadre fixé en §2, attribuer une propriété à un objet `a`, par exemple « l'acte de nier a lieu », n'a de valeur de vérité que si `a` est un objet du domaine, donc si `∃x (x = a)`, donc si `a` existe au sens de D8 [Démontré ici]. Quiconque dit ou pense « rien n'existe » produit un acte dont on peut dire qu'il a lieu ; cet acte existe ; la négation est fausse dès qu'elle est posée. Pour la maintenir, il faut soutenir qu'un acte peut avoir lieu sans exister, donc sortir du cadre de §2 et employer un second sens d'« être » qui ne serait pas celui de D8 : c'est l'équivoque que la contrainte 5 interdit, et le coût du refus est l'abandon du contrôle d'équivoque. Si la négation tenait malgré tout, l'examen perdrait tout objet : rien à expliquer (M1 à M3), aucun fondement à qualifier (M4), personne pour accepter ou refuser une prémisse. Enfin, accepter E1 engage peu : E1 établit qu'au moins une chose existe, pas laquelle. Il n'établit ni l'existence d'un univers physique, ni celle d'un corps, ni celle d'autres esprits ; `∃x (x = x)` n'implique `∃x F(x)` pour aucune propriété F, contre-modèle : un domaine d'un seul objet qui n'a pas F [Démontré ici].
 
 ## 5. Meilleure défense du refus et coûts de l'acceptation (avocat)
 
@@ -161,16 +165,33 @@ Coûts symétriques de l'acceptation :
 
 Registre : [[theisme-registre]]. La logique seule n'établit ni l'existence ni l'inexistence de Dieu. Démontré ici : une définition ne produit qu'un conditionnel (T1) ; « quelque chose existe » dépend d'une stipulation sur les interprétations (T2) ; sous P1 et les axiomes modaux, la question se ramène à une prémisse de possibilité que la logique ne tranche pas (T3) ; la lecture logique de « nécessaire » réfute l'être défini, sous une réserve (T4). La suite doit instruire la prémisse de possibilité par d'autres voies.
 
-## 7. Questions à l'utilisateur
+## 7. Arbitrages du 2026-11-01
 
-- Q1. A3 accepté ? Recommandation : oui, en marquant chaque preuve d'existence par l'absurde (T0).
-- Q2. « Nécessaire » : D2-R ou D2-L ? Recommandation : D2-R ; D2-L clôt la question avant examen (T4).
-- Q3. Séparer cause (D4) et raison (D5) ? Recommandation : oui.
-- Q4. Monde = univers physique (D7) ? Recommandation : oui.
-- Q5. « Personnel » et « bon » différés en M4 et M5 ? Recommandation : oui.
-- Q6. N, K, T acceptés ; AM en suspens jusqu'en M2 ? Recommandation : oui.
-- Q7. E1 accepté ? Recommandation : oui.
-- Q8. P1 en suspens jusqu'en M4 ? Recommandation : oui.
+| Question | Réponse de l'utilisateur | Effet |
+|---|---|---|
+| Q0 | Sources externes acceptées, à condition qu'elles viennent de philosophes aux idées suffisamment différentes et fassent consensus | contrainte 1 amendée au protocole ; portée à préciser (Q0bis) |
+| Q1 | Tiers exclu accepté | A3 retenu. La raison donnée (« A ≠ non-A ») est A2 ; T0 montre que A3 peut être refusé en gardant A2. Toute preuve d'existence par l'absurde reste marquée |
+| Q2 | « Nécessaire : qui ne peut pas ne pas exister » | D2 maintenu tel quel ; le sens de « ne peut pas » n'est pas tranché (Q2bis) |
+| Q3 | Oui | D4 et D5 retenus |
+| Q4 | Non : « univers physique » supposerait d'avoir démontré les limites de l'univers physique | ancienne D7 retirée ; nouvelle proposition (Q4bis) |
+| Q5 | Oui | « personnel » et « bon » différés en M4 et M5 |
+| Q6 | « Reformule » | reformulé en Q6bis |
+| Q7 | Paragraphe demandé | §4 bis ; décision à rendre (Q7bis) |
+| Q8 | Oui | P1 en suspens jusqu'en M4 |
+| Q9 | « Pas d'approximation, langage clair, bien structuré » | règle de conduite ajoutée au protocole |
+
+## 8. Questions ouvertes
+
+- **Q0bis. Rôle des sources.** Un consensus de philosophes ne prouve pas qu'une prémisse est vraie, et il ne porte pas sur les faits physiques dont M3 aura besoin. Proposition : (a) un fait empirique se source par les données ou la mesure publiées ; (b) les philosophes d'orientations opposées servent à certifier qu'une position est formulée fidèlement, ce qui protège de l'homme de paille ; (c) la vérité d'une prémisse n'est jamais établie par un consensus. Retiens-tu ce partage ?
+- **Q2bis. Sens de « ne peut pas ».** (a) Logique : dire « il n'existe pas » serait se contredire, comme « un triangle à quatre côtés existe ». (b) Réel : dire « il n'existe pas » n'est pas contradictoire, mais l'être ne dépend de rien pour exister, et aucune situation possible ne le prive d'existence. (c) Primitif : on ne précise pas, et « nécessaire » n'a pas d'autre contenu que les axiomes de Q6bis. Recommandation : (b). (a) clôt la question contre l'existence avant tout examen (T4). (c) laisse « possible » sans contenu, si bien que ni `◇G` ni `◇¬G` ne pourront être argumentés. (b) reste circulaire sur « situation possible », mais ajoute la clause d'indépendance, qui donne prise à M1 et M2.
+- **Q4bis. Monde.** « La totalité des choses qui existent de façon contingente », sans présupposé sur ses limites ni sur son contenu. Elle répond à ton objection et ne contient pas Dieu par construction, puisque Dieu est nécessaire. Avec « tout ce qui existe », D1 et D4 se contredisent (§4). Avec « tout sauf Dieu », un fondement nécessaire mais impersonnel ferait partie du monde qu'il fonde, et M4 deviendrait confus. Réserve : ce qui vaut pour chaque chose contingente ne vaut pas automatiquement pour leur totalité ; M2 devra le démontrer, pas le supposer.
+- **Q6bis. Règles qui gouvernent « nécessaire » et « possible ».** « Possible » veut dire « il n'est pas nécessaire que non ». Recommandation : accepter N, K, T, A4 ; laisser AM en suspens jusqu'en M2, où il sert.
+  - N : ce que la logique démontre à partir de rien d'autre que ses axiomes est nécessaire. Exemple : « s'il pleut, il pleut » est nécessaire.
+  - K : si « P entraîne Q » est nécessaire et que P est nécessaire, alors Q est nécessaire.
+  - T : ce qui est nécessaire est vrai dans les faits.
+  - A4 : si P est vrai, alors il est faux que P soit faux.
+  - AM : s'il est possible qu'une chose soit nécessaire, alors elle est nécessaire. C'est la seule règle dont l'acceptation fait passer de « Dieu est possible » à « Dieu existe » (T3b).
+- **Q7bis. E1.** Au vu de §4 bis, acceptes-tu « quelque chose existe » ?
 
 ## Annexe — vérification mécanique de T0 et de la matrice de A2
 

@@ -17,23 +17,24 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 |---|---|---|---|---|
 | A1 | Identité : `a = a`, `P → P` | AXIOME | Brief | M0 |
 | A2 | Non-contradiction : `¬(P ∧ ¬P)` | AXIOME | Brief | M0 |
-| A3 | Tiers exclu : `P ∨ ¬P` | à statuer (Q1) | Brief | M0 ; refus cohérent (T0) |
-| A4 | `P → ¬¬P` | à statuer | Stipulation | M0 ; requis par L2 |
+| A3 | Tiers exclu : `P ∨ ¬P` | AXIOME | Brief, confirmé Q1 (2026-11-01) | M0 ; refus cohérent (T0) : chaque preuve d'existence par l'absurde est marquée |
+| A4 | `P → ¬¬P` | à statuer (Q6bis) | Stipulation | M0 ; requis par L2 |
 | R | MP, MT, SD, élimination de la conjonction, enchaînement, contraposition, absurde négatif | AXIOME | Brief (liste ouverte) et Stipulation | M0 ; pas de preuve conditionnelle |
-| N | Nécessitation | à statuer (Q6) | Stipulation | M0 |
-| K | `□(P → Q) → (□P → □Q)` | à statuer (Q6) | Stipulation | M0 |
-| T | `□P → P` | à statuer (Q6) | Stipulation | M0 |
-| AM | `◇□P → □P` | à statuer (Q6) | Stipulation | M0 ; utile en M2 |
-| D1 | Dieu : être nécessaire, personnel, cause du monde, bon | DÉFINITION (provisoire) | Brief | M0 ; « personnel » → M4, « bon » → M5 |
-| D2 | Nécessaire : D2-R (réelle) ou D2-L (logique) | à statuer (Q2) | Brief ; lectures : Stipulation | M0 |
+| N | Nécessitation | à statuer (Q6bis) | Stipulation | M0 |
+| K | `□(P → Q) → (□P → □Q)` | à statuer (Q6bis) | Stipulation | M0 |
+| T | `□P → P` | à statuer (Q6bis) | Stipulation | M0 |
+| AM | `◇□P → □P` | à statuer (Q6bis, suspens jusqu'en M2) | Stipulation | M0 ; utile en M2 |
+| D1 | Dieu : être nécessaire, personnel, cause du monde, bon | DÉFINITION (provisoire) | Brief | M0 ; « personnel » → M4, « bon » → M5 (Q5) |
+| D2 | Nécessaire : qui ne peut pas ne pas exister | DÉFINITION | Brief, confirmé Q2 | M0 ; sens de « ne peut pas » à statuer (Q2bis) |
 | D3 | Contingent : qui pourrait ne pas exister | DÉFINITION | Brief | M0 |
-| D4 | Cause : ce qui produit l'existence ou l'occurrence d'autre chose | à statuer (Q3) | Stipulation | M0 |
-| D5 | Raison : ce qui rend intelligible qu'une chose soit, ou soit ainsi | à statuer (Q3) | Stipulation | M0 |
+| D4 | Cause : ce qui produit l'existence ou l'occurrence d'autre chose | DÉFINITION | Stipulation, acceptée Q3 | M0 |
+| D5 | Raison : ce qui rend intelligible qu'une chose soit, ou soit ainsi | DÉFINITION | Stipulation, acceptée Q3 | M0 |
 | D6 | Fait brut : sans cause ni raison | DÉFINITION | Brief | M0 |
-| D7 | Monde : l'univers physique | à statuer (Q4) | Stipulation | M0 |
+| D7 | Monde : la totalité des choses qui existent de façon contingente | à statuer (Q4bis) | Stipulation | M0 |
+| D7-ancien | Monde : l'univers physique | CONTESTÉ | refusé Q4 : suppose démontrées les limites de l'univers physique | M0 |
 | D8 | Exister : `∃x (x = a)` | DÉFINITION | Stipulation | M0 |
-| E1 | Quelque chose existe | à statuer (Q7) | refus performativement contradictoire | M0 ; pas une vérité logique (T2) |
-| P1 | `□(G → □G)` : les attributs de Dieu lui sont essentiels | à statuer (Q8) | Stipulation | M0 ; ne découle pas de D1 |
+| E1 | Quelque chose existe | à statuer (Q7bis) | refus performativement contradictoire | M0 ; pas une vérité logique (T2) |
+| P1 | `□(G → □G)` : les attributs de Dieu lui sont essentiels | à statuer en M4 (Q8) | Stipulation | M0 ; ne découle pas de D1 |
 | T0 | `¬¬P ⊢ P` et A3 ne se dérivent pas de A1, A2, A4 et R | DÉMONTRÉ | Démontré ici (matrice, script exécuté) | M0 |
 | T1 | Une définition n'implique que des conditionnels, jamais `∃x X(x)` | DÉMONTRÉ | Démontré ici (contre-modèle) | M0 |
 | T2 | « Quelque chose existe » n'est valide que si le domaine vide est exclu | DÉMONTRÉ | Démontré ici | M0 |
