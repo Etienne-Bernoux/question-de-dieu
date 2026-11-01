@@ -115,6 +115,7 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 | D15 | Établi sans observation | énoncé démontré à partir du cadre sans qu'aucune prémisse soit une observation | « A priori » : le mot latin se lit couramment « avant coup » et invite l'équivoque |
 | D16 | Établi avec observation | énoncé démontré avec au moins une observation parmi ses prémisses | « A posteriori » : se lit couramment « après coup » |
 | D17 | Concevable | un énoncé est concevable s'il existe une interprétation où le cadre et cet énoncé sont vrais ensemble : le supposer n'engendre aucune contradiction | Le pas « concevable, donc possible » ne vaut pas en général (T6) |
+| D18 | Rendre intelligible | Q rend P intelligible si P se démontre à partir de Q et du cadre, sans que P figure parmi les prémisses | Laisser « intelligible » premier : M1 porterait sur un mot invérifiable. Limites assumées : aucune clause formelle n'exclut tous les cercles déguisés (Q = « P et R »), à traquer au cas par cas ; un événement seulement probable n'a pas de raison au sens de D5, il est un fait brut par définition |
 
 Avertissement : exister **en soi** (être une substance, D10) n'est pas exister **par soi** (D1). Un arbre existe en soi, non par soi : il dépend de causes. Les confondre ferait de toute substance un candidat à D1.
 
