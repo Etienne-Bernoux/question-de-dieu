@@ -22,7 +22,7 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 | R | MP, MT, SD, élimination de la conjonction, enchaînement, contraposition, absurde négatif | AXIOME | Brief (liste ouverte) et Stipulation | M0 ; pas de preuve conditionnelle |
 | N | Nécessitation : ce que la logique démontre seule est nécessaire | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; refus cohérent mais coûteux (§4 ter) |
 | K | `□(P → Q) → (□P → □Q)` | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; refus contradictoire sous D2 (§4 ter) |
-| T | `□P → P` | à statuer (Q6bis) | Stipulation | M0 |
+| T | `□P → P` | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; refus contradictoire sous D2 si la situation réelle est une situation possible (§4 ter) |
 | AM | `◇□P → □P` | à statuer (Q6bis, suspens jusqu'en M2) | Stipulation | M0 ; utile en M2 |
 | D1 | Dieu : `x` existe par soi (nécessaire, D2 ; raison de son existence = sa nature, D5) | DÉFINITION | Brief, révisé (arbitrage D1, 2026-11-01) | M0 ; « Dieu existe » = « un être par soi existe » tant que M4, M5 ne sont pas faits |
 | D2 | Nécessaire : qui ne peut pas ne pas exister, au sens réel (ne dépend de rien, aucune situation possible ne le prive d'existence) | DÉFINITION | Brief, confirmé Q2 et Q2bis | M0 |
