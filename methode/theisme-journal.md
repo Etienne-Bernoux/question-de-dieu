@@ -40,5 +40,6 @@ Décisions de l'utilisateur, avec ses mots quand ils fixent un sens, et leur eff
 | Charge de la preuve | Règles de défense d'une prémisse apportées par l'utilisateur : charge de la preuve, refus de l'affirmation gratuite, inversion de la charge comme sophisme ; consignées sans nom d'auteur (contrainte 1), avec la précision « écarter n'est pas affirmer la négation » | Contrainte 7 du protocole ; règle 3 de la population |
 | Observation | Élargie au constat, par celui qui raisonne, que son propre acte a lieu | E1 établi avec observation |
 | Concevable | Définition retenue ; T6 inscrit | D17 au cadre ; T6 |
+| Intelligible | Définition vérifiable retenue (démonstration non circulaire), avec ses limites | D18 au cadre |
 | Population, règles | « C'est important qu'ils aient le même vocabulaire, et quand un philosophe choisit une prémisse il doit l'assumer totalement sur sa vision du monde et les implications sur son mode de vie » | Règles 1 et 7 de [[theisme-population]] ; fiches de position ; implications sur le mode de vie classées coût existentiel, jamais argument |
 | Population | Quatre philosophes définis par leurs thèses (théiste, nécessitariste impersonnel, naturaliste, sceptique) et un vérificateur formel sans position ; un cinquième, centré sur la morale et le sens, à l'ouverture de M5 | [[theisme-population]] |
