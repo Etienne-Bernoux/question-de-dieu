@@ -18,7 +18,8 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 | A1 | Identité : `a = a`, `P → P` | AXIOME | Brief | M0 |
 | A2 | Non-contradiction : `¬(P ∧ ¬P)` | AXIOME | Brief | M0 |
 | A3 | Tiers exclu : `P ∨ ¬P` | AXIOME | Brief, confirmé Q1 (2026-11-01) | M0 ; refus cohérent (T0) : chaque preuve d'existence par l'absurde est marquée |
-| A4 | `P → ¬¬P` | à statuer (Q6bis) | Stipulation | M0 ; requis par L2 |
+| A4 | `P → ¬¬P` | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; requis par L2 ; refus contradictoire sous B (§4 ter) |
+| B | Bivalence : dans une interprétation, tout énoncé est vrai ou faux, et pas les deux ; « non-P » est vrai exactement quand P est faux | à statuer | Stipulation, utilisée depuis §2 sans avoir été posée | M0 |
 | R | MP, MT, SD, élimination de la conjonction, enchaînement, contraposition, absurde négatif | AXIOME | Brief (liste ouverte) et Stipulation | M0 ; pas de preuve conditionnelle |
 | N | Nécessitation : ce que la logique démontre seule est nécessaire | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; refus cohérent mais coûteux (§4 ter) |
 | K | `□(P → Q) → (□P → □Q)` | ACCEPTÉ PAR L'UTILISATEUR | Stipulation, acceptée le 2026-11-01 | M0 ; refus contradictoire sous D2 (§4 ter) |

@@ -167,6 +167,8 @@ Nier E1, c'est poser « rien n'existe », formellement `¬∃x (x = x)`. Cette n
 
 **T (factivité), acceptée le 2026-11-01.** Nier T, c'est admettre qu'un énoncé P soit nécessaire et faux dans les faits. Il s'ensuit qu'un fait n'est pas possible : de `□P`, par A4, N et K, on tire `□¬¬P`, c'est-à-dire « `¬P` n'est pas possible », alors que `¬P` a lieu [Démontré ici]. Avec le sens de « nécessaire » fixé en Q2bis (vrai dans toute situation possible), et si la situation réelle compte parmi les situations possibles, ce refus se contredit : P, vrai dans toutes, serait vrai dans la réelle. Le refus n'est cohérent qu'en retirant la situation réelle des situations possibles. Contre-modèle : on déclare tout énoncé « nécessaire » ; N et K sont satisfaites, T échoue, et rien n'est « possible », pas même ce qui a lieu ; aucun énoncé n'y est à la fois vrai et faux [Démontré ici]. Le prix est que la nécessité ne dit plus rien des faits. Pour l'étude, le refus prive les deux camps : la branche de l'acceptation de T3 a besoin de T pour passer de « Dieu existe nécessairement » à « Dieu existe », la branche du refus en a besoin pour passer de P1 à « si Dieu existe, il existe nécessairement ». La voie de H1 s'arrête de même à « x existe nécessairement » sans atteindre « x existe ».
 
+**A4 (introduction de la double négation), acceptée le 2026-11-01.** Nier A4, c'est admettre un énoncé P vrai sans que « non-non-P » le soit. Dans le cadre de §2, où, dans une interprétation, tout énoncé est vrai ou faux et pas les deux, et où « non-P » est vrai exactement quand P est faux (bivalence, notée B), ce refus se contredit : si P est vrai, « non-P » est faux, donc « non-non-P » est vrai ; les deux cas possibles suffisent à le vérifier [Démontré ici]. C'est la bivalence qui produit ce résultat, pas la formule du tiers exclu : dans une matrice à trois valeurs où A1, A2 et A3 valent comme formules, A4 échoue [Démontré ici, script en annexe] ; cette matrice viole toutefois la contraposition et l'absurde négatif, qui sont retenus. Il n'est pas établi que A4 se dérive des seuls axiomes et règles retenus, sans la bivalence : une recherche exhaustive sur les matrices à trois valeurs (27 négations, trois implications, deux choix de valeurs désignées) ne trouve aucun cadre qui respecte tout ce qui est retenu et refuse A4, ce qui ne prouve pas la dérivabilité. Pour l'étude, le refus est asymétrique : L2 repose sur A4, donc la branche du refus de T3 (« Dieu peut ne pas exister », donc « Dieu n'existe pas ») tombe, alors que la branche de l'acceptation (« Dieu peut exister », donc « Dieu existe », sous AM) n'utilise pas A4 et reste intacte. Le paragraphe de T ci-dessus utilise aussi A4.
+
 ## 5. Meilleure défense du refus et coûts de l'acceptation (avocat)
 
 Défense du refus. Par T1, aucune définition n'impose une existence ; celui qui refuse n'a rien à affirmer en M0. Sa meilleure position : accepter D2-R et soutenir `◇¬G`. Par T3a, cela suffit pour `¬G`, sans A3 ni AM. Il exige en outre la démonstration séparée de chaque attribut (équivoque 5).
@@ -204,6 +206,7 @@ Registre : [[theisme-registre]]. La logique seule n'établit ni l'existence ni l
 | N | Acceptée, avec paragraphe de refus demandé | §4 ter |
 | K | Acceptée, avec paragraphe de refus demandé | §4 ter |
 | T | Acceptée, avec paragraphe de refus demandé | §4 ter |
+| A4 | Acceptée, avec paragraphe de refus demandé | §4 ter ; la bivalence B, utilisée depuis §2 sans être posée comme axiome, est à statuer |
 
 ## 8. Questions ouvertes
 
@@ -245,4 +248,32 @@ F, B, T = 0, 1, 2
 nb = lambda a: {F: T, B: B, T: F}[a]
 db = lambda a: a in (B, T)
 print("explosion (attendu False)", all(db(q) for p, q in product([F, B, T], repeat=2) if db(min(p, nb(p)))))
+```
+
+### Matrice du paragraphe A4
+
+Exécuté le 2026-11-01 (`python3 -I`) : A1, A2, A3, MP, MT, SD, élimination de la conjonction, enchaînement valent ; A4, contraposition, absurde négatif échouent ; la matrice est bivalente au sens « P ou non-P désigné, jamais les deux ». La recherche exhaustive citée au paragraphe A4 balaie les 27 négations à trois valeurs, les implications à seuil, additive et maximale, et les valeurs désignées `{2}` et `{1, 2}` : 0 cadre trouvé.
+
+```python
+from itertools import product
+V = [0, 0.5, 1]
+neg = lambda a: 0 if a == 1 else 1
+imp = lambda a, b: 1 if a <= b else b
+des = lambda a: a == 1
+def valid(f, n):
+    return all(des(f(*v)) for v in product(V, repeat=n))
+def rule(prem, concl, n):
+    return all(des(concl(*v)) for v in product(V, repeat=n) if all(des(p(*v)) for p in prem))
+print("A1", valid(lambda p: imp(p, p), 1))
+print("A2", valid(lambda p: neg(min(p, neg(p))), 1))
+print("A3", valid(lambda p: max(p, neg(p)), 1))
+print("A4 (attendu False)", valid(lambda p: imp(p, neg(neg(p))), 1))
+print("contraposition", valid(lambda p, q: imp(imp(p, q), imp(neg(q), neg(p))), 2))
+print("absurde negatif", valid(lambda p, q: imp(imp(p, min(q, neg(q))), neg(p)), 2))
+print("MP", rule([lambda p, q: imp(p, q), lambda p, q: p], lambda p, q: q, 2))
+print("MT", rule([lambda p, q: imp(p, q), lambda p, q: neg(q)], lambda p, q: neg(p), 2))
+print("SD", rule([lambda p, q: max(p, q), lambda p, q: neg(p)], lambda p, q: q, 2))
+print("conj-elim", rule([lambda p, q: min(p, q)], lambda p, q: p, 2))
+print("enchainement", rule([lambda p, q, r: imp(p, q), lambda p, q, r: imp(q, r)], lambda p, q, r: imp(p, r), 3))
+print("bivalence: P designee ou ~P designee", all(des(p) or des(neg(p)) for p in V), "; jamais les deux", not any(des(p) and des(neg(p)) for p in V))
 ```
