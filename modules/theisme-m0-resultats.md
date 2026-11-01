@@ -103,7 +103,7 @@ H1 exige donc une relation de dépendance définie autrement, à fixer en M6.
 Sous P1, N, K, T, A4 et U, le principe « tout énoncé concevable (D17) est possible » mène à une contradiction.
 
 1. `G` est concevable : une seule situation, un seul objet `a`, qui y existe et ne dépend de rien. `a` existe dans toute situation possible et ne dépend de rien : il est nécessaire. N, K, T et U sont vrais dans un modèle à une situation ; E1 aussi.
-2. `¬G` est concevable : une seule situation, deux objets `a` et `b`, chacun dépendant de l'autre. Aucun ne ne dépend de rien, aucun n'est nécessaire.
+2. `¬G` est concevable : une seule situation, deux objets `a` et `b`, chacun dépendant de l'autre. Chacun dépend de quelque chose ; aucun n'est nécessaire.
 3. Si tout concevable était possible : `◇G` (de 1) et `◇¬G` (de 2).
 4. T3c : `◇G` et `◇¬G` donnent `G` et `¬G`, contre A2.
 
