@@ -155,7 +155,7 @@ Conséquence : la thèse H1 (« la validité de la logique dépend d'un être »
 | T | Un énoncé nécessaire pourrait être faux | contradiction si D2 est lu « dans aucun cas possible, y compris le cas effectif » ; sans cette clause, aucune contradiction démontrée |
 | D7 | Avec monde = tout ce qui existe, Dieu, s'il existe, appartient au monde. Tant que D1 le disait « cause du monde », et si causer un tout c'est causer chacune de ses parties (prémisse non démontrée), il se serait causé lui-même, ce que D4 et D2 excluent | résolu le 2026-11-01 : « cause » sort de D1 (H2 porte sur le contingent, D9). La première version présentait cette contradiction comme démontrée sans la prémisse |
 
-## 4 bis. Ce qu'implique la négation de E1
+## 4 bis. Ce qu'implique la négation de E1 (E1 acceptée le 2026-11-01)
 
 Nier E1, c'est poser « rien n'existe », formellement `¬∃x (x = x)`. Cette négation n'est pas une contradiction logique : T2 montre qu'une interprétation à domaine vide la rend vraie sans qu'aucune formule y reçoive deux valeurs [Démontré ici]. Elle se heurte en revanche à l'acte qui la pose. Dans le cadre fixé en §2, attribuer une propriété à un objet `a`, par exemple « l'acte de nier a lieu », n'a de valeur de vérité que si `a` est un objet du domaine, donc si `∃x (x = a)`, donc si `a` existe au sens de D8 [Démontré ici]. Quiconque dit ou pense « rien n'existe » produit un acte dont on peut dire qu'il a lieu ; cet acte existe ; la négation est fausse dès qu'elle est posée. Pour la maintenir, il faut soutenir qu'un acte peut avoir lieu sans exister, donc sortir du cadre de §2 et employer un second sens d'« être » qui ne serait pas celui de D8 : c'est l'équivoque que la contrainte 5 interdit, et le coût du refus est l'abandon du contrôle d'équivoque. Si la négation tenait malgré tout, l'examen perdrait tout objet : rien à expliquer (M1 à M3), aucun fondement à qualifier (M4), personne pour accepter ou refuser une prémisse. Enfin, accepter E1 engage peu : E1 établit qu'au moins une chose existe, pas laquelle. Il n'établit ni l'existence d'un univers physique, ni celle d'un corps, ni celle d'autres esprits ; `∃x (x = x)` n'implique `∃x F(x)` pour aucune propriété F, contre-modèle : un domaine d'un seul objet qui n'a pas F [Démontré ici].
 
@@ -210,6 +210,7 @@ Registre : [[theisme-registre]]. La logique seule n'établit ni l'existence ni l
 | T | Acceptée, avec paragraphe de refus demandé | §4 ter |
 | A4 | Acceptée, avec paragraphe de refus demandé | §4 ter ; la bivalence B, utilisée depuis §2 sans être posée comme axiome, est à statuer |
 | AM | « Ensemble unique » des situations possibles (U) retenu ; AM en devient une conséquence démontrée | §4 ter |
+| Q7bis | E1 acceptée ; paragraphe de refus : §4 bis | E1 au registre |
 
 ## 8. Questions ouvertes
 
@@ -219,7 +220,6 @@ Registre : [[theisme-registre]]. La logique seule n'établit ni l'existence ni l
   - T : ce qui est nécessaire est vrai dans les faits.
   - A4 : si P est vrai, alors il est faux que P soit faux.
   - AM : s'il est possible qu'une chose soit nécessaire, alors elle est nécessaire. C'est la seule règle dont l'acceptation fait passer de « Dieu est possible » à « Dieu existe » (T3b).
-- **Q7bis. E1.** Au vu de §4 bis, acceptes-tu « quelque chose existe » ?
 
 ## Annexe — vérification mécanique de T0 et de la matrice de A2
 

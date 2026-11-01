@@ -40,7 +40,7 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 | D7-ancien | Monde : l'univers physique | CONTESTÉ | refusé Q4 : suppose démontrées les limites de l'univers physique | M0 |
 | D8 | Exister : `∃x (x = a)`, sans indication de temps | DÉFINITION | Stipulation, précisée Q4bis-1 | M0 |
 | D9 | Le contingent : tout ce qui existe sans être nécessaire | DÉFINITION | Stipulation, acceptée Q4bis-2 | M0 |
-| E1 | Quelque chose existe | à statuer (Q7bis) | refus performativement contradictoire | M0 ; pas une vérité logique (T2) |
+| E1 | Quelque chose existe | ACCEPTÉ PAR L'UTILISATEUR (2026-11-01) | refus performativement contradictoire | M0 ; pas une vérité logique (T2) |
 | P1 | `□(G → □G)` : ce qui existe par soi existe par soi dans toute situation où il existe | à statuer en M2 | Stipulation | M0 ; ne découle pas de D1 |
 | T0 | `¬¬P ⊢ P` et A3 ne se dérivent pas de A1, A2, A4 et R | DÉMONTRÉ | Démontré ici (matrice, script exécuté) | M0 |
 | T1 | Une définition n'implique que des conditionnels, jamais `∃x X(x)` | DÉMONTRÉ | Démontré ici (contre-modèle) | M0 |
