@@ -26,12 +26,12 @@ Le brouillon de `modules/theisme-mN-resultats` :
 3. Les dérivations, une règle du cadre citée à chaque pas ; les contre-modèles écrits en entier.
 4. Pour toute prémisse ou définition nouvelle qu'il propose : son énoncé, sa provenance, et le paragraphe « si tu la nies, voici ce que cela implique », classé.
 5. Ce que le module établit, sans rien conclure au-delà.
-6. La liste des décisions qu'il faut soumettre à l'utilisateur : chaque prémisse ou définition nouvelle, et chaque arbitrage qui rouvrirait une décision du journal.
+6. La liste des décisions qu'il faut soumettre à l'utilisateur : chaque définition ou axiome nouveau, et chaque arbitrage qui rouvrirait une décision du journal. Une prémisse qu'il ne peut démontrer n'est pas soumise : elle reste une hypothèse (contrainte 8 du [[theisme-protocole]]).
 
 Il applique ensuite les corrections retenues par le synthétiseur, et elles seules.
 
 ## Interdits
 
 - Employer un terme absent du cadre, ou dans un autre sens.
-- Utiliser une prémisse « à statuer » sans la signaler comme telle à chaque usage.
+- Utiliser une hypothèse autrement que sous la forme « si H, alors… », ou la présenter comme admise.
 - Juger une objection ou trancher une décision réservée à l'utilisateur.

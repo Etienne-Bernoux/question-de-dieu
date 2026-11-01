@@ -11,7 +11,7 @@ updated: 2026-11-01
 
 # Cadre admis
 
-Le langage, les principes et les définitions sur lesquels reposent tous les modules. Tout ce qui figure ici est admis, sauf la mention « à statuer ». Les statuts sont au [[theisme-registre]], les décisions et leurs dates au [[theisme-journal]], les preuves mécaniques dans [[theisme-verifications]]. Chaque principe est suivi de ce qu'implique sa négation : on peut le nier, voici ce que cela coûte.
+Le langage, les principes et les définitions sur lesquels reposent tous les modules. Tout ce qui figure ici est admis : axiomes et définitions par l'utilisateur, E1 par démonstration avec observation. Les statuts sont au [[theisme-registre]], les décisions et leurs dates au [[theisme-journal]], les preuves mécaniques dans [[theisme-verifications]]. Chaque principe est suivi de ce qu'implique sa négation : on peut le nier, voici ce que cela coûte.
 
 ## 1. Notation et deux niveaux de sens
 

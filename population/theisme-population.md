@@ -33,6 +33,19 @@ Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit qu
 5. Le synthétiseur rend ses verdicts définitifs ; le formalisateur applique les corrections retenues ; le vérificateur recontrôle les seuls pas modifiés.
 6. L'orchestrateur soumet à l'utilisateur, une par une, les décisions qui lui reviennent, dont tout point encore disputé après la réplique, puis consigne.
 
+## Règles de décision
+
+Chacun tranche là où son jugement est indépendant de l'enjeu.
+
+| Question | Qui tranche | Règle |
+|---|---|---|
+| Un pas de démonstration est-il valide ? | le vérificateur formel | La validité ne se vote pas. Un pas déclaré invalide est corrigé. Contester ce verdict exige une preuve, jugée par le synthétiseur ; si le désaccord persiste, le pas est marqué contesté et ne sert plus tant qu'il n'est pas réglé |
+| La formulation d'une position est-elle fidèle ? | le tenant et ses adversaires | Fidèle si son tenant la certifie et si au moins un membre d'une position opposée accepte qu'elle n'est pas caricaturée ; à défaut, l'utilisateur tranche |
+| Une objection est-elle retenue ? | le synthétiseur | Retenue si elle est prouvée, si le vérificateur ne trouve rien à redire à sa preuve, et si elle ne touche aucune décision de l'utilisateur ; sinon rejetée avec sa raison, ou transmise |
+| Une définition ou un axiome est-il admis ? | l'utilisateur | Les agents proposent, chiffrent les coûts et rédigent le paragraphe de refus |
+| Une autre prémisse est-elle admise ? | personne | Elle est démontrée, ou elle reste une hypothèse (contrainte 8 du [[theisme-protocole]]) |
+| Les choix d'un philosophe sont-ils cohérents ? | le philosophe | Le vérificateur signale une contradiction dans sa fiche ; le philosophe la résout au passage suivant et en assume les conséquences |
+
 ## Contradicteurs
 
 Chaque membre se définit par des thèses explicites, jamais par un nom ou un courant. Les trois questions qui les distinguent sont celles sur lesquelles M0 a montré que tout se joue.

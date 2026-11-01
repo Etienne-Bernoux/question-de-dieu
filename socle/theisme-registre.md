@@ -11,25 +11,25 @@ updated: 2026-11-01
 
 # Registre
 
-Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉFINITION, DÉMONTRÉ ou ACCEPTÉ. « À statuer » : proposé, non arbitré, inutilisable. Contenu et paragraphes de refus : [[theisme-cadre]] et [[theisme-m0-resultats]] ; décisions : [[theisme-journal]].
+Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, avec son paragraphe de refus. DÉFINITION : terme fixé, ou terme premier. DÉMONTRÉ : dérivé d'axiomes, de définitions et d'observations. HYPOTHÈSE : prémisse ni démontrée ni admise ; un module en tire ce qui suit sous la forme « si H, alors… », jamais H elle-même. CONTESTÉ : écarté. Un module ne s'appuie sans condition que sur AXIOME, DÉFINITION et DÉMONTRÉ (contrainte 8 du protocole). Contenu et paragraphes de refus : [[theisme-cadre]] et [[theisme-m0-resultats]] ; décisions : [[theisme-journal]].
 
 ## Principes
 
 | ID | Énoncé | Statut | Provenance |
 |---|---|---|---|
-| B | Bivalence | ACCEPTÉ | Stipulation |
-| S | Calcul des connecteurs (et, ou, si... alors) | ACCEPTÉ | Stipulation |
+| B | Bivalence | AXIOME | Stipulation |
+| S | Calcul des connecteurs (et, ou, si... alors) | AXIOME | Stipulation |
 | A1 | Identité | AXIOME | Brief |
 | A2 | Non-contradiction | AXIOME | Brief |
 | A3 | Tiers exclu | AXIOME | Brief ; refus cohérent, preuves d'existence par l'absurde marquées |
-| A4 | `P → ¬¬P` | ACCEPTÉ | Stipulation |
+| A4 | `P → ¬¬P` | AXIOME | Stipulation |
 | R | MP, MT, SD, élimination de la conjonction, enchaînement, contraposition, absurde négatif | AXIOME | Brief (liste ouverte) et stipulation |
-| N | Nécessitation | ACCEPTÉ | Stipulation |
-| K | Distribution | ACCEPTÉ | Stipulation |
-| T | Factivité | ACCEPTÉ | Stipulation |
-| U | Ensemble unique des situations possibles | ACCEPTÉ | Stipulation |
-| E1 | Quelque chose existe | ACCEPTÉ | Établi avec observation ; refus performativement contradictoire |
-| P1 | `□(G → □G)` ; se ramène à : ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire (L3) | à statuer en M2 | Stipulation |
+| N | Nécessitation | AXIOME | Stipulation |
+| K | Distribution | AXIOME | Stipulation |
+| T | Factivité | AXIOME | Stipulation |
+| U | Ensemble unique des situations possibles | AXIOME | Stipulation |
+| E1 | Quelque chose existe | DÉMONTRÉ | Établi avec observation (le constat que l'acte de nier a lieu, D8) ; refus performativement contradictoire |
+| P1 | `□(G → □G)` ; se ramène à : ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire (L3) | HYPOTHÈSE | Stipulation ; démontrable en M2 si ne dépendre de rien appartient à la nature d'un être nécessaire |
 
 ## Définitions
 
@@ -49,7 +49,7 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 | D12 | Accident | DÉFINITION | Utilisateur, définition stipulée acceptée |
 | D13 | Expérience | DÉFINITION | Stipulation acceptée |
 | D14 | Mesure | DÉFINITION | Stipulation acceptée |
-| — | Observation (terme premier) | ACCEPTÉ | Stipulation acceptée |
+| — | Observation (terme premier) | DÉFINITION | Stipulation acceptée |
 | D15 | Établi sans observation | DÉFINITION | Stipulation acceptée |
 | D16 | Établi avec observation | DÉFINITION | Stipulation acceptée |
 | D17 | Concevable | DÉFINITION | Stipulation acceptée |
@@ -79,7 +79,7 @@ Statut de chaque énoncé. Un module ne s'appuie que sur un énoncé AXIOME, DÉ
 
 | ID | Énoncé | Statut |
 |---|---|---|
-| H1 | La validité de la logique et des mathématiques dépend d'un être | à statuer en M6 |
-| H2 | Si Dieu existe, il est cause ou raison du contingent | à statuer en M2 |
-| H3 | Dieu est personnel (intelligence, volonté) | à statuer en M4 |
-| H4 | Dieu est bon | à statuer en M5 |
+| H1 | La validité de la logique et des mathématiques dépend d'un être | HYPOTHÈSE, examinée en M6 |
+| H2 | Si Dieu existe, il est cause ou raison du contingent | HYPOTHÈSE, examinée en M2 |
+| H3 | Dieu est personnel (intelligence, volonté) | HYPOTHÈSE, examinée en M4 |
+| H4 | Dieu est bon | HYPOTHÈSE, examinée en M5 |

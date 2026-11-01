@@ -60,7 +60,7 @@ Soit `X(x) ≝ F(x) ∧ E(x)`.
 
 ### T3. La question se ramène à une prémisse de possibilité
 
-Prémisse P1, à statuer : `□(G → □G)`, « s'il existe un être nécessaire, il est nécessaire qu'il en existe un ».
+Hypothèse P1 : `□(G → □G)`, « s'il existe un être nécessaire, il est nécessaire qu'il en existe un ».
 
 Lemme L3 : si ne dépendre de rien appartient à la nature (D11) d'un être nécessaire, P1 est vraie. Soit `x` nécessaire dans la situation réelle : `x` existe dans toute situation possible et ne dépend de rien. (1) Par U, l'ensemble des situations est le même vu de toute situation ; « `x` existe dans toute situation possible » vaut donc vu de chacune. (2) Si ne dépendre de rien appartient à la nature de `x`, `x` ne dépend de rien dans chaque situation où il existe, c'est-à-dire dans toutes. (3) `x` est donc nécessaire vu de toute situation : `□G`. P1 se ramène ainsi à une seule question, renvoyée en M2 : ne dépendre de rien peut-il être un accident (D12) d'un être nécessaire ?
 

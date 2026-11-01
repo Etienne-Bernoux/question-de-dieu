@@ -20,13 +20,14 @@ Les règles qui s'appliquent à chaque module. Point d'entrée et sens de lectur
 3. **Conséquence d'un refus classée.** Contradiction logique (le refus implique A et non-A) : refus intenable. Coût métaphysique ou épistémique : refus cohérent qui oblige à admettre de l'étrange ou de l'inexpliqué. Coût existentiel (sens, morale, espérance) : pertinent, non probant. Un coût n'est jamais présenté comme une contradiction.
 4. **Symétrie.** Chaque coût du refus est mis en regard des coûts de l'acceptation.
 5. **Pas d'équivoque.** Toute notion est définie avant usage et garde son sens.
-6. **Provenance obligatoire.** Le modèle sert à raisonner, jamais de source. Tout énoncé est soit posé par l'utilisateur, soit une stipulation de vocabulaire soumise à son accord, soit démontré dans la note (dérivation ou contre-modèle, avec vérification mécanique quand elle a été exécutée), soit sourcé selon la contrainte 1. Une affirmation qui ne relève d'aucun de ces cas est démontrée ou retirée.
+6. **Provenance obligatoire.** Le modèle sert à raisonner, jamais de source. Tout énoncé est soit un axiome ou une définition admis par l'utilisateur, soit une stipulation de vocabulaire soumise à son accord, soit démontré dans la note (dérivation ou contre-modèle, avec vérification mécanique quand elle a été exécutée), soit sourcé selon la contrainte 1. Une affirmation qui ne relève d'aucun de ces cas est démontrée ou retirée.
 7. **Charge de la preuve.** Elle vaut pour chaque philosophe comme pour l'orchestrateur.
    - Qui pose une prémisse doit la démontrer, la sourcer, ou la faire admettre explicitement par l'utilisateur en connaissance de ses coûts.
    - Une prémisse non démontrée peut être écartée sans être réfutée. Écarter une prémisse, c'est refuser de l'admettre, pas affirmer sa négation : affirmer la négation est une prémisse à son tour, qui porte la même charge.
    - Exiger de l'autre qu'il prouve la fausseté d'une prémisse au lieu de la prouver soi-même est un sophisme, l'appel à l'ignorance : « on n'a pas montré que non-P » n'établit pas P.
    - Conséquence : affirmer que Dieu existe et affirmer qu'il n'existe pas portent la même charge ; seul celui qui suspend son jugement n'en porte aucune.
    - Écarter une prémisse ne coûte aucune preuve, mais ses implications restent à assumer (règle 7 de la population).
+8. **Points de départ.** Seuls trois types d'énoncés sont admis sans démonstration : les définitions et les axiomes, admis par l'utilisateur, et les observations, admises selon la contrainte 1. Toute autre prémisse est démontrée à partir d'eux ; sinon elle reste une hypothèse : un module en tire ce qui suit sous la forme « si H, alors… », les philosophes peuvent l'assumer dans leur fiche, et personne ne la déclare vraie. Un axiome peut être ajouté en cours d'examen s'il est proposé avec son paragraphe de refus, éprouvé par la population, puis admis par l'utilisateur ; s'il sert à atteindre une conclusion visée, il est signalé comme tel, pour écarter la pétition de principe.
 
 ## Déroulé d'un module
 
