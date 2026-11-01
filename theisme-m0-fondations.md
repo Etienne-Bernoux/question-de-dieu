@@ -46,7 +46,7 @@ Règles d'inférence [Brief pour leur liste ouverte, « modus ponens, modus toll
 | ID | Terme | Définition | Provenance |
 |---|---|---|---|
 | D1 | Dieu | être nécessaire, personnel (intelligence, volonté), cause du monde, bon | Brief ; « personnel » précisé en M4, « bon » en M5, inutilisables d'ici là |
-| D2 | Nécessaire | qui ne peut pas ne pas exister | Brief, confirmé en Q2 ; le sens de « ne peut pas » reste à fixer (Q2bis) |
+| D2 | Nécessaire | qui ne peut pas ne pas exister, au sens réel : il ne dépend de rien pour exister, et aucune situation possible ne le prive d'existence ; affirmer « il n'existe pas » n'est pas pour autant contradictoire | Brief, confirmé Q2 ; sens réel retenu en Q2bis |
 | D3 | Contingent | qui pourrait ne pas exister | Brief |
 | D4 | Cause | ce qui produit l'existence ou l'occurrence d'autre chose | Stipulation : restriction de la définition du brief (« ce qui rend raison ») à la production |
 | D5 | Raison | ce qui rend intelligible qu'une chose soit, ou soit ainsi | Stipulation : l'autre moitié de la définition du brief |
@@ -118,6 +118,14 @@ Résultats. T3a : sous P1, N, K, T, A4, « Dieu peut ne pas exister » entraîne
 
 Réserve : la ligne 2 suppose que N, K, T et L2 valent pour `□_L`. Ce n'est pas démontré ici ; T4 reste donc conditionnel à cette vérification, à faire si D2-L est retenu.
 
+**T5. Une dépendance lue comme simple « si... alors » s'effondre.** [Démontré ici] Proposition examinée en Q2bis : `Dép(x) ≝ ¬E(x) → ¬L`, où `E(x)` est « x existe » et `L` « les lois logiques sont vraies ». `L` est vrai (A1 à A3 retenus).
+
+1. Si `E(x)` : `¬E(x)` est faux, donc `¬E(x) → ¬L` est vrai, donc `Dép(x)`.
+2. Si `¬E(x)` : `¬E(x) → ¬L` exigerait `¬L`, qui est faux, donc `¬Dép(x)`.
+3. Par A3 (`E(x) ∨ ¬E(x)`) et SD : `Dép(x) ↔ E(x)`. Toute chose qui existe « dépendrait » au sens de la logique ; la notion ne distingue rien.
+
+Conséquence : la thèse H1 (« la validité de la logique dépend d'un être ») exige une relation de dépendance définie autrement qu'en « si... alors », à fixer en M6.
+
 ## 3. Verdict de validité (vérificateur)
 
 - T0, T1, T2 : VALIDES.
@@ -144,7 +152,7 @@ Réserve : la ligne 2 suppose que N, K, T et L2 valent pour `□_L`. Ce n'est pa
 | P1 | Un être nécessaire peut n'avoir ses autres attributs que par accident ; T3 s'applique à « un être nécessaire », pas à Dieu | coût pour le théiste : la nécessité ne se transmet pas aux attributs |
 | AM | La branche de l'acceptation de T3 tombe, celle du refus tient (T3a n'utilise pas AM) | coût métaphysique : admettre que ce qui est possiblement nécessaire peut ne pas être nécessaire |
 | T | Un énoncé nécessaire pourrait être faux | contradiction si D2 est lu « dans aucun cas possible, y compris le cas effectif » ; sans cette clause, aucune contradiction démontrée |
-| D7 | Si « monde » désigne tout ce qui existe, alors Dieu, s'il existe, appartient au monde ; « Dieu cause du monde » (D1) dit alors qu'il produit une totalité qui le contient, donc qu'il se produit lui-même, ce que D4 exclut (« autre chose ») | contradiction entre D1 et D4 sous cette lecture [Démontré ici] ; d'où la proposition D7 |
+| D7 | Si « monde » désigne tout ce qui existe et que Dieu existe, Dieu appartient au monde dont D1 le dit cause. Si causer un tout, c'est causer chacune de ses parties (prémisse non démontrée), il se cause lui-même, ce que D4 et D2 excluent | contradiction conditionnelle à cette prémisse. Correction du 2026-11-01 : la première version présentait cette contradiction comme démontrée sans la prémisse |
 
 ## 4 bis. Ce qu'implique la négation de E1
 
@@ -179,11 +187,11 @@ Registre : [[theisme-registre]]. La logique seule n'établit ni l'existence ni l
 | Q7 | Paragraphe demandé | §4 bis ; décision à rendre (Q7bis) |
 | Q8 | Oui | P1 en suspens jusqu'en M4 |
 | Q9 | « Pas d'approximation, langage clair, bien structuré » | règle de conduite ajoutée au protocole |
+| Q0bis | Partage retenu par défaut ; chaque prémisse, sourcée ou non, reçoit un paragraphe « si tu la nies » | protocole, contrainte 1 et format de sortie |
+| Q2bis | « Nécessaire dans le sens où sans son existence la logique ou les maths n'existent pas » ; après reformulation : thèse à examiner, pas définition | D2 au sens réel ; thèse H1 créée pour M6 ; T5 |
 
 ## 8. Questions ouvertes
 
-- **Q0bis. Rôle des sources.** Un consensus de philosophes ne prouve pas qu'une prémisse est vraie, et il ne porte pas sur les faits physiques dont M3 aura besoin. Proposition : (a) un fait empirique se source par les données ou la mesure publiées ; (b) les philosophes d'orientations opposées servent à certifier qu'une position est formulée fidèlement, ce qui protège de l'homme de paille ; (c) la vérité d'une prémisse n'est jamais établie par un consensus. Retiens-tu ce partage ?
-- **Q2bis. Sens de « ne peut pas ».** (a) Logique : dire « il n'existe pas » serait se contredire, comme « un triangle à quatre côtés existe ». (b) Réel : dire « il n'existe pas » n'est pas contradictoire, mais l'être ne dépend de rien pour exister, et aucune situation possible ne le prive d'existence. (c) Primitif : on ne précise pas, et « nécessaire » n'a pas d'autre contenu que les axiomes de Q6bis. Recommandation : (b). (a) clôt la question contre l'existence avant tout examen (T4). (c) laisse « possible » sans contenu, si bien que ni `◇G` ni `◇¬G` ne pourront être argumentés. (b) reste circulaire sur « situation possible », mais ajoute la clause d'indépendance, qui donne prise à M1 et M2.
 - **Q4bis. Monde.** « La totalité des choses qui existent de façon contingente », sans présupposé sur ses limites ni sur son contenu. Elle répond à ton objection et ne contient pas Dieu par construction, puisque Dieu est nécessaire. Avec « tout ce qui existe », D1 et D4 se contredisent (§4). Avec « tout sauf Dieu », un fondement nécessaire mais impersonnel ferait partie du monde qu'il fonde, et M4 deviendrait confus. Réserve : ce qui vaut pour chaque chose contingente ne vaut pas automatiquement pour leur totalité ; M2 devra le démontrer, pas le supposer.
 - **Q6bis. Règles qui gouvernent « nécessaire » et « possible ».** « Possible » veut dire « il n'est pas nécessaire que non ». Recommandation : accepter N, K, T, A4 ; laisser AM en suspens jusqu'en M2, où il sert.
   - N : ce que la logique démontre à partir de rien d'autre que ses axiomes est nécessaire. Exemple : « s'il pleut, il pleut » est nécessaire.

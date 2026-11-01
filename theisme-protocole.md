@@ -32,7 +32,7 @@ Mémoire de la démonstration : [[theisme-registre|Registre]]. Un module ne s'ap
 
 ## Contraintes épistémiques
 
-1. Aucun appel à l'autorité : aucun argument n'est retenu parce qu'une autorité le soutient. Tout est dérivé ici à partir d'axiomes et de définitions explicites. Amendement du 2026-11-01 (Q0) : un énoncé peut être sourcé, à condition que les sources viennent de philosophes aux idées suffisamment différentes et fassent consensus ; la portée exacte de cet amendement est en attente (M0, Q0bis).
+1. Aucun appel à l'autorité : aucun argument n'est retenu parce qu'une autorité le soutient. Tout est dérivé ici à partir d'axiomes et de définitions explicites. Amendement du 2026-11-01 (Q0, Q0bis) : un fait empirique se source par les données ou mesures publiées ; des philosophes d'orientations suffisamment différentes, en accord entre eux, servent à certifier qu'une position est formulée fidèlement ; la vérité d'une prémisse n'est jamais établie par un consensus.
 2. Toujours distinguer validité (la conclusion découle des prémisses) et solidité (les prémisses sont vraies).
 3. Toujours classer la conséquence d'un refus :
    - contradiction logique (le refus implique A et non-A) : refus intenable ;
@@ -58,11 +58,12 @@ Mémoire de la démonstration : [[theisme-registre|Registre]]. Un module ne s'ap
 
 ## Format de sortie d'un module
 
-1. Question (une phrase). 2. Argument formalisé. 3. Verdict de validité. 4. « Si on la refuse, alors… » par prémisse, classé. 5. Meilleure défense du refus et coûts de l'acceptation. 6. Mise à jour du registre. 7. Question à l'utilisateur : prémisses acceptées, refusées, à approfondir.
+1. Question (une phrase). 2. Argument formalisé. 3. Verdict de validité. 4. Un paragraphe par prémisse, sourcée ou non : « tu peux la nier ; si tu la nies, voici ce que cela implique », avec son classement (décision Q0bis du 2026-11-01). 5. Meilleure défense du refus et coûts de l'acceptation. 6. Mise à jour du registre. 7. Question à l'utilisateur : prémisses acceptées, refusées, à approfondir.
 
 ## Règles de conduite
 
 - Un module à la fois ; attendre l'arbitrage avant le suivant.
+- Les questions d'arbitrage se posent une par une, reformulées pour vérifier qu'elles sont comprises ; une réponse ambiguë est reformulée et reposée avant d'être consignée (précision de l'utilisateur, 2026-11-01).
 - Un refus déclaré « illogique » est testé : on cherche la contradiction explicite ; à défaut, on le dit et on le requalifie en coût.
 - Un refus de prémisse est poursuivi honnêtement.
 - Pas d'approximation, langage clair, structure nette (précision de l'utilisateur, 2026-11-01, Q9 : le brief d'origine s'arrêtait à « Langage précis, »).

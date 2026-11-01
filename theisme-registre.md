@@ -25,7 +25,8 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 | T | `□P → P` | à statuer (Q6bis) | Stipulation | M0 |
 | AM | `◇□P → □P` | à statuer (Q6bis, suspens jusqu'en M2) | Stipulation | M0 ; utile en M2 |
 | D1 | Dieu : être nécessaire, personnel, cause du monde, bon | DÉFINITION (provisoire) | Brief | M0 ; « personnel » → M4, « bon » → M5 (Q5) |
-| D2 | Nécessaire : qui ne peut pas ne pas exister | DÉFINITION | Brief, confirmé Q2 | M0 ; sens de « ne peut pas » à statuer (Q2bis) |
+| D2 | Nécessaire : qui ne peut pas ne pas exister, au sens réel (ne dépend de rien, aucune situation possible ne le prive d'existence) | DÉFINITION | Brief, confirmé Q2 et Q2bis | M0 |
+| H1 | La validité de la logique et des mathématiques dépend d'un être | à statuer en M6 | Brief (Q2bis) | M0 ; « dépendre » à définir (T5) |
 | D3 | Contingent : qui pourrait ne pas exister | DÉFINITION | Brief | M0 |
 | D4 | Cause : ce qui produit l'existence ou l'occurrence d'autre chose | DÉFINITION | Stipulation, acceptée Q3 | M0 |
 | D5 | Raison : ce qui rend intelligible qu'une chose soit, ou soit ainsi | DÉFINITION | Stipulation, acceptée Q3 | M0 |
@@ -43,4 +44,5 @@ Protocole : [[theisme-protocole]]. Statuts : AXIOME, DÉFINITION, DÉMONTRÉ, AC
 | T3a | P1, N, K, T, A4 ⊢ `◇¬G → ¬G` | DÉMONTRÉ | Démontré ici | M0 |
 | T3b | P1, N, K, T, AM ⊢ `◇G → G` | DÉMONTRÉ | Démontré ici | M0 |
 | T3c | Sous P1, N, K, T, A4, AM : `◇G` et `◇¬G` incompatibles | DÉMONTRÉ | Démontré ici | M0 |
+| T5 | La dépendance lue comme `¬E(x) → ¬L` équivaut à `E(x)` | DÉMONTRÉ | Démontré ici | M0 |
 | T4 | Sous D2-L et P1, `¬G` | DÉMONTRÉ sous réserve | Démontré ici ; réserve : N, K, T, L2 pour `□_L` non vérifiés | M0 |
