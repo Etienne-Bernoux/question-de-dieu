@@ -41,5 +41,6 @@ Décisions de l'utilisateur, avec ses mots quand ils fixent un sens, et leur eff
 | Observation | Élargie au constat, par celui qui raisonne, que son propre acte a lieu | E1 établi avec observation |
 | Concevable | Définition retenue ; T6 inscrit | D17 au cadre ; T6 |
 | Intelligible | Définition vérifiable retenue (démonstration non circulaire), avec ses limites | D18 au cadre |
+| Rôles | Formalisateur et synthétiseur en agents dédiés, distincts, sur le modèle le plus puissant ; vérificateur formel ; philosophes en explorateurs des refus et avocats ; l'orchestrateur ne rédige plus de contenu | [[theisme-population]], partage des rôles |
 | Population, règles | « C'est important qu'ils aient le même vocabulaire, et quand un philosophe choisit une prémisse il doit l'assumer totalement sur sa vision du monde et les implications sur son mode de vie » | Règles 1 et 7 de [[theisme-population]] ; fiches de position ; implications sur le mode de vie classées coût existentiel, jamais argument |
 | Population | Quatre philosophes définis par leurs thèses (théiste, nécessitariste impersonnel, naturaliste, sceptique) et un vérificateur formel sans position ; un cinquième, centré sur la morale et le sens, à l'ouverture de M5 | [[theisme-population]] |

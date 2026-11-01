@@ -1,5 +1,5 @@
 ---
-title: Examen du théisme — population de contradicteurs
+title: Examen du théisme — population d'agents
 type: reference
 scope: perso
 projet: []
@@ -9,11 +9,22 @@ status: draft
 updated: 2026-11-01
 ---
 
-# Population de contradicteurs
+# Population d'agents
 
-Quatre philosophes aux positions opposées, plus un vérificateur sans position, relisent chaque module pour en améliorer la qualité. L'orchestrateur les fait travailler, juge leurs objections et soumet à l'utilisateur ce qui relève de son arbitrage. Composition retenue le 2026-11-01 ([[theisme-journal]]).
+Les agents qui produisent et éprouvent chaque module. L'orchestrateur les lance, contrôle que chaque livrable respecte le protocole, soumet à l'utilisateur les décisions qui lui reviennent, une par une, puis consigne ; il ne rédige aucun contenu de module. Décisions : [[theisme-journal]].
 
-## Composition
+## Partage des rôles
+
+| Rôle du protocole | Tenu par | Ce qu'il produit |
+|---|---|---|
+| Formalisateur | agent dédié, modèle le plus puissant ([[theisme-formalisateur]]) | le brouillon du module, dans le seul vocabulaire du cadre |
+| Vérificateur | le vérificateur formel ([[theisme-verificateur-formel]]) | un verdict par pas, les prémisses réellement utilisées, le contrôle du vocabulaire et de la cohérence des fiches |
+| Explorateur des refus et avocat | les quatre philosophes, chacun depuis sa position | des objections au gabarit, la certification de fidélité, leurs engagements |
+| Synthétiseur | agent dédié, modèle le plus puissant, distinct du formalisateur ([[theisme-synthetiseur]]) | un verdict par objection, la note de débat, les corrections que le formalisateur applique |
+
+Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit que les notes juge sur pièces, et ses erreurs signalent une décision non consignée.
+
+## Contradicteurs
 
 Chaque membre se définit par des thèses explicites, jamais par un nom ou un courant. Les trois questions qui les distinguent sont celles sur lesquelles M0 a montré que tout se joue.
 
