@@ -104,8 +104,8 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 | D4 | Cause | ce qui produit l'existence ou l'occurrence d'autre chose | Fusion avec « raison » : un argument qui établit une raison pourrait conclure à une cause |
 | D5 | Raison | ce qui rend intelligible qu'une chose soit, ou soit ainsi ; une chose peut être sa propre raison, non sa propre cause | |
 | D6 | Fait brut | ce qui existe ou a lieu sans cause ni raison | |
-| D7 | Monde | tout ce qui existe, à quelque moment que ce soit ou hors du temps ; les choses seulement possibles qui n'existent jamais en sont exclues | « L'univers physique » présuppose connues ses limites. Inclure les simples possibles exigerait un second sens d'« être » |
-| D8 | Exister | `a` existe si `∃x (x = a)`, sans indication de temps : ce qui a existé ou existera existe en ce sens | |
+| D7 | Monde | tout ce qui existe dans la situation réelle, au sens de D8 ; les choses qui n'existent que dans d'autres situations possibles en sont exclues | « L'univers physique » présuppose connues ses limites. Inclure les simples possibles exigerait un second sens d'« être ». Une version qui parlait de « moment » et de « temps » employait un terme défini seulement en M3 |
+| D8 | Exister | `a` existe dans une situation `s` si `∃x (x = a)` est vrai en `s`, sans aucune restriction sur ce qui compte ; « `a` existe », sans précision, vaut pour la situation réelle | Quand M3 définira « temps », il ajoutera que, si la situation réelle comporte un temps, D8 compte ce qui a existé et ce qui existera |
 | D9 | Le contingent | tout ce qui existe sans être nécessaire | |
 | D10 | Substance | ce qui existe sans être une propriété d'autre chose | |
 | D11 | Nature d'une chose | les propriétés qu'elle a dans toutes les situations possibles où elle existe : ce qu'elle ne pourrait perdre sans cesser d'être elle-même | Laisser « nature » non défini : L3, et donc P1, reposeraient sur un mot dont l'usage ne se vérifie pas |
@@ -124,11 +124,10 @@ Conséquence de D11 : toute chose a « exister » dans toutes les situations pos
 
 Règle de lecture : D1 ne contient ni H3 ni H4 ; « Dieu existe » signifie « un être nécessaire existe », rien de plus.
 
-Mots non définis, interdits dans une inférence avant leur définition : « personnel » (M4), « bon » (M5). Termes premiers, admis sans définition : « situation possible » ; « situation réelle », caractérisée ainsi : elle est l'une des situations possibles (ce qui rend T vrai), et c'est sur elle que portent les observations ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens, par un instrument, ou par le constat, fait par celui qui raisonne, que son propre acte a lieu. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « Intelligible » est défini par D18.
+Mots non définis, interdits dans une inférence avant leur définition : « temps » (M3), « personnel » (M4), « bon » (M5). Termes premiers, admis sans définition : « situation possible » ; « situation réelle », caractérisée ainsi : elle est l'une des situations possibles (ce qui rend T vrai), et c'est sur elle que portent les observations ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens, par un instrument, ou par le constat, fait par celui qui raisonne, que son propre acte a lieu. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « Intelligible » est défini par D18.
 
 Points à statuer avant le passage de M0 devant la population (vérification de cohérence du 2026-11-01) :
 
-- « temps » et « moment » : employés dans D7 et D8, alors que « temps » n'est défini qu'en M3 ;
 - D2, D3 et D9 ne se recouvrent pas : un être qui existe dans toute situation possible mais dépend d'autre chose n'est ni nécessaire (D2) ni contingent (D3), et appartient pourtant au « contingent » (D9).
 
 ## 5. Constat d'existence

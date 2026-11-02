@@ -41,8 +41,8 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | D4 | Cause | DÉFINITION | Stipulation acceptée |
 | D5 | Raison | DÉFINITION | Stipulation acceptée |
 | D6 | Fait brut | DÉFINITION | Brief |
-| D7 | Monde : tout ce qui existe | DÉFINITION | Utilisateur |
-| D8 | Exister, sans indication de temps | DÉFINITION | Stipulation précisée par l'utilisateur |
+| D7 | Monde : tout ce qui existe dans la situation réelle | DÉFINITION | Utilisateur, réécrite sans vocabulaire du temps |
+| D8 | Exister dans une situation, sans restriction | DÉFINITION | Stipulation précisée par l'utilisateur |
 | D9 | Le contingent | DÉFINITION | Stipulation acceptée |
 | D10 | Substance | DÉFINITION | Utilisateur, définition stipulée acceptée |
 | D11 | Nature d'une chose | DÉFINITION | Stipulation acceptée |
