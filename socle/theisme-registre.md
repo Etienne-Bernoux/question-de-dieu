@@ -41,14 +41,14 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | ID | Terme | Statut | Provenance |
 |---|---|---|---|
 | D1 | Dieu : être nécessaire au sens de D2 | DÉFINITION | Brief, révisée par l'utilisateur |
-| D2 | Nécessaire (être), au sens réel ; « par soi » = ne dépendre de rien | DÉFINITION | Brief, sens fixé par l'utilisateur ; recouvrement avec D3 et D9 à statuer |
-| D3 | Contingent | DÉFINITION | Brief |
+| D2 | Nécessaire (être) : inévitable et ne dépendant de rien | DÉFINITION | Brief, sens fixé par l'utilisateur |
+| D3 | Contingent : non inévitable | DÉFINITION | Brief |
 | D4 | Cause | DÉFINITION | Stipulation acceptée |
 | D5 | Raison | DÉFINITION | Stipulation acceptée |
 | D6 | Fait brut | DÉFINITION | Brief |
 | D7 | Monde : tout ce qui existe dans la situation réelle | DÉFINITION | Utilisateur, réécrite sans vocabulaire du temps |
 | D8 | Exister dans une situation, sans restriction | DÉFINITION | Stipulation précisée par l'utilisateur |
-| D9 | Le contingent | DÉFINITION | Stipulation acceptée |
+| D9 | Le contingent : tout ce qui existe et est contingent | DÉFINITION | Stipulation acceptée, alignée sur D3 |
 | D10 | Substance | DÉFINITION | Utilisateur, définition stipulée acceptée |
 | D11 | Nature d'une chose | DÉFINITION | Stipulation acceptée |
 | D12 | Accident | DÉFINITION | Utilisateur, définition stipulée acceptée |
@@ -62,6 +62,7 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | D17 | Concevable | DÉFINITION | Stipulation acceptée |
 | D18 | Rendre intelligible | DÉFINITION | Stipulation acceptée |
 | D19 | Dépendre (pour exister) | DÉFINITION | Stipulation acceptée |
+| D20 | Inévitable : existe dans toute situation possible | DÉFINITION | Stipulation acceptée |
 | — | Monde = l'univers physique | CONTESTÉ | Refusé : présuppose ses limites |
 | — | Nécessaire au sens logique | CONTESTÉ | Écarté : mène à une contradiction sous P1 (T4) |
 
@@ -76,7 +77,7 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | L2 | `◇¬G → ¬□G` | DÉMONTRÉ | N, K, A4, R |
 | AM | `◇□P → □P` | DÉMONTRÉ | U |
 | L3 | Si ne dépendre de rien appartient à la nature (D11) de tout être nécessaire, P1 est vraie | DÉMONTRÉ | U, D1, D2, D11, D19 |
-| L4 | S'il existe un être qui existe dans toute situation possible, alors `G` | DÉMONTRÉ SOUS HYPOTHÈSES Pn, Pc, (b) | D2, D19 |
+| L4 | S'il existe un être inévitable, alors `G` | DÉMONTRÉ SOUS HYPOTHÈSES Pn, Pc, (b) | D2, D19, D20 |
 | T3a | `◇¬G → ¬G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, A4, R |
 | T3b | `◇G → G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, U (via AM), R |
 | T3c | `◇¬G → ¬◇G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, A4, U, R |

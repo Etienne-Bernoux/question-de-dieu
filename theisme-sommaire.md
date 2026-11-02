@@ -15,7 +15,7 @@ Examen, module par module, des prémisses qui fondent l'existence d'un Dieu bon 
 
 ## Où en est l'examen
 
-M0 est rédigé (2026-11-01) : la logique seule ne tranche pas, et, sous l'hypothèse P1, la question se ramène à une prémisse sur ce qui est possible. La vérification de cohérence globale est faite ; quatre points restent à statuer (cadre, fin de §4), puis M0 passe devant la population, puis M1.
+M0 est rédigé (2026-11-01) : la logique seule ne tranche pas, et, sous l'hypothèse P1, la question se ramène à une prémisse sur ce qui est possible. La vérification de cohérence globale est faite et ses points sont statués ; M0 passe devant la population, puis M1.
 
 ## Sens de lecture
 

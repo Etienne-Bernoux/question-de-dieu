@@ -99,14 +99,14 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 | ID | Terme | Définition | Écarté, et pourquoi |
 |---|---|---|---|
 | D1 | Dieu | `x` est Dieu si `x` est nécessaire au sens de D2 | La version du brief (nécessaire, personnel, cause du monde, bon) conjoignait quatre attributs, chacun à démontrer séparément ; « cause du monde », avec D7, ferait de Dieu la cause d'une totalité qui le contient : ces attributs deviennent H2 à H4. Une clause « x est sa propre raison d'exister » supposait que toute chose a besoin d'une raison, ce que M1 examine : elle aurait tranché M1 d'avance |
-| D2 | Nécessaire (être) | qui ne peut pas ne pas exister, au sens réel : ne dépend de rien pour exister (il existe **par soi**), et aucune situation possible ne le prive d'existence ; dire qu'il n'existe pas n'est pas contradictoire | Le sens logique (sa non-existence serait contradictoire) mène à une contradiction sous P1 (T4). « Ce sans quoi la logique ne vaudrait pas » est une thèse, pas un sens (H1, T5) |
-| D3 | Contingent | qui pourrait ne pas exister | |
+| D2 | Nécessaire (être) | inévitable (D20) et ne dépendant de rien pour exister (D19) : il existe **par soi** ; dire qu'il n'existe pas n'est pas contradictoire | Le sens logique (sa non-existence serait contradictoire) mène à une contradiction sous P1 (T4). « Ce sans quoi la logique ne vaudrait pas » est une thèse, pas un sens (H1, T5). « Nécessaire par un autre » pour l'inévitable dépendant : réemploie « nécessaire » dans un sens plus faible |
+| D3 | Contingent | qui pourrait ne pas exister : non inévitable (D20) | |
 | D4 | Cause | ce qui produit l'existence ou l'occurrence d'autre chose | Fusion avec « raison » : un argument qui établit une raison pourrait conclure à une cause |
 | D5 | Raison | ce qui rend intelligible qu'une chose soit, ou soit ainsi ; une chose peut être sa propre raison, non sa propre cause | |
 | D6 | Fait brut | ce qui existe ou a lieu sans cause ni raison | |
 | D7 | Monde | tout ce qui existe dans la situation réelle, au sens de D8 ; les choses qui n'existent que dans d'autres situations possibles en sont exclues | « L'univers physique » présuppose connues ses limites. Inclure les simples possibles exigerait un second sens d'« être ». Une version qui parlait de « moment » et de « temps » employait un terme défini seulement en M3 |
 | D8 | Exister | `a` existe dans une situation `s` si `∃x (x = a)` est vrai en `s`, sans aucune restriction sur ce qui compte ; « `a` existe », sans précision, vaut pour la situation réelle | Quand M3 définira « temps », il ajoutera que, si la situation réelle comporte un temps, D8 compte ce qui a existé et ce qui existera |
-| D9 | Le contingent | tout ce qui existe sans être nécessaire | |
+| D9 | Le contingent | tout ce qui existe et est contingent (D3) | « Tout ce qui existe sans être nécessaire » : y aurait rangé l'inévitable dépendant, qui n'est pas contingent |
 | D10 | Substance | ce qui existe sans être une propriété d'autre chose | |
 | D11 | Nature d'une chose | les propriétés qu'elle a dans toutes les situations possibles où elle existe : ce qu'elle ne pourrait perdre sans cesser d'être elle-même | Laisser « nature » non défini : L3, et donc P1, reposeraient sur un mot dont l'usage ne se vérifie pas |
 | D12 | Accident | propriété qu'une chose a dans certaines des situations possibles où elle existe, mais pas dans toutes | |
@@ -117,6 +117,7 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 | D17 | Concevable | un énoncé est concevable s'il existe une interprétation où le cadre et cet énoncé sont vrais ensemble : le supposer n'engendre aucune contradiction | Le pas « concevable, donc possible » mène à une contradiction sous P1 (T6) |
 | D18 | Rendre intelligible | Q rend P intelligible si P se démontre à partir de Q et du cadre, sans que P figure parmi les prémisses | Laisser « intelligible » premier : M1 porterait sur un mot invérifiable. Limites assumées : aucune clause formelle n'exclut tous les cercles déguisés (Q = « P et R »), à traquer au cas par cas ; un événement seulement probable n'a pas de raison au sens de D5 ; il n'est un fait brut que s'il n'a pas non plus de cause (D6) |
 | D19 | Dépendre (pour exister) | x dépend de y pour exister si y est distinct de x, et si y est cause de l'existence de x (D4) ou si l'existence de x a sa raison en y (D5). « Ne dépendre de rien » : n'avoir ni cause, ni raison hors de soi ; cela n'exige pas d'avoir une raison | « Si y n'existait pas, x n'existerait pas » : ne distingue rien (T5) et ferait dépendre toute chose de tout être qui existe dans toute situation. La dépendance d'une validité (H1) pourra demander une extension en M6 |
+| D20 | Inévitable | qui existe dans toute situation possible ; « qui ne peut pas ne pas exister ». Un être inévitable qui dépend d'autre chose est dit **inévitable dépendant** : il n'est ni nécessaire (D2) ni contingent (D3) | |
 
 Avertissement : exister **en soi** (être une substance, D10) n'est pas exister **par soi** (D1). Un arbre existe en soi, non par soi : il dépend de causes. Les confondre ferait de toute substance un candidat à D1.
 
@@ -125,10 +126,6 @@ Conséquence de D11 : toute chose a « exister » dans toutes les situations pos
 Règle de lecture : D1 ne contient ni H3 ni H4 ; « Dieu existe » signifie « un être nécessaire existe », rien de plus.
 
 Mots non définis, interdits dans une inférence avant leur définition : « temps » (M3), « personnel » (M4), « bon » (M5). Termes premiers, admis sans définition : « situation possible » ; « situation réelle », caractérisée ainsi : elle est l'une des situations possibles (ce qui rend T vrai), et c'est sur elle que portent les observations ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens, par un instrument, ou par le constat, fait par celui qui raisonne, que son propre acte a lieu. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « Intelligible » est défini par D18.
-
-Points à statuer avant le passage de M0 devant la population (vérification de cohérence du 2026-11-01) :
-
-- D2, D3 et D9 ne se recouvrent pas : un être qui existe dans toute situation possible mais dépend d'autre chose n'est ni nécessaire (D2) ni contingent (D3), et appartient pourtant au « contingent » (D9).
 
 ## 5. Constat d'existence
 

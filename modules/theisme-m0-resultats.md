@@ -74,7 +74,7 @@ Si ne dépendre de rien appartient à la nature (D11) de tout être nécessaire,
 
 P1 découle de L3 si ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire ; cette question passe en M2. Sous l'hypothèse Pn (ci-dessous), la condition est remplie : P1 est alors démontrée sous hypothèse Pn.
 
-### L4. Ce qui existe partout mène à un être nécessaire par soi, sous Pn, Pc et (b)
+### L4. Un être inévitable mène à un être nécessaire, sous Pn, Pc et (b)
 
 Hypothèses, candidates comme axiomes pour M2 et signalées parce qu'elles servent la conclusion `G` (contrainte 8 du [[theisme-protocole]]) :
 
@@ -82,15 +82,15 @@ Hypothèses, candidates comme axiomes pour M2 et signalées parce qu'elles serve
 - **Pc** : si y est cause ou raison de l'existence de x dans une situation, y existe dans cette situation.
 - **(b)** : aucune chaîne de dépendance n'est infinie ni circulaire ; question de M1.
 
-Énoncé : s'il existe un être qui existe dans toute situation possible, alors `G`.
+Énoncé : s'il existe un être inévitable (D20), alors `G`.
 
 1. Soit `x` qui existe dans toute situation possible.
 2. Si `x` ne dépend de rien, `x` est nécessaire (D2) : `G`.
 3. Sinon, `x` dépend d'un `y` dans une situation ; par Pn, dans toute situation où `x` existe, donc dans toutes (1) ; par Pc, `y` existe dans toute situation possible.
-4. Le même raisonnement s'applique à `y` : on obtient une chaîne d'êtres qui existent tous dans toute situation possible, chacun dépendant du suivant.
-5. Par (b), la chaîne n'est ni infinie ni circulaire : elle s'arrête sur un être qui existe dans toute situation possible et ne dépend de rien, nécessaire au sens de D2 : `G`.
+4. Le même raisonnement s'applique à `y` : on obtient une chaîne d'êtres inévitables, chacun dépendant du suivant.
+5. Par (b), la chaîne n'est ni infinie ni circulaire : elle s'arrête sur un être inévitable qui ne dépend de rien, nécessaire au sens de D2 : `G`.
 
-Sans Pn, l'étape 3 échoue : contre-modèle à deux situations `s1`, `s2`, où `x` existe dans les deux, causé dans `s1` par `a` qui n'existe que dans `s1`, et dans `s2` par `b` qui n'existe que dans `s2`. Chacun de `a` et `b` peut manquer, mais jamais les deux ensemble : de « `a` peut ne pas exister » et « `b` peut ne pas exister », on ne tire pas « il est possible que ni l'un ni l'autre n'existe » (glissement de quantificateur). L4 ne prouve pas `G` : E1 ne donne qu'un être qui existe dans la situation réelle, pas dans toute situation possible.
+Sans Pn, l'étape 3 échoue : contre-modèle à deux situations `s1`, `s2`, où `x` existe dans les deux, causé dans `s1` par `a` qui n'existe que dans `s1`, et dans `s2` par `b` qui n'existe que dans `s2`. Chacun de `a` et `b` peut manquer, mais jamais les deux ensemble : de « `a` peut ne pas exister » et « `b` peut ne pas exister », on ne tire pas « il est possible que ni l'un ni l'autre n'existe » (glissement de quantificateur). L4 ne prouve pas `G` : E1 ne donne qu'un être qui existe dans la situation réelle, pas un être inévitable.
 
 ### T3. Sous P1, la question se ramène à une prémisse de possibilité
 
@@ -166,10 +166,10 @@ Deux pièges invalident T3 si on les ignore :
 | P1 | Découle de L3 si ne dépendre de rien n'est pas un accident d'un être nécessaire ; démontrée sous Pn | M2 |
 | Pn, Pc | Candidats axiomes, signalés : la dépendance appartient à la nature ; une cause existe là où elle agit | M2 |
 | (c′) | Alternative à Pn : les êtres contingents se combinent librement (pour tout ensemble d'êtres contingents, une situation possible où aucun n'existe) | M2 |
-| Existe-t-il un être qui existe partout ? | Condition de L4 ; le contingent l'exige-t-il ? | M2 |
+| Existe-t-il un être inévitable ? | Condition de L4 ; le contingent l'exige-t-il ? | M2 |
 | (b) | Aucune chaîne de dépendance n'est infinie ni circulaire | M1 |
 | Unicité | Plusieurs êtres nécessaires seraient chacun Dieu au sens de D1. Les regrouper en un tout échoue : un tout a ses parties pour raison (D18), donc dépend d'elles (D19) et n'est pas nécessaire par soi ; « partie » n'est pas défini | M4 |
-| H2 | Si Dieu existe, il est cause ou raison du contingent | M2 |
+| H2 | Si Dieu existe, il est cause ou raison du contingent ; formulation à étendre aux inévitables dépendants | M2 |
 | Raison de l'être nécessaire | L'existence d'un être nécessaire a-t-elle une raison, ou n'en a-t-elle pas besoin ? | M1, M2 |
 | Prémisse de possibilité | `◇G` ou `◇¬G`, fondée autrement que par la seule concevabilité | M1 à M3 |
 | H3 | Dieu est personnel | M4 |
