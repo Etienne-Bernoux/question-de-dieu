@@ -29,7 +29,12 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | T | Factivité | AXIOME | Stipulation |
 | U | Ensemble unique des situations possibles | AXIOME | Stipulation |
 | E1 | Quelque chose existe | DÉMONTRÉ | Établi avec observation (le constat que l'acte de nier a lieu, D8) ; refus : contradiction performative |
-| P1 | `□(G → □G)` | HYPOTHÈSE | Stipulation ; découle de L3 si ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire, question de M2 |
+| P1 | `□(G → □G)` | HYPOTHÈSE | Stipulation ; démontrée sous hypothèse Pn (via L3), question de M2 |
+
+| Pn | La dépendance d'un être (qu'il dépende, et de quoi) appartient à sa nature | HYPOTHÈSE, candidat axiome pour M2, signalé | Proposé par l'orchestrateur à partir du raisonnement de l'utilisateur |
+| Pc | Une cause ou une raison existe dans la situation où elle agit | HYPOTHÈSE, candidat axiome pour M2, signalé | Idem |
+| (b) | Aucune chaîne de dépendance n'est infinie ni circulaire | HYPOTHÈSE, examinée en M1 | Idem |
+| (c′) | Les êtres contingents se combinent librement | HYPOTHÈSE, examinée en M2 | Idem |
 
 ## Définitions
 
@@ -71,6 +76,7 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | L2 | `◇¬G → ¬□G` | DÉMONTRÉ | N, K, A4, R |
 | AM | `◇□P → □P` | DÉMONTRÉ | U |
 | L3 | Si ne dépendre de rien appartient à la nature (D11) de tout être nécessaire, P1 est vraie | DÉMONTRÉ | U, D1, D2, D11, D19 |
+| L4 | S'il existe un être qui existe dans toute situation possible, alors `G` | DÉMONTRÉ SOUS HYPOTHÈSES Pn, Pc, (b) | D2, D19 |
 | T3a | `◇¬G → ¬G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, A4, R |
 | T3b | `◇G → G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, U (via AM), R |
 | T3c | `◇¬G → ¬◇G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, A4, U, R |
