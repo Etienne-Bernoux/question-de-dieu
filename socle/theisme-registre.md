@@ -55,6 +55,7 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | D16 | Établi avec observation | DÉFINITION | Stipulation acceptée |
 | D17 | Concevable | DÉFINITION | Stipulation acceptée |
 | D18 | Rendre intelligible | DÉFINITION | Stipulation acceptée |
+| D19 | Dépendre (pour exister) | DÉFINITION | Stipulation acceptée |
 | — | Monde = l'univers physique | CONTESTÉ | Refusé : présuppose ses limites |
 | — | Nécessaire au sens logique | CONTESTÉ | Écarté : mène à une contradiction sous P1 (T4) |
 
@@ -68,13 +69,13 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | L1 | `□(P → Q) → (◇P → ◇Q)` | DÉMONTRÉ | N, K, R |
 | L2 | `◇¬G → ¬□G` | DÉMONTRÉ | N, K, A4, R |
 | AM | `◇□P → □P` | DÉMONTRÉ | U |
-| L3 | Si ne dépendre de rien appartient à la nature (D11) de tout être nécessaire, P1 est vraie | DÉMONTRÉ SOUS RÉSERVE | U, D1, D2, D11 ; réserve : « dépendre » non défini |
+| L3 | Si ne dépendre de rien appartient à la nature (D11) de tout être nécessaire, P1 est vraie | DÉMONTRÉ | U, D1, D2, D11, D19 |
 | T3a | `◇¬G → ¬G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, A4, R |
 | T3b | `◇G → G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, U (via AM), R |
 | T3c | `◇¬G → ¬◇G` | DÉMONTRÉ SOUS HYPOTHÈSE P1 | N, K, T, A4, U, R |
-| T4 | Le sens logique de « nécessaire » mène à une contradiction | DÉMONTRÉ SOUS HYPOTHÈSE P1, SOUS RÉSERVE | T3c, D17, A2 ; réserve : N, K, T, A4, AM non vérifiés pour ce sens, « dépendre » libre |
+| T4 | Le sens logique de « nécessaire » mène à une contradiction | DÉMONTRÉ SOUS HYPOTHÈSE P1, SOUS RÉSERVE | T3c, D17, A2 ; réserve : N, K, T, A4, AM non vérifiés pour ce sens |
 | T5 | Sous B et S, quand L est vrai, `¬E(x) → ¬L` a la valeur de `E(x)` | DÉMONTRÉ | B, S |
-| T6 | « Tout concevable est possible » mène à une contradiction | DÉMONTRÉ SOUS HYPOTHÈSE P1, SOUS RÉSERVE | T3c, D17, A2, N, K, T, U ; réserve : « dépendre » libre |
+| T6 | « Tout concevable est possible » mène à une contradiction | DÉMONTRÉ SOUS HYPOTHÈSE P1 | T3c, D17, D19, A2, N, K, T, U |
 
 ## Thèses à examiner
 

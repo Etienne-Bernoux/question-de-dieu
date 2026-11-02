@@ -60,7 +60,7 @@ Soit `X(x) ≝ F(x) ∧ E(x)`.
 2. `□G → □¬¬G` (N, K, MP)
 3. `¬□¬¬G → ¬□G` (2, contraposition, MP), soit `◇¬G → ¬□G`
 
-### L3. Une condition suffisante de P1, sous réserve
+### L3. Une condition suffisante de P1
 
 Hypothèse P1 : `□(G → □G)`, « s'il existe un être nécessaire, il est nécessaire qu'il en existe un ».
 
@@ -72,7 +72,7 @@ Si ne dépendre de rien appartient à la nature (D11) de tout être nécessaire,
 4. `x` est donc nécessaire dans toute situation : `□G` est vrai en `s`.
 5. Le raisonnement vaut pour toute situation `s` où `G` est vrai : `G → □G` est vrai dans toute situation, soit P1.
 
-Réserve : « dépendre » n'est pas encore défini ([[theisme-cadre]], §4). P1 découle de L3 si ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire ; cette question passe en M2.
+P1 découle de L3 si ne dépendre de rien n'est pas un accident (D12) d'un être nécessaire ; cette question passe en M2.
 
 ### T3. Sous P1, la question se ramène à une prémisse de possibilité
 
@@ -101,7 +101,7 @@ Sens logique : `◇_L P` si une interprétation rend vrais les axiomes, les déf
 2. T3c, lu avec `◇_L` : de `◇_L ¬G`, `¬◇_L G`.
 3. On affirme `◇_L G` et `¬◇_L G` : A et non-A.
 
-Réserve : N, K, T, A4 et AM n'ont pas été vérifiés pour ce sens, et « dépendre » reste libre. Ce résultat est la raison pour laquelle D2 est pris au sens réel.
+Réserve : N, K, T, A4 et AM n'ont pas été vérifiés pour ce sens. Ce résultat est la raison pour laquelle D2 est pris au sens réel.
 
 ### T5. Une dépendance lue comme simple « si... alors » ne distingue rien
 
@@ -113,16 +113,16 @@ Soit `Dép(x) ≝ ¬E(x) → ¬L`, avec L « les lois logiques sont vraies ». L
 
 H1 exige donc une relation de dépendance définie autrement, à fixer en M6.
 
-### T6. « Concevable » n'entraîne pas « possible », sous P1 et sous réserve
+### T6. « Concevable » n'entraîne pas « possible », sous P1
 
 Le principe « tout énoncé concevable (D17) est possible » mène à une contradiction.
 
 1. `G` est concevable : une seule situation, un seul objet `a`, qui y existe et ne dépend de rien. `a` existe dans toute situation possible et ne dépend de rien : il est nécessaire. N, K, T et U sont vrais dans un modèle à une situation ; E1 aussi.
-2. `¬G` est concevable : une seule situation, deux objets `a` et `b`, chacun dépendant de l'autre. Chacun dépend de quelque chose ; aucun n'est nécessaire.
+2. `¬G` est concevable : deux situations `s1` et `s2`, toutes deux possibles ; un seul objet `a`, qui existe en `s1` et pas en `s2`. `a` n'existe pas dans toute situation possible : il n'est pas nécessaire, et rien d'autre n'existe. N, K, T et U sont vrais dans ce modèle ; E1 est vrai en `s1`.
 3. Si tout concevable était possible : `◇G` (de 1) et `◇¬G` (de 2).
 4. T3c : de `◇¬G`, `¬◇G`. On affirme `◇G` et `¬◇G` : A et non-A.
 
-Réserve : 1 et 2 laissent « dépendre » libre, faute de définition ; T6 sera revérifié quand il sera défini. Conséquence, sous P1 : aucun camp ne peut fonder sa prémisse de possibilité sur la seule concevabilité.
+Les relations de cause et de raison sont vides dans le modèle 1, si bien que `a` ne dépend de rien (D19). Conséquence, sous P1 : aucun camp ne peut fonder sa prémisse de possibilité sur la seule concevabilité.
 
 ## Validité et conditions d'usage
 

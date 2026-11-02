@@ -116,6 +116,7 @@ Les situations possibles sont les mêmes quelle que soit la situation d'où l'on
 | D16 | Établi avec observation | énoncé démontré avec au moins une observation parmi ses prémisses | « A posteriori » : se lit couramment « après coup » |
 | D17 | Concevable | un énoncé est concevable s'il existe une interprétation où le cadre et cet énoncé sont vrais ensemble : le supposer n'engendre aucune contradiction | Le pas « concevable, donc possible » mène à une contradiction sous P1 (T6) |
 | D18 | Rendre intelligible | Q rend P intelligible si P se démontre à partir de Q et du cadre, sans que P figure parmi les prémisses | Laisser « intelligible » premier : M1 porterait sur un mot invérifiable. Limites assumées : aucune clause formelle n'exclut tous les cercles déguisés (Q = « P et R »), à traquer au cas par cas ; un événement seulement probable n'a pas de raison au sens de D5 ; il n'est un fait brut que s'il n'a pas non plus de cause (D6) |
+| D19 | Dépendre (pour exister) | x dépend de y pour exister si y est distinct de x, et si y est cause de l'existence de x (D4) ou si l'existence de x a sa raison en y (D5). « Ne dépendre de rien » : n'avoir ni cause, ni raison hors de soi ; cela n'exige pas d'avoir une raison | « Si y n'existait pas, x n'existerait pas » : ne distingue rien (T5) et ferait dépendre toute chose de tout être qui existe dans toute situation. La dépendance d'une validité (H1) pourra demander une extension en M6 |
 
 Avertissement : exister **en soi** (être une substance, D10) n'est pas exister **par soi** (D1). Un arbre existe en soi, non par soi : il dépend de causes. Les confondre ferait de toute substance un candidat à D1.
 
@@ -127,7 +128,6 @@ Mots non définis, interdits dans une inférence avant leur définition : « per
 
 Points à statuer avant le passage de M0 devant la population (vérification de cohérence du 2026-11-01) :
 
-- « dépendre » : employé par D2, L3 et T6, mais non défini ;
 - « situation réelle » : employé par le cadre et L3, mais ni défini ni déclaré premier ;
 - « temps » et « moment » : employés dans D7 et D8, alors que « temps » n'est défini qu'en M3 ;
 - D2, D3 et D9 ne se recouvrent pas : un être qui existe dans toute situation possible mais dépend d'autre chose n'est ni nécessaire (D2) ni contingent (D3), et appartient pourtant au « contingent » (D9).
