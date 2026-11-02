@@ -124,11 +124,10 @@ Conséquence de D11 : toute chose a « exister » dans toutes les situations pos
 
 Règle de lecture : D1 ne contient ni H3 ni H4 ; « Dieu existe » signifie « un être nécessaire existe », rien de plus.
 
-Mots non définis, interdits dans une inférence avant leur définition : « personnel » (M4), « bon » (M5). Termes premiers, admis sans définition : « situation possible » ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens, par un instrument, ou par le constat, fait par celui qui raisonne, que son propre acte a lieu. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « Intelligible » est défini par D18.
+Mots non définis, interdits dans une inférence avant leur définition : « personnel » (M4), « bon » (M5). Termes premiers, admis sans définition : « situation possible » ; « situation réelle », caractérisée ainsi : elle est l'une des situations possibles (ce qui rend T vrai), et c'est sur elle que portent les observations ; « observation », caractérisée comme l'enregistrement d'un état de la situation réelle, par les sens, par un instrument, ou par le constat, fait par celui qui raisonne, que son propre acte a lieu. Une mesure porte sur la situation réelle : aucune mesure n'établit à elle seule qu'une chose est possible ou nécessaire. « Intelligible » est défini par D18.
 
 Points à statuer avant le passage de M0 devant la population (vérification de cohérence du 2026-11-01) :
 
-- « situation réelle » : employé par le cadre et L3, mais ni défini ni déclaré premier ;
 - « temps » et « moment » : employés dans D7 et D8, alors que « temps » n'est défini qu'en M3 ;
 - D2, D3 et D9 ne se recouvrent pas : un être qui existe dans toute situation possible mais dépend d'autre chose n'est ni nécessaire (D2) ni contingent (D3), et appartient pourtant au « contingent » (D9).
 

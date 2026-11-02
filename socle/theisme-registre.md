@@ -50,6 +50,7 @@ Statut de chaque énoncé. AXIOME : point de départ admis par l'utilisateur, av
 | D13 | Expérience | DÉFINITION | Stipulation acceptée |
 | D14 | Mesure | DÉFINITION | Stipulation acceptée |
 | — | Situation possible (terme premier) | DÉFINITION | Stipulation acceptée |
+| — | Situation réelle (terme premier) | DÉFINITION | Stipulation acceptée |
 | — | Observation (terme premier) | DÉFINITION | Stipulation acceptée |
 | D15 | Établi sans observation | DÉFINITION | Stipulation acceptée |
 | D16 | Établi avec observation | DÉFINITION | Stipulation acceptée |
