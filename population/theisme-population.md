@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [theisme, population, contradicteurs, orchestration]
 status: draft
-updated: 2026-11-01
+updated: 2026-11-02
 ---
 
 # Population d'agents
@@ -39,9 +39,9 @@ Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit qu
 |---|---|---|
 | Formalisateur, synthétiseur | Opus | rédiger et juger sont les tâches les plus difficiles de l'examen |
 | Vérificateur formel | Opus | son verdict de validité ne se discute pas ; une erreur passerait sans contrôle |
-| Les quatre philosophes | Sonnet, réflexion poussée | chercher des failles ; une objection faible est filtrée, puisqu'elle exige une preuve |
+| Les quatre philosophes | Opus, à partir de M1 | chercher des failles ; le critère de bascule ci-dessous est rempli au passage de M0 |
 
-Critère de bascule, mesuré au passage de M0 : si la plupart des objections des philosophes sont rejetées, ou si le vérificateur trouve des failles qu'aucun philosophe n'a vues, les philosophes passent sur Opus. Volume mesuré le 2026-11-01 : environ 48 Ko d'entrée par agent, environ quatorze appels par module.
+Critère de bascule : si la plupart des objections des philosophes sont rejetées, ou si le vérificateur trouve des failles qu'aucun philosophe n'a vues, les philosophes passent sur Opus. Au passage de M0, la seconde condition est remplie : failles vues du seul vérificateur au premier tour, en réplique et sur la consultation Q9 ([[theisme-m0-debat]]). Rien ne montre qu'Opus les aurait vues : la mesure est à refaire en M1, en comptant les failles vues du seul vérificateur. Volume mesuré le 2026-11-01 : environ 48 Ko d'entrée par agent, environ quatorze appels par module.
 
 ## Règles de décision
 
@@ -62,10 +62,10 @@ Chaque membre se définit par des thèses explicites, jamais par un nom ou un co
 
 | Membre | Un être nécessaire existe-t-il ? | Est-il personnel ? | Ce qui fonde une connaissance | Profil |
 |---|---|---|---|---|
-| Le théiste | oui | oui | ce qui est établi sans observation peut établir une possibilité ou une nécessité ; toute chose a une raison | [[theisme-ph-theiste]] |
-| Le nécessitariste impersonnel | oui | non | ce qui est établi sans observation peut établir une possibilité ou une nécessité ; le fondement n'est pas une personne | [[theisme-ph-necessitariste]] |
-| Le naturaliste | non | sans objet | ce qui est établi sans observation ne dit rien de ce qui existe ; seule une observation parmi les prémisses le peut | [[theisme-ph-naturaliste]] |
-| Le sceptique | suspend | suspend | rien n'est acquis sans démonstration, hors axiomes et définitions admis | [[theisme-ph-sceptique]] |
+| Le théiste | oui | oui | ce qui est établi sans observation peut établir une nécessité et les possibilités qui en découlent, aucune possibilité existentielle sans prémisse modale admise ; toute chose a une raison | [[theisme-ph-theiste]] |
+| Le nécessitariste impersonnel | oui | non : aucun être nécessaire n'a la propriété H3 | ce qui est établi sans observation établit des nécessités sans contenu existentiel ; une possibilité existentielle, seulement par une prémisse modale admise | [[theisme-ph-necessitariste]] |
+| Le naturaliste | non, comme hypothèse assumée | sans objet | ce qui est établi sans observation ne conclut ni à l'existence ni à la non-existence de quoi que ce soit, hors la nécessité d'une vérité logique ; une observation parmi les prémisses est nécessaire, non suffisante | [[theisme-ph-naturaliste]] |
+| Le sceptique | suspend | suspend | rien n'est acquis sans démonstration, hors axiomes, définitions admis et observations | [[theisme-ph-sceptique]] |
 | Le vérificateur formel | aucune position | aucune position | la seule validité des inférences | [[theisme-verificateur-formel]] |
 
 Un cinquième philosophe, centré sur la morale et le sens, rejoindra la population à l'ouverture de M5.

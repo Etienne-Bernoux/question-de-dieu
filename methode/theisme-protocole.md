@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [theisme, demonstration, registre, protocole]
 status: draft
-updated: 2026-11-01
+updated: 2026-11-03
 ---
 
 # Protocole de l'examen
@@ -25,9 +25,12 @@ Les règles qui s'appliquent à chaque module. Point d'entrée et sens de lectur
    - Qui pose une prémisse doit la démontrer ou la sourcer ; sinon elle reste une hypothèse (contrainte 8).
    - Une prémisse non démontrée peut être écartée sans être réfutée. Écarter une prémisse, c'est refuser de l'admettre, pas affirmer sa négation : affirmer la négation est une prémisse à son tour, qui porte la même charge.
    - Exiger de l'autre qu'il prouve la fausseté d'une prémisse au lieu de la prouver soi-même est un sophisme, l'appel à l'ignorance : « on n'a pas montré que non-P » n'établit pas P.
-   - Conséquence : affirmer que Dieu existe et affirmer qu'il n'existe pas portent la même charge ; seul celui qui suspend son jugement n'en porte aucune.
+   - Conséquence : affirmer que Dieu existe et affirmer qu'il n'existe pas portent la même charge ; seul celui qui suspend son jugement ne porte aucune charge sur G ; il porte celle de ses propres assertions.
    - Écarter une prémisse ne coûte aucune preuve, mais ses implications restent à assumer (règle 7 de la population).
 8. **Points de départ.** Seuls trois types d'énoncés sont admis sans démonstration : les définitions et les axiomes, admis par l'utilisateur, et les observations, admises selon la contrainte 1. Toute autre prémisse est démontrée à partir d'eux ; sinon elle reste une hypothèse : un module en tire ce qui suit sous la forme « si H, alors… », les philosophes peuvent l'assumer dans leur fiche, et personne ne la déclare vraie. Un axiome peut être ajouté en cours d'examen s'il est proposé avec son paragraphe de refus, éprouvé par la population, puis admis par l'utilisateur ; s'il sert à atteindre une conclusion visée, il est signalé comme tel, pour écarter la pétition de principe.
+9. **Symétrie des définitions.** Tout sens d'un terme qui, avec le socle et E1 sous sa forme `∃x (x = x)` (D17 du [[theisme-cadre]]), rend vrai G ou ¬G par la seule définition est écarté, et son motif est consigné ; la thèse correspondante reste examinable comme hypothèse, à la charge de qui la soutient (contrainte 7).
+
+   **Si tu la nies**, un sens choisi pour un terme peut trancher G ou ¬G sans démonstration, et la conclusion de l'examen est fixée par le vocabulaire. Aucune contradiction ; le coût est épistémique et vaut pour les deux camps. Chacun pourrait définir sa conclusion : « x est nécessaire si x = x et E(x) » rend G vrai dans tout modèle du socle avec `∃x (x = x)` ; le sens logique de « nécessaire » rendrait ¬G vrai (T9 de [[theisme-m0-resultats]]). La charge de la preuve (contrainte 7) cesserait alors de porter sur G.
 
 ## Déroulé d'un module
 

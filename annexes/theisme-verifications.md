@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [theisme, matrices, verification]
 status: draft
-updated: 2026-11-01
+updated: 2026-11-03
 ---
 
 # Vérifications mécaniques
@@ -222,3 +222,43 @@ for bits in product(V, repeat=4):
     if ok:
         print("si P alors Q, valeurs pour (P,Q) = (0,0) (0,1) (1,0) (1,1) :", bits)
 ```
+
+## Modèles à situations : P1, T3e, T7, T10
+
+Le script énumère tous les modèles, toutes situations possibles l'une depuis l'autre, de 1 à 3 situations avec 2 objets, et de 2 situations avec 3 objets : pour chaque situation, un domaine (un sous-ensemble des objets, vide compris) et une relation de dépendance entre objets distincts. Un objet est nécessaire s'il appartient à tous les domaines et ne dépend de rien dans aucune situation (D2, D19, D20). `G` est évalué dans chaque situation. Il compte les modèles où échouent P1 (L3), T3e, T7 (`◇G ∧ ◇¬G` jamais vrai) et T10 (un domaine vide exclut `◇G`), puis évalue le modèle B sous la lecture de D2 que le cadre écarte (ne dépendre de rien dans la seule situation considérée). Exécuté le 2026-11-03 (`python3 -I`) : aucun échec sur 266 512 modèles ; dans le modèle B, sous cette lecture, P1 est fausse.
+
+```text
+1 2 (16, {'P1': 0, 'T3e': 0, 'T7': 0, 'T10': 0})
+2 2 (256, {'P1': 0, 'T3e': 0, 'T7': 0, 'T10': 0})
+3 2 (4096, {'P1': 0, 'T3e': 0, 'T7': 0, 'T10': 0})
+2 3 (262144, {'P1': 0, 'T3e': 0, 'T7': 0, 'T10': 0})
+modele B lecture locale G par situation [True, False] P1 fausse
+```
+
+```python
+from itertools import product
+def run(nS, nO):
+    objs=range(nO); pairs=[(x,y) for x in objs for y in objs if x!=y]
+    n=0; bad={"P1":0,"T3e":0,"T7":0,"T10":0}
+    for doms in product(range(2**nO), repeat=nS):
+        for deps in product(range(2**len(pairs)), repeat=nS):
+            n+=1
+            dom=[{o for o in objs if d>>o&1} for d in doms]
+            dep=[{pairs[i] for i in range(len(pairs)) if m>>i&1} for m in deps]
+            nec=[x for x in objs if all(x in d for d in dom) and not any(p[0]==x for s in dep for p in s)]
+            G=[any(x in dom[s] for x in nec) for s in range(nS)]
+            boxG=all(G); dG=any(G); dnG=not all(G)
+            if not all((not G[s]) or boxG for s in range(nS)): bad["P1"]+=1
+            if not (boxG or not dG): bad["T3e"]+=1
+            if dG and dnG: bad["T7"]+=1
+            if any(not d for d in dom) and dG: bad["T10"]+=1
+    return n,bad
+for nS,nO in [(1,2),(2,2),(3,2),(2,3)]:
+    print(nS,nO,run(nS,nO))
+# modele B, lecture locale de D2
+dom=[{0},{0,1}]; dep=[set(),{(0,1)}]
+Gloc=[any(x in dom[s] and all(x in d for d in dom) and not any(p[0]==x for p in dep[s]) for x in (0,1)) for s in range(2)]
+print("modele B lecture locale G par situation", Gloc, "P1 vraie" if all((not g) or all(Gloc) for g in Gloc) else "P1 fausse")
+```
+
+Une énumération bornée ne démontre pas un résultat : elle cherche un contre-modèle parmi les petits modèles. Les démonstrations sont dans [[theisme-m0-resultats]].
