@@ -1,5 +1,5 @@
 ---
-title: Question de Dieu : profil du formalisateur
+title: "Question de Dieu : profil du formalisateur"
 type: reference
 scope: perso
 projet: []

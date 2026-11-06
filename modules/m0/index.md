@@ -1,5 +1,5 @@
 ---
-title: Question de Dieu : M0, ce que le socle établit sans observation
+title: "Question de Dieu : M0, ce que le socle établit sans observation"
 type: knowledge
 scope: perso
 projet: []

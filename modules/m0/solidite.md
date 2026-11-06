@@ -1,5 +1,5 @@
 ---
-title: Question de Dieu : M0, contrôle de solidité
+title: "Question de Dieu : M0, contrôle de solidité"
 type: knowledge
 scope: perso
 projet: []

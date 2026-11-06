@@ -1,5 +1,5 @@
 ---
-title: Question de Dieu : profil du synthétiseur
+title: "Question de Dieu : profil du synthétiseur"
 type: reference
 scope: perso
 projet: []

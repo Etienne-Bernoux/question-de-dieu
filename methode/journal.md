@@ -1,5 +1,5 @@
 ---
-title: Question de Dieu : journal des arbitrages
+title: "Question de Dieu : journal des arbitrages"
 type: knowledge
 scope: perso
 projet: []

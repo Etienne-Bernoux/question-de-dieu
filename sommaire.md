@@ -1,5 +1,5 @@
 ---
-title: Question de Dieu : sommaire
+title: "Question de Dieu : sommaire"
 type: moc
 scope: perso
 projet: []

@@ -1,5 +1,5 @@
 ---
-title: Question de Dieu : profil du vérificateur formel
+title: "Question de Dieu : profil du vérificateur formel"
 type: reference
 scope: perso
 projet: []

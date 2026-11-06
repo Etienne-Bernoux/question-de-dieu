@@ -1,5 +1,5 @@
 ---
-title: Question de Dieu : profil du sceptique
+title: "Question de Dieu : profil du sceptique"
 type: reference
 scope: perso
 projet: []
