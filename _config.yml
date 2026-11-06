@@ -7,3 +7,12 @@ plugins:
 relative_links:
   enabled: true
   collections: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: "README.md"
+    values:
+      layout: default

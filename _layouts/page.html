@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{%- assign parts = page.path | split: "/" -%}
+{%- assign section_label = "" -%}
+{%- assign section_url = "" -%}
+{%- if parts.size > 1 -%}
+  {%- case parts[0] -%}
+    {%- when "methode" -%}{%- assign section_label = "Méthode" -%}
+    {%- when "socle" -%}{%- assign section_label = "Socle" -%}
+    {%- when "modules" -%}{%- assign section_label = "Modules" -%}
+    {%- when "annexes" -%}{%- assign section_label = "Annexes" -%}
+    {%- when "population" -%}{%- assign section_label = "Population" -%}{%- assign section_url = "/population/population.html" -%}
+  {%- endcase -%}
+{%- endif -%}
+{%- assign label = page.title | remove_first: "Question de Dieu : " | capitalize -%}
+<nav class="fil-ariane" aria-label="Fil d'Ariane">
+  <a href="{{ '/' | relative_url }}">Accueil</a>
+  {%- if page.url != "/sommaire.html" %} › <a href="{{ '/sommaire.html' | relative_url }}">Sommaire</a>{% endif -%}
+  {%- if section_label != "" and section_url != page.url %} › {% if section_url != "" %}<a href="{{ section_url | relative_url }}">{{ section_label }}</a>{% else %}{{ section_label }}{% endif %}{% endif %}
+  › <span aria-current="page">{{ label }}</span>
+</nav>
+<style>.fil-ariane{font-size:.9em;margin-bottom:1.5em;color:#727272}.fil-ariane span{color:#222}</style>
+
+{{ content }}
