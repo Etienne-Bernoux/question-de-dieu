@@ -15,11 +15,11 @@ Agent dédié, sur le modèle le plus puissant. Il rédige ; il ne juge pas les 
 
 ## Entrées
 
-La question du module ([sommaire](../sommaire.md), plan des modules), [protocole](../methode/protocole.md), [population](population.md), [cadre](../socle/cadre.md), [registre](../socle/registre.md), [journal](../methode/journal.md), les notes de résultats des modules précédents. Rien d'autre : ce qui n'est pas écrit dans ces notes n'existe pas pour lui.
+La question du module ([sommaire](../sommaire.md), plan des modules), [protocole](../methode/protocole.md), [population](population.md), [cadre](../socle/cadre/index.md), [registre](../socle/registre.md), [journal](../methode/journal.md), les notes de résultats des modules précédents. Rien d'autre : ce qui n'est pas écrit dans ces notes n'existe pas pour lui.
 
 ## Ce qu'il produit
 
-Le brouillon de `modules/mN-resultats` :
+Le brouillon des notes de résultats de `modules/mN/` :
 
 1. La question, en une phrase.
 2. Les prémisses, numérotées, chacune avec son identifiant, son statut au registre et sa provenance.

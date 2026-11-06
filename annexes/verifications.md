@@ -11,7 +11,7 @@ updated: 2026-11-03
 
 # Vérifications mécaniques
 
-Matrices citées dans [cadre](../socle/cadre.md) et [m0-resultats](../modules/m0-resultats.md). Une matrice attribue à chaque énoncé une valeur et dit quelles valeurs comptent pour « vrai » (valeurs désignées). Un principe y « vaut » s'il est désigné sous toute attribution ; une règle y « vaut » si, sous toute attribution où ses prémisses sont désignées, sa conclusion l'est. Tout ce qui se dérive de principes et de règles qui valent dans une matrice y vaut aussi : un principe qui y échoue ne se dérive donc pas d'eux. Le script énumère toutes les attributions (2 à 64 selon la matrice et le nombre de variables).
+Matrices citées dans [cadre](../socle/cadre/index.md) et [m0-resultats](../modules/m0/index.md). Une matrice attribue à chaque énoncé une valeur et dit quelles valeurs comptent pour « vrai » (valeurs désignées). Un principe y « vaut » s'il est désigné sous toute attribution ; une règle y « vaut » si, sous toute attribution où ses prémisses sont désignées, sa conclusion l'est. Tout ce qui se dérive de principes et de règles qui valent dans une matrice y vaut aussi : un principe qui y échoue ne se dérive donc pas d'eux. Le script énumère toutes les attributions (2 à 64 selon la matrice et le nombre de variables).
 
 | Matrice | Valeurs (désignées en gras) | Non | Et / ou | Si... alors | Sert à |
 |---|---|---|---|---|---|
@@ -261,4 +261,4 @@ Gloc=[any(x in dom[s] and all(x in d for d in dom) and not any(p[0]==x for p in 
 print("modele B lecture locale G par situation", Gloc, "P1 vraie" if all((not g) or all(Gloc) for g in Gloc) else "P1 fausse")
 ```
 
-Une énumération bornée ne démontre pas un résultat : elle cherche un contre-modèle parmi les petits modèles. Les démonstrations sont dans [m0-resultats](../modules/m0-resultats.md).
+Une énumération bornée ne démontre pas un résultat : elle cherche un contre-modèle parmi les petits modèles. Les démonstrations sont dans [m0-resultats](../modules/m0/index.md).

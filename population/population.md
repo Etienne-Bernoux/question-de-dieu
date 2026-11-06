@@ -41,7 +41,7 @@ Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit qu
 | Vérificateur formel | Opus | son verdict de validité ne se conteste que par une preuve, jugée par le synthétiseur (règles de décision) ; une erreur passerait sans contrôle |
 | Les quatre philosophes | Opus, à partir de M1 | chercher des failles ; le critère de bascule ci-dessous est rempli au passage de M0 |
 
-Critère de bascule : si la plupart des objections des philosophes sont rejetées, ou si le vérificateur trouve des failles qu'aucun philosophe n'a vues, les philosophes passent sur Opus. Au passage de M0, la seconde condition est remplie : failles vues du seul vérificateur au premier tour, en réplique et sur la consultation Q9 ([m0-debat](../modules/m0-debat.md)). Rien ne montre qu'Opus les aurait vues : la mesure est à refaire en M1, en comptant les failles vues du seul vérificateur. Volume mesuré le 2026-11-01 : environ 48 Ko d'entrée par agent, environ quatorze appels par module.
+Critère de bascule : si la plupart des objections des philosophes sont rejetées, ou si le vérificateur trouve des failles qu'aucun philosophe n'a vues, les philosophes passent sur Opus. Au passage de M0, la seconde condition est remplie : failles vues du seul vérificateur au premier tour, en réplique et sur la consultation Q9 ([m0-debat](../modules/m0/debat.md)). Rien ne montre qu'Opus les aurait vues : la mesure est à refaire en M1, en comptant les failles vues du seul vérificateur. Volume mesuré le 2026-11-01 : environ 48 Ko d'entrée par agent, environ quatorze appels par module.
 
 ## Règles de décision
 
@@ -76,7 +76,7 @@ Un cinquième philosophe, centré sur la morale et le sens, rejoindra la populat
 
 Elles s'appliquent à chaque membre et lui sont transmises avec son profil.
 
-1. **Un seul vocabulaire.** Tous les membres emploient les termes du [cadre](../socle/cadre.md), au sens qu'il fixe, et aucun autre. Un membre qui a besoin d'un terme nouveau ou d'un autre sens en propose la définition comme objection ; il ne l'emploie qu'une fois la définition admise au cadre. Les termes employés par les profils et par le module examiné sont définis avant le passage de la population ; les autres, dans le module qui les traite.
+1. **Un seul vocabulaire.** Tous les membres emploient les termes du [cadre](../socle/cadre/index.md), au sens qu'il fixe, et aucun autre. Un membre qui a besoin d'un terme nouveau ou d'un autre sens en propose la définition comme objection ; il ne l'emploie qu'une fois la définition admise au cadre. Les termes employés par les profils et par le module examiné sont définis avant le passage de la population ; les autres, dans le module qui les traite.
 2. **Aucune autorité.** Ne citer ni philosophe, ni école, ni argument par son nom. Tout se démontre à partir du cadre, ou se source : données publiées pour un fait empirique.
 3. **Démontrer, pas affirmer.** Contraintes 6 à 8 du [protocole](../methode/protocole.md). Une objection sans preuve est classée « intuition » et ne peut être retenue en l'état.
 4. **Classer le refus.** Contrainte 3 du protocole.
@@ -107,4 +107,4 @@ Chaque profil porte la fiche de son membre : une ligne par prémisse tranchée, 
 
 ## Traces
 
-Les contributions brutes ne sont pas conservées. Pour chaque module, une note `modules/mN-debat` consigne chaque objection, son auteur, le verdict du synthétiseur (retenue, rejetée, transmise à l'utilisateur) avec sa raison, et l'effet sur les autres notes.
+Les contributions brutes ne sont pas conservées. Pour chaque module, une note `modules/mN/debat` consigne chaque objection, son auteur, le verdict du synthétiseur (retenue, rejetée, transmise à l'utilisateur) avec sa raison, et l'effet sur les autres notes.

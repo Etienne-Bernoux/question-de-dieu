@@ -15,16 +15,16 @@ Examen, module par module, des prémisses qui fondent l'existence d'un Dieu bon 
 
 ## Où en est l'examen
 
-M0 est passé devant la population (2026-11-02) ; ses corrections ont été recontrôlées (2026-11-03). M0 est en consolidation : le texte consolidé est passé devant la population, l'utilisateur a tranché les décisions qui lui revenaient (2026-11-05), les corrections sont appliquées et leur recontrôle est en cours ([m0-debat](modules/m0-debat.md)). Le socle n'établit ni G ni ¬G ; P1 découle de D2, et la question se ramène à une prémisse sur ce qui est possible. M1 s'ouvre sur accord de l'utilisateur, par la certification des fiches de position.
+M0 est passé devant la population (2026-11-02) ; ses corrections ont été recontrôlées (2026-11-03). M0 est en consolidation : le texte consolidé est passé devant la population, l'utilisateur a tranché les décisions qui lui revenaient (2026-11-05), les corrections sont appliquées et leur recontrôle est en cours ([m0-debat](modules/m0/debat.md)). Le socle n'établit ni G ni ¬G ; P1 découle de D2, et la question se ramène à une prémisse sur ce qui est possible. M1 s'ouvre sur accord de l'utilisateur, par la certification des fiches de position.
 
 ## Sens de lecture
 
 | Ordre | Document | Dossier | But | Quand le lire |
 |---|---|---|---|---|
 | 1 | [protocole](methode/protocole.md) | `methode/` | Les règles du jeu : contraintes épistémiques, déroulé d'un module, règles de conduite | Une fois, avant tout |
-| 2 | [cadre](socle/cadre.md) | `socle/` | Les axiomes et définitions admis, E1 démontré avec observation, et ce que coûterait le refus de chaque axiome | Avant chaque module : tout raisonnement en part |
-| 3 | [m0-resultats](modules/m0-resultats.md) | `modules/` | Ce que le socle établit sans observation (D15), et ce qui passe aux modules suivants | Dans l'ordre des modules |
-| 3 bis | [m0-debat](modules/m0-debat.md) | `modules/` | Les objections reçues par M0, leurs verdicts et les décisions renvoyées au journal | Après la note de résultats du module |
+| 2 | [cadre](socle/cadre/index.md) | `socle/cadre/` | Les axiomes et définitions admis, E1 démontré avec observation, et ce que coûterait le refus de chaque axiome | Avant chaque module : tout raisonnement en part |
+| 3 | [m0-resultats](modules/m0/index.md) | `modules/m0/` | Ce que le socle établit sans observation (D15), et ce qui passe aux modules suivants | Dans l'ordre des modules |
+| 3 bis | [m0-debat](modules/m0/debat.md) | `modules/m0/` | Les objections reçues par M0, leurs verdicts et les décisions renvoyées au journal | Après la note de résultats du module |
 | 4 | [registre](socle/registre.md) | `socle/` | Le statut de chaque énoncé (axiome, définition, démontré, démontré sous hypothèse, sous réserve, hypothèse, contesté) | À consulter quand un texte cite un identifiant |
 | 5 | [journal](methode/journal.md) | `methode/` | Les décisions de l'utilisateur, datées, avec ses mots | Pour savoir pourquoi un choix a été fait |
 | 6 | [verifications](annexes/verifications.md) | `annexes/` | Les calculs et le script exécuté qui prouvent les résultats mécaniques | Pour vérifier soi-même une preuve |
@@ -34,9 +34,9 @@ M0 est passé devant la population (2026-11-02) ; ses corrections ont été reco
 
 - `methode/` : comment on travaille et ce qui a été décidé.
 - `socle/` : ce sur quoi tous les modules reposent.
-- `modules/` : par module, une note de résultats, `mN-resultats`, et une note de débat, `mN-debat`.
+- `modules/` : un dossier par module, `mN/`, avec sa page d'entrée, ses notes de résultats et sa note de débat, `mN/debat`.
 - `annexes/` : les preuves mécaniques.
-- `population/` : le formalisateur, le synthétiseur, le vérificateur formel et les quatre philosophes, un profil par agent ; leurs objections jugées sont consignées dans `modules/mN-debat`.
+- `population/` : le formalisateur, le synthétiseur, le vérificateur formel et les quatre philosophes, un profil par agent ; leurs objections jugées sont consignées dans `modules/mN/debat`.
 
 Chaque énoncé vit à un seul endroit ; les autres notes y renvoient.
 

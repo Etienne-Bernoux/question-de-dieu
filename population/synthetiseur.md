@@ -15,7 +15,7 @@ Agent dédié, sur le modèle le plus puissant, distinct du formalisateur : il j
 
 ## Entrées
 
-Le brouillon du formalisateur, les contributions des quatre philosophes, le verdict du vérificateur formel, [cadre](../socle/cadre.md), [registre](../socle/registre.md), [journal](../methode/journal.md).
+Le brouillon du formalisateur, les contributions des quatre philosophes, le verdict du vérificateur formel, [cadre](../socle/cadre/index.md), [registre](../socle/registre.md), [journal](../methode/journal.md).
 
 ## Ce qu'il produit
 
@@ -25,7 +25,7 @@ Le brouillon du formalisateur, les contributions des quatre philosophes, le verd
    - transmise à l'utilisateur : l'objection est prouvée, mais la corriger changerait une prémisse, une définition ou une décision du journal.
 2. **Le contrôle de symétrie** (contrainte 4) : chaque coût du refus a-t-il en regard les coûts de l'acceptation ? La charge de la preuve (contrainte 7) est-elle répartie à égalité ?
 3. **Les engagements** de chaque philosophe, à reporter dans sa fiche, avec les contradictions entre ses choix que le vérificateur a relevées.
-4. **La note `modules/mN-debat`** : objection, auteur, verdict, raison, effet sur les autres notes.
+4. **La note `modules/mN/debat`** : objection, auteur, verdict, raison, effet sur les autres notes.
 5. **Les changements proposés au registre.**
 
 ## Interdits
