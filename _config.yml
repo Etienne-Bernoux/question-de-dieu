@@ -1,0 +1,9 @@
+title: Question de Dieu
+description: Examen philosophique, repris de zéro, des prémisses de l'existence d'un Dieu bon et personnel, mené par une population d'agents d'IA qui se contredisent.
+lang: fr
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false

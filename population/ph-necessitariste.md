@@ -1,17 +1,17 @@
 ---
-title: Examen du théisme — profil du nécessitariste impersonnel
+title: Question de Dieu : profil du nécessitariste impersonnel
 type: reference
 scope: perso
 projet: []
 domaine: [philosophie]
-tags: [theisme, population, profil]
+tags: [question-de-dieu, population, profil]
 status: draft
 updated: 2026-11-05
 ---
 
 # Le nécessitariste impersonnel
 
-Règles communes et gabarit : [[theisme-population]].
+Règles communes et gabarit : [population](population.md).
 
 ## Thèses
 
@@ -33,7 +33,7 @@ P1, la prémisse `◇G`, H2 au sens de la raison ; non-H3 et non-H4, dont il por
 
 ## Fiche de position
 
-Format : [[theisme-population]], « Fiches de position ».
+Format : [population](population.md), « Fiches de position ».
 
 | Module | Prémisse | Choix | Coûts métaphysiques et épistémiques assumés | Implications pour sa vision du monde | Implications pour son mode de vie |
 |---|---|---|---|---|---|
@@ -55,7 +55,7 @@ Format : [[theisme-population]], « Fiches de position ».
 | M0 | E1 | accepte | engage peu | quelque chose existe | néant |
 | M0 | P1 | accepte : démontrée (L3), par la définition D2 | `◇G` pèse le poids de `G` (T3d) ; charge de justifier `◇G` | si `G`, `G` dans toute situation | néant |
 | M0 | Pn (globale) | suspend | pas de voie L4 par Pn ; (c′) abandonnée comme appui | n'exclut pas qu'un contingent ait des causes variables | néant |
-| M0 | Pn_i | hypothèse assumée, signalée (sert `G`), lue sur tout objet qui existe dans au moins une situation possible | refus de Pn_i ([[theisme-m0-resultats]]) ; si Pn_i tombe, L4 tombe ; P1 n'en dépend pas (L3) | la relation d'un inévitable à ce dont il dépend est fixe | néant |
+| M0 | Pn_i | hypothèse assumée, signalée (sert `G`), lue sur tout objet qui existe dans au moins une situation possible | refus de Pn_i ([m0-resultats](../modules/m0-resultats.md)) ; si Pn_i tombe, L4 tombe ; P1 n'en dépend pas (L3) | la relation d'un inévitable à ce dont il dépend est fixe | néant |
 | M0 | Pc | hypothèse assumée | sous FE, sa part « raison » revient à sa part « cause » (T12) ; causes passées : M3 | cause et raison coexistent avec ce qu'elles font exister | néant |
 | M0 | (b) | hypothèse assumée | ni cycle ni régression infinie de dépendance dans aucune situation ; L4 n'emploie que (b_L4), plus faible ; si M3 fait de la succession une dépendance, un dernier terme sera requis ; avec la thèse 3, Pc et Pn_i, elle donne la thèse 2 et un être inévitable (L7) | ce qui dépend remonte à ce qui ne dépend de rien | chercher le point d'arrêt d'une explication est légitime |
 | M0 | (c′) | suspend | « se combinent librement » et sa portée non définis ; n'entraîne ni `G` ni `◇G` ; `¬Sv` tenue comme conséquence de `G`, jamais comme prémisse avec (c′) | néant | néant |

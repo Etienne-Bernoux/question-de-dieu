@@ -1,17 +1,17 @@
 ---
-title: Examen du théisme — profil du théiste
+title: Question de Dieu : profil du théiste
 type: reference
 scope: perso
 projet: []
 domaine: [philosophie]
-tags: [theisme, population, profil]
+tags: [question-de-dieu, population, profil]
 status: draft
 updated: 2026-11-05
 ---
 
 # Le théiste
 
-Règles communes et gabarit : [[theisme-population]].
+Règles communes et gabarit : [population](population.md).
 
 ## Thèses
 
@@ -33,7 +33,7 @@ P1, équivalente à `¬(◇G ∧ ◇¬G)` (T7) ; `◇G`, hypothèse de même ran
 
 ## Fiche de position
 
-Format : [[theisme-population]], « Fiches de position ».
+Format : [population](population.md), « Fiches de position ».
 
 | Module | Prémisse | Choix | Coûts métaphysiques et épistémiques assumés | Implications pour sa vision du monde | Implications pour son mode de vie |
 |---|---|---|---|---|---|
@@ -57,8 +57,8 @@ Format : [[theisme-population]], « Fiches de position ».
 | M0 | T11, T12 | accepte, sous la clause des énoncés atomiques de D18 | la raison de l'existence d'un contingent en Dieu est que Dieu en est cause | néant | néant |
 | M0 | E1 | accepte ; sous AO, tient par Ac | sa thèse `G` ne s'en passe que si `◇G` est établi sans observation ; sans Ac, une observation contraire pourrait retirer E1 | quelque chose existe | son enquête part de ce constat |
 | M0 | P1 | accepte : démontrée (L3), par la définition D2 | équivaut à `¬(◇G ∧ ◇¬G)` (T7) | `G`, s'il est possible, est actuel | si `G`, aucune situation ne le retire ; une conduite appuyée dessus n'est exposée qu'à son erreur sur `G` |
-| M0 | `◇G` | hypothèse de même rang que `G` | tout fondement tiré d'un fait redonne `G` (routes vers une possibilité, [[theisme-m0-resultats]]) ; `◇G` et `G` s'entraînent (T3d) ; la concevabilité ne suffit pas (T6) | une situation possible avec un être nécessaire ; il est alors actuel | néant |
-| M0 | Pn | assume Pn_i comme hypothèse, lue sur tout objet qui existe dans au moins une situation possible ; suspend la forme générale | refus de Pn_i ([[theisme-m0-resultats]]) ; si Pn_i tombe, L4 tombe, et L7 ne donne plus `G` ; P1 n'en dépend pas (L3) | la relation d'un inévitable à ce dont il dépend est fixe | une conduite appuyée sur un être qui ne dépend de rien n'a pas à redouter son absence |
+| M0 | `◇G` | hypothèse de même rang que `G` | tout fondement tiré d'un fait redonne `G` (routes vers une possibilité, [m0-resultats](../modules/m0-resultats.md)) ; `◇G` et `G` s'entraînent (T3d) ; la concevabilité ne suffit pas (T6) | une situation possible avec un être nécessaire ; il est alors actuel | néant |
+| M0 | Pn | assume Pn_i comme hypothèse, lue sur tout objet qui existe dans au moins une situation possible ; suspend la forme générale | refus de Pn_i ([m0-resultats](../modules/m0-resultats.md)) ; si Pn_i tombe, L4 tombe, et L7 ne donne plus `G` ; P1 n'en dépend pas (L3) | la relation d'un inévitable à ce dont il dépend est fixe | une conduite appuyée sur un être qui ne dépend de rien n'a pas à redouter son absence |
 | M0 | Pc | hypothèse assumée | une raison sans porteur est exclue, ce qui pèse sur H1 ; sous FE, sa part « raison » revient à sa part « cause » (T12) ; causes passées : M3 | rien n'est cause ou raison dans une situation où il n'existe pas | cherche les raisons parmi ce qui existe |
 | M0 | (b) | hypothèse assumée (charge en M1) | justifier que, dans aucune situation, une suite de dépendance n'est sans dernier terme : ni cycle ni régression infinie ; L4 n'emploie que (b_L4), plus faible ; jointe à Pr_c, Pc et E1, elle donne un inévitable (L7) | dans chaque situation, toute suite de dépendance s'arrête sur un être qui ne dépend de rien | n'accepte pas une explication repoussée sans terme |
 | M0 | (c′) | suspend | (c′_tot), jointe à ¬Sv, donnerait un inévitable (L6), mais son refus de Sv découle de `G` : l'employer pour `G` serait une pétition de principe ; « se combinent librement » reste à définir | néant | néant |

@@ -1,17 +1,17 @@
 ---
-title: Examen du théisme — M0, débat
+title: Question de Dieu : M0, débat
 type: knowledge
 scope: perso
 projet: []
 domaine: [philosophie, logique]
-tags: [theisme, debat, objections, verdicts]
+tags: [question-de-dieu, debat, objections, verdicts]
 status: draft
 updated: 2026-11-05
 ---
 
 # M0 — Débat
 
-Passage de [[theisme-m0-resultats]] devant la [[theisme-population]] : objections reçues, verdicts du synthétiseur, décisions renvoyées à l'utilisateur. Les contributions brutes ne sont pas conservées. Les décisions et leurs mots sont au [[theisme-journal]] (lignes « Passage de M0 ») ; leur contenu est dans [[theisme-cadre]] et [[theisme-registre]].
+Passage de [m0-resultats](m0-resultats.md) devant la [population](../population/population.md) : objections reçues, verdicts du synthétiseur, décisions renvoyées à l'utilisateur. Les contributions brutes ne sont pas conservées. Les décisions et leurs mots sont au [journal](../methode/journal.md) (lignes « Passage de M0 ») ; leur contenu est dans [cadre](../socle/cadre.md) et [registre](../socle/registre.md).
 
 R : retenue. J : rejetée. T : transmise à l'utilisateur. Les numéros d'objection sont ceux de chaque contribution (théiste 1 à 10, nécessitariste 1 à 10, naturaliste O1 à O9, sceptique O1 à O10).
 
@@ -57,7 +57,7 @@ Concessions : T3d (théiste, nécessitariste) ; les routes vers une possibilité
 
 ## Décisions de l'utilisateur
 
-Q1 à Q14 et Q1 bis : [[theisme-journal]], lignes « Passage de M0 ». Objets : identité entre situations (Q1), situation vide (Q1 bis), raisonnement par cas (Q2), lecture de « ne dépendre de rien » (Q3), socle (Q4), rendre intelligible (Q5), motif de D2 (Q6), clause de D2 (Q7), principe de E1 (Q8), langage d'analyse (Q9), « produire » (Q10), N, K, T, U (Q11), charge du sceptique (Q12), titre de M0 (Q13), modèle des philosophes (Q14).
+Q1 à Q14 et Q1 bis : [journal](../methode/journal.md), lignes « Passage de M0 ». Objets : identité entre situations (Q1), situation vide (Q1 bis), raisonnement par cas (Q2), lecture de « ne dépendre de rien » (Q3), socle (Q4), rendre intelligible (Q5), motif de D2 (Q6), clause de D2 (Q7), principe de E1 (Q8), langage d'analyse (Q9), « produire » (Q10), N, K, T, U (Q11), charge du sceptique (Q12), titre de M0 (Q13), modèle des philosophes (Q14).
 
 ## Décompte
 
@@ -98,13 +98,13 @@ Arguments contrôlés par le vérificateur :
 Question posée aux quatre philosophes : les décisions Q3 (lecture de « ne dépendre de rien ») et Q6 (motif de D2) favorisent-elles, par définition, une réponse sur `G` ? Critères communs : symétrie, motif démontré ou stipulé (test du miroir), report de charge, alternative.
 
 - **Q3.** Les quatre : IMPARTIALE SOUS RÉSERVE. Le vérificateur valide la symétrie : `G` a la même valeur dans toute situation, et l'échange de `G` et `¬G` envoie T3a et T3b l'un sur l'autre, à `¬¬G ≡ G` près ; les énoncés sont symétriques, non les bases (A4 contre U). Il invalide l'argument de miroir du nécessitariste et du sceptique : Pn_i porte sur les inévitables, jamais sur les contingents, et son miroir ne donne que Pn restreinte aux contingents, inutile à L4. Il relève une lacune réelle dans D20 et L4 : l'inévitable qui ne dépend que dans certaines situations doit être rangé explicitement.
-- **Q6.** Les quatre : IMPARTIALE SOUS RÉSERVE. Le vérificateur invalide la thèse du théiste et du naturaliste selon laquelle une définition ne peut pas rendre `G` vrai : « x est nécessaire si x = x et E(x) » rend `G` vrai dans tout modèle du socle avec E1. Q6 ne tient, une chose étant jugée par le nom que lui donne la base de concevabilité, que par deux réparations : la règle « Nommer » (§1 du [[theisme-cadre]]), qui étend T9 d'« aucune chose nommée » à « aucune chose », et E1 réduit à `∃x (x = x)` dans la base de concevabilité (D17).
+- **Q6.** Les quatre : IMPARTIALE SOUS RÉSERVE. Le vérificateur invalide la thèse du théiste et du naturaliste selon laquelle une définition ne peut pas rendre `G` vrai : « x est nécessaire si x = x et E(x) » rend `G` vrai dans tout modèle du socle avec E1. Q6 ne tient, une chose étant jugée par le nom que lui donne la base de concevabilité, que par deux réparations : la règle « Nommer » (§1 du [cadre](../socle/cadre.md)), qui étend T9 d'« aucune chose nommée » à « aucune chose », et E1 réduit à `∃x (x = x)` dans la base de concevabilité (D17).
 
-Leçon commune : l'accord des quatre reposait sur deux arguments invalides. Effets : contrainte 9 du [[theisme-protocole]] (symétrie des définitions) ; H1′ au [[theisme-registre]] ; T9 et T3e dans [[theisme-m0-resultats]] ; D17, D20 et colonne « Écarté » de D2 au cadre. Le vérificateur confirme aussi que les sens écartés de D1 (« sa propre raison d'exister ») et H1 ne tranchaient pas `G` par définition : ils ne relèvent pas de la contrainte 9. Pour la clause de D1, ce constat est corrigé au contrôle de solidité : sans raisons de soi retenues, elle rend `¬G` vrai par définition.
+Leçon commune : l'accord des quatre reposait sur deux arguments invalides. Effets : contrainte 9 du [protocole](../methode/protocole.md) (symétrie des définitions) ; H1′ au [registre](../socle/registre.md) ; T9 et T3e dans [m0-resultats](m0-resultats.md) ; D17, D20 et colonne « Écarté » de D2 au cadre. Le vérificateur confirme aussi que les sens écartés de D1 (« sa propre raison d'exister ») et H1 ne tranchaient pas `G` par définition : ils ne relèvent pas de la contrainte 9. Pour la clause de D1, ce constat est corrigé au contrôle de solidité : sans raisons de soi retenues, elle rend `¬G` vrai par définition.
 
 ## Contrôle de solidité (2026-11-03)
 
-Après le recontrôle, M0 a été relu par trois relecteurs indépendants, en lecture seule : un sur la cohérence des notes, deux sur la littérature publiée, l'un pour la modalité et la logique du socle, l'autre pour la raison et la dépendance. Deux vérificateurs ont jugé leurs constats, l'un les défauts de fondation, l'autre les défauts locaux et de forme. Chaque défaut retenu figure ci-dessous avec son origine, son verdict et son effet ; les décisions de l'utilisateur sont au [[theisme-journal]] (sections du 2026-11-03 et des 2026-11-04 et 2026-11-05). La population a ensuite éprouvé le texte consolidé (sous-section « Passage devant la population »).
+Après le recontrôle, M0 a été relu par trois relecteurs indépendants, en lecture seule : un sur la cohérence des notes, deux sur la littérature publiée, l'un pour la modalité et la logique du socle, l'autre pour la raison et la dépendance. Deux vérificateurs ont jugé leurs constats, l'un les défauts de fondation, l'autre les défauts locaux et de forme. Chaque défaut retenu figure ci-dessous avec son origine, son verdict et son effet ; les décisions de l'utilisateur sont au [journal](../methode/journal.md) (sections du 2026-11-03 et des 2026-11-04 et 2026-11-05). La population a ensuite éprouvé le texte consolidé (sous-section « Passage devant la population »).
 
 | Défaut | Origine | Verdict | Effet |
 |---|---|---|---|
@@ -130,11 +130,11 @@ Après le recontrôle, M0 a été relu par trois relecteurs indépendants, en le
 | « HYPOTHÈSE admise » contredisait la définition du statut | cohérence ; vérificateur | confirmé | décision « paramètres de D18 » ; registre |
 | H1 était dite dégénérée sous D18, constat antérieur à la clause de minimalité | cohérence ; vérificateur | confirmé | ligne H1 de « Transmis » ; fiche du théiste ; traces marquées |
 | Des principes de fond étaient classés DÉFINITION | cohérence ; vérificateur | partiel : ils étaient passés par la population et l'utilisateur | décision « classement » ; registre |
-| La condition de T9 était passée de « n'affirme » à « n'entraîne » sans trace | cohérence ; vérificateur | confirmé : correction de validité, motif de D2 inchangé | [[theisme-journal]] |
-| Le verdict du vérificateur était dit indiscutable et contestable | cohérence ; vérificateur | confirmé | [[theisme-population]], table des modèles |
+| La condition de T9 était passée de « n'affirme » à « n'entraîne » sans trace | cohérence ; vérificateur | confirmé : correction de validité, motif de D2 inchangé | [journal](../methode/journal.md) |
+| Le verdict du vérificateur était dit indiscutable et contestable | cohérence ; vérificateur | confirmé | [population](../population/population.md), table des modèles |
 | P1 était présentée comme une question de M2 | cohérence ; vérificateur | confirmé | sommaire, ligne M2 |
 | Termes périmés ou non définis dans les traces (`Q_x`, Pn-N, clause d'indépendance, clause d'indispensabilité, R1, R2) | cohérence ; vérificateur | confirmé | gloses dans ce débat et au journal ; fiche du nécessitariste |
-| « Possibilité existentielle » et « prémisse modale admise » non définis | cohérence ; vérificateur | confirmé | [[theisme-population]], termes des profils |
+| « Possibilité existentielle » et « prémisse modale admise » non définis | cohérence ; vérificateur | confirmé | [population](../population/population.md), termes des profils |
 | « Vérité logique » non défini ; le passage d'un contre-modèle à « ne se démontre pas » n'était pas justifié | cohérence ; vérificateur | confirmé, portée élargie à T1, T2, T11 et à « entraîner » | correction, vérité logique et entraîner au §1 du cadre |
 | Listes de dépendances incomplètes dans les refus de N, K, T et U | cohérence ; vérificateur | confirmé | paragraphes de N, K, T, U |
 | « Valuation » employé au lieu d'« attribution » | cohérence ; vérificateur | confirmé | cadre (B) ; T0 |
@@ -204,7 +204,7 @@ Le texte consolidé est passé devant les quatre philosophes et le vérificateur
 | Gloses de renommage et audit des colonnes « Écarté » incomplets | vérificateur | R | correctifs partiels | journal ; audit colonne par colonne |
 | Précisions mineures (D1, renommage, D6) | vérificateur | R | textes inexacts | cadre |
 
-Effets sur les autres notes : [[theisme-cadre]] (§1, §2, §3, §4, §5), [[theisme-registre]], [[theisme-m0-resultats]] (L4, L6, L7, T6, T9, T11, T12, hypothèses, positions, « Transmis »), [[theisme-journal]], fiches de position des quatre philosophes, sommaire.
+Effets sur les autres notes : [cadre](../socle/cadre.md) (§1, §2, §3, §4, §5), [registre](../socle/registre.md), [m0-resultats](m0-resultats.md) (L4, L6, L7, T6, T9, T11, T12, hypothèses, positions, « Transmis »), [journal](../methode/journal.md), fiches de position des quatre philosophes, sommaire.
 
 Réplique, en bref. Le sceptique retire son axiome du constat de soi au profit de Ac et propose son paragraphe de refus. Le naturaliste retire Pc_r, qu'il avait assumée sur une lecture fautive de sa thèse 1, accepte que le complément ne porte que sur les observations positives, tient l'irréflexivité pour une partie du sens de D4 et écarte Cont sans la nier. Le nécessitariste tient l'irréflexivité pour démontrée de D4 et retire la qualification « prémisse glissée ». Le théiste concède une seule valeur sélective, signalée, ne soutient que son écriture par `□E(t)` et propose un critère de cercle pour M1.
 
@@ -222,11 +222,11 @@ Verdicts, du 2026-11-02 au 2026-11-03 :
 
 Tous les pas de la liste ont reçu un verdict de validité, après correction, sauf le paragraphe de refus de Nb et les rubriques 1, 2, 3 et 5 de « Positions après M0 », sans verdict consigné.
 
-Vérification en cours, pas modifiés au contrôle de solidité, après le passage devant la population : au [[theisme-cadre]], le modèle général, le modèle du socle et la correction (§1) ; les paragraphes de refus de « Nommer », du langage d'analyse, de la sémantique des énoncés atomiques et de FE ; les ajouts « sert G ou ¬G » des §2 et §3 ; D4 et sa colonne « Écarté », D1 (colonne « Écarté »), D6, D14, D17, D18, la sous-section de la base d'intelligibilité (énoncé atomique et son paragraphe, paramètres, clause d'identité) ; le complément d'« observation », la règle d'admission des observations, l'axiome d'occurrence et leurs paragraphes ; E1 sous Ac ; dans [[theisme-m0-resultats]], L4 (étape 5 et portée de Pn_i), L6, L7, T6, T9, T11 (étape 3), les paragraphes de Pn, Pn_i, (c′), (c′_tot), Abs, Cont, Pr et Pr_c (quatre valeurs), Nb, les rubriques 2 et 3 de « Positions après M0 » et les lignes de « Transmis ».
+Vérification en cours, pas modifiés au contrôle de solidité, après le passage devant la population : au [cadre](../socle/cadre.md), le modèle général, le modèle du socle et la correction (§1) ; les paragraphes de refus de « Nommer », du langage d'analyse, de la sémantique des énoncés atomiques et de FE ; les ajouts « sert G ou ¬G » des §2 et §3 ; D4 et sa colonne « Écarté », D1 (colonne « Écarté »), D6, D14, D17, D18, la sous-section de la base d'intelligibilité (énoncé atomique et son paragraphe, paramètres, clause d'identité) ; le complément d'« observation », la règle d'admission des observations, l'axiome d'occurrence et leurs paragraphes ; E1 sous Ac ; dans [m0-resultats](m0-resultats.md), L4 (étape 5 et portée de Pn_i), L6, L7, T6, T9, T11 (étape 3), les paragraphes de Pn, Pn_i, (c′), (c′_tot), Abs, Cont, Pr et Pr_c (quatre valeurs), Nb, les rubriques 2 et 3 de « Positions après M0 » et les lignes de « Transmis ».
 
 ## Points ouverts
 
-- M1 fixe les deux paramètres de D18 (universels employables dans une base, raisons de soi retenues). Pour l'existence, seul le second compte, sous quatre valeurs (toutes retenues, retenues pour les seuls inévitables, retenues pour les seuls contingents, aucune retenue) : D6, Pr et Pr_c en dépendent ; la part « raison » de D19 et de Pc est réglée par FE (T12). Les deux valeurs sélectives sont signalées, la deuxième sert `G`, la troisième `¬G` ; chacune porte la charge de montrer qu'elle n'est pas un cercle déguisé ; le tenant de la deuxième propose un critère de cercle ([[theisme-m0-resultats]], « Transmis »).
+- M1 fixe les deux paramètres de D18 (universels employables dans une base, raisons de soi retenues). Pour l'existence, seul le second compte, sous quatre valeurs (toutes retenues, retenues pour les seuls inévitables, retenues pour les seuls contingents, aucune retenue) : D6, Pr et Pr_c en dépendent ; la part « raison » de D19 et de Pc est réglée par FE (T12). Les deux valeurs sélectives sont signalées, la deuxième sert `G`, la troisième `¬G` ; chacune porte la charge de montrer qu'elle n'est pas un cercle déguisé ; le tenant de la deuxième propose un critère de cercle ([m0-resultats](m0-resultats.md), « Transmis »).
 - Distinguer loi et coïncidence ; décider d'une condition d'asymétrie et de pertinence pour le comment ; la question « pourquoi les lois sont-elles ce qu'elles sont » (M1).
 - L'épreuve de E1 sous la règle d'admission des observations est faite : sous la règle seule, E1 pouvait tomber ; l'axiome d'occurrence (Ac) le garde.
 - Les fiches de position portent des lignes écrites à partir des corrections : chaque tenant les certifie au passage suivant.

@@ -1,17 +1,17 @@
 ---
-title: Examen du théisme — profil du naturaliste
+title: Question de Dieu : profil du naturaliste
 type: reference
 scope: perso
 projet: []
 domaine: [philosophie]
-tags: [theisme, population, profil]
+tags: [question-de-dieu, population, profil]
 status: draft
 updated: 2026-11-05
 ---
 
 # Le naturaliste
 
-Règles communes et gabarit : [[theisme-population]].
+Règles communes et gabarit : [population](population.md).
 
 ## Thèses
 
@@ -35,7 +35,7 @@ Son terrain est la portée du raisonnement sans observation, pas la mesure : il 
 
 ## Fiche de position
 
-Format : [[theisme-population]], « Fiches de position ».
+Format : [population](population.md), « Fiches de position ».
 
 Choix à faire lors de son premier engagement en M1 : son critère positif, c'est-à-dire ce qui **suffit** à établir qu'une chose existe. La thèse 3 ne donne qu'une condition nécessaire ; sans critère positif, il bloquerait les preuves des autres sans dire ce qu'il accepte, ce que la symétrie interdit.
 

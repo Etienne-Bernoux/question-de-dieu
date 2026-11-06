@@ -1,26 +1,26 @@
 ---
-title: Examen du théisme — population d'agents
+title: Question de Dieu : population d'agents
 type: reference
 scope: perso
 projet: []
 domaine: [philosophie, logique]
-tags: [theisme, population, contradicteurs, orchestration]
+tags: [question-de-dieu, population, contradicteurs, orchestration]
 status: draft
 updated: 2026-11-05
 ---
 
 # Population d'agents
 
-Les agents qui produisent et éprouvent chaque module. L'orchestrateur les lance, contrôle que chaque livrable respecte le protocole, soumet à l'utilisateur les décisions qui lui reviennent, une par une, puis consigne ; il ne rédige aucun contenu de module. Décisions : [[theisme-journal]].
+Les agents qui produisent et éprouvent chaque module. L'orchestrateur les lance, contrôle que chaque livrable respecte le protocole, soumet à l'utilisateur les décisions qui lui reviennent, une par une, puis consigne ; il ne rédige aucun contenu de module. Décisions : [journal](../methode/journal.md).
 
 ## Partage des rôles
 
 | Rôle du protocole | Tenu par | Ce qu'il produit |
 |---|---|---|
-| Formalisateur | agent dédié, modèle le plus puissant ([[theisme-formalisateur]]) | le brouillon du module, dans le seul vocabulaire du cadre |
-| Vérificateur | le vérificateur formel ([[theisme-verificateur-formel]]) | un verdict par pas, les prémisses réellement utilisées, le contrôle du vocabulaire et de la cohérence des fiches |
+| Formalisateur | agent dédié, modèle le plus puissant ([formalisateur](formalisateur.md)) | le brouillon du module, dans le seul vocabulaire du cadre |
+| Vérificateur | le vérificateur formel ([verificateur-formel](verificateur-formel.md)) | un verdict par pas, les prémisses réellement utilisées, le contrôle du vocabulaire et de la cohérence des fiches |
 | Explorateur des refus et avocat | les quatre philosophes, chacun depuis sa position | des objections au gabarit, la certification de fidélité, leurs engagements |
-| Synthétiseur | agent dédié, modèle le plus puissant, distinct du formalisateur ([[theisme-synthetiseur]]) | un verdict par objection, la note de débat, les corrections que le formalisateur applique |
+| Synthétiseur | agent dédié, modèle le plus puissant, distinct du formalisateur ([synthetiseur](synthetiseur.md)) | un verdict par objection, la note de débat, les corrections que le formalisateur applique |
 
 Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit que les notes juge sur pièces, et ses erreurs signalent une décision non consignée.
 
@@ -41,7 +41,7 @@ Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit qu
 | Vérificateur formel | Opus | son verdict de validité ne se conteste que par une preuve, jugée par le synthétiseur (règles de décision) ; une erreur passerait sans contrôle |
 | Les quatre philosophes | Opus, à partir de M1 | chercher des failles ; le critère de bascule ci-dessous est rempli au passage de M0 |
 
-Critère de bascule : si la plupart des objections des philosophes sont rejetées, ou si le vérificateur trouve des failles qu'aucun philosophe n'a vues, les philosophes passent sur Opus. Au passage de M0, la seconde condition est remplie : failles vues du seul vérificateur au premier tour, en réplique et sur la consultation Q9 ([[theisme-m0-debat]]). Rien ne montre qu'Opus les aurait vues : la mesure est à refaire en M1, en comptant les failles vues du seul vérificateur. Volume mesuré le 2026-11-01 : environ 48 Ko d'entrée par agent, environ quatorze appels par module.
+Critère de bascule : si la plupart des objections des philosophes sont rejetées, ou si le vérificateur trouve des failles qu'aucun philosophe n'a vues, les philosophes passent sur Opus. Au passage de M0, la seconde condition est remplie : failles vues du seul vérificateur au premier tour, en réplique et sur la consultation Q9 ([m0-debat](../modules/m0-debat.md)). Rien ne montre qu'Opus les aurait vues : la mesure est à refaire en M1, en comptant les failles vues du seul vérificateur. Volume mesuré le 2026-11-01 : environ 48 Ko d'entrée par agent, environ quatorze appels par module.
 
 ## Règles de décision
 
@@ -53,7 +53,7 @@ Chacun tranche là où son jugement est indépendant de l'enjeu.
 | La formulation d'une position est-elle fidèle ? | le tenant et ses adversaires | Fidèle si son tenant la certifie et si au moins un membre d'une position opposée accepte qu'elle n'est pas caricaturée ; à défaut, l'utilisateur tranche |
 | Une objection est-elle retenue ? | le synthétiseur | Retenue si elle est prouvée, si le vérificateur ne trouve rien à redire à sa preuve, et si elle ne touche aucune décision de l'utilisateur ; sinon rejetée avec sa raison, ou transmise |
 | Une définition ou un axiome est-il admis ? | l'utilisateur | Les agents proposent, chiffrent les coûts et rédigent le paragraphe de refus |
-| Une autre prémisse est-elle admise ? | personne | Elle est démontrée, ou elle reste une hypothèse (contrainte 8 du [[theisme-protocole]]) |
+| Une autre prémisse est-elle admise ? | personne | Elle est démontrée, ou elle reste une hypothèse (contrainte 8 du [protocole](../methode/protocole.md)) |
 | Les choix d'un philosophe sont-ils cohérents ? | le philosophe | Le vérificateur signale une contradiction dans sa fiche ; le philosophe la résout au passage suivant et en assume les conséquences |
 
 ## Contradicteurs
@@ -62,13 +62,13 @@ Chaque membre se définit par des thèses explicites, jamais par un nom ou un co
 
 | Membre | Un être nécessaire existe-t-il ? | Est-il personnel ? | Ce qui fonde une connaissance | Profil |
 |---|---|---|---|---|
-| Le théiste | oui | oui | ce qui est établi sans observation peut établir une nécessité et les possibilités qui en découlent, aucune possibilité existentielle sans prémisse modale admise ; tout contingent qui existe a une cause ; un être nécessaire a sa raison dans sa nature, si M1 l'admet | [[theisme-ph-theiste]] |
-| Le nécessitariste impersonnel | oui | non : aucun être nécessaire n'a la propriété H3 | ce qui est établi sans observation établit des nécessités sans contenu existentiel ; une possibilité existentielle, seulement par une prémisse modale admise | [[theisme-ph-necessitariste]] |
-| Le naturaliste | non, comme hypothèse assumée | sans objet | ce qui est établi sans observation ne conclut, pris isolément, à aucun énoncé de la forme `∃x F(x)`, `◇∃x F(x)`, `□∃x F(x)`, ni à leur négation, hors la nécessité d'une vérité logique ; il peut conclure à des conditionnels et à des disjonctions entre eux (P1, T3e) ; une observation parmi les prémisses est nécessaire, non suffisante | [[theisme-ph-naturaliste]] |
-| Le sceptique | suspend | suspend | rien n'est acquis sans démonstration, hors axiomes et définitions admis, et observations admises sous réserve (AO) | [[theisme-ph-sceptique]] |
-| Le vérificateur formel | aucune position | aucune position | la seule validité des inférences | [[theisme-verificateur-formel]] |
+| Le théiste | oui | oui | ce qui est établi sans observation peut établir une nécessité et les possibilités qui en découlent, aucune possibilité existentielle sans prémisse modale admise ; tout contingent qui existe a une cause ; un être nécessaire a sa raison dans sa nature, si M1 l'admet | [ph-theiste](ph-theiste.md) |
+| Le nécessitariste impersonnel | oui | non : aucun être nécessaire n'a la propriété H3 | ce qui est établi sans observation établit des nécessités sans contenu existentiel ; une possibilité existentielle, seulement par une prémisse modale admise | [ph-necessitariste](ph-necessitariste.md) |
+| Le naturaliste | non, comme hypothèse assumée | sans objet | ce qui est établi sans observation ne conclut, pris isolément, à aucun énoncé de la forme `∃x F(x)`, `◇∃x F(x)`, `□∃x F(x)`, ni à leur négation, hors la nécessité d'une vérité logique ; il peut conclure à des conditionnels et à des disjonctions entre eux (P1, T3e) ; une observation parmi les prémisses est nécessaire, non suffisante | [ph-naturaliste](ph-naturaliste.md) |
+| Le sceptique | suspend | suspend | rien n'est acquis sans démonstration, hors axiomes et définitions admis, et observations admises sous réserve (AO) | [ph-sceptique](ph-sceptique.md) |
+| Le vérificateur formel | aucune position | aucune position | la seule validité des inférences | [verificateur-formel](verificateur-formel.md) |
 
-Termes des profils, stipulations de vocabulaire soumises à l'accord de l'utilisateur (contrainte 6 du [[theisme-protocole]]) : une **possibilité existentielle** est un énoncé de la forme `◇∃x F(x)` ou `◇E(a)` ; une **prémisse modale admise** est un axiome nouveau de la forme `◇P`, admis selon la contrainte 8 avec son paragraphe de refus.
+Termes des profils, stipulations de vocabulaire soumises à l'accord de l'utilisateur (contrainte 6 du [protocole](../methode/protocole.md)) : une **possibilité existentielle** est un énoncé de la forme `◇∃x F(x)` ou `◇E(a)` ; une **prémisse modale admise** est un axiome nouveau de la forme `◇P`, admis selon la contrainte 8 avec son paragraphe de refus.
 
 Un cinquième philosophe, centré sur la morale et le sens, rejoindra la population à l'ouverture de M5.
 
@@ -76,9 +76,9 @@ Un cinquième philosophe, centré sur la morale et le sens, rejoindra la populat
 
 Elles s'appliquent à chaque membre et lui sont transmises avec son profil.
 
-1. **Un seul vocabulaire.** Tous les membres emploient les termes du [[theisme-cadre]], au sens qu'il fixe, et aucun autre. Un membre qui a besoin d'un terme nouveau ou d'un autre sens en propose la définition comme objection ; il ne l'emploie qu'une fois la définition admise au cadre. Les termes employés par les profils et par le module examiné sont définis avant le passage de la population ; les autres, dans le module qui les traite.
+1. **Un seul vocabulaire.** Tous les membres emploient les termes du [cadre](../socle/cadre.md), au sens qu'il fixe, et aucun autre. Un membre qui a besoin d'un terme nouveau ou d'un autre sens en propose la définition comme objection ; il ne l'emploie qu'une fois la définition admise au cadre. Les termes employés par les profils et par le module examiné sont définis avant le passage de la population ; les autres, dans le module qui les traite.
 2. **Aucune autorité.** Ne citer ni philosophe, ni école, ni argument par son nom. Tout se démontre à partir du cadre, ou se source : données publiées pour un fait empirique.
-3. **Démontrer, pas affirmer.** Contraintes 6 à 8 du [[theisme-protocole]]. Une objection sans preuve est classée « intuition » et ne peut être retenue en l'état.
+3. **Démontrer, pas affirmer.** Contraintes 6 à 8 du [protocole](../methode/protocole.md). Une objection sans preuve est classée « intuition » et ne peut être retenue en l'état.
 4. **Classer le refus.** Contrainte 3 du protocole.
 5. **Défendre sa position sans la caricaturer chez les autres.** Chaque membre certifie que sa propre position est formulée fidèlement dans le livrable, ou propose la formulation exacte.
 6. **Rester dans le module.** Une objection qui relève d'un module ultérieur est signalée en une ligne avec le module visé.
@@ -107,4 +107,4 @@ Chaque profil porte la fiche de son membre : une ligne par prémisse tranchée, 
 
 ## Traces
 
-Les contributions brutes ne sont pas conservées. Pour chaque module, une note `modules/theisme-mN-debat` consigne chaque objection, son auteur, le verdict du synthétiseur (retenue, rejetée, transmise à l'utilisateur) avec sa raison, et l'effet sur les autres notes.
+Les contributions brutes ne sont pas conservées. Pour chaque module, une note `modules/mN-debat` consigne chaque objection, son auteur, le verdict du synthétiseur (retenue, rejetée, transmise à l'utilisateur) avec sa raison, et l'effet sur les autres notes.

@@ -1,17 +1,17 @@
 ---
-title: Examen du théisme — registre
+title: Question de Dieu : registre
 type: knowledge
 scope: perso
 projet: []
 domaine: [philosophie, logique]
-tags: [theisme, registre]
+tags: [question-de-dieu, registre]
 status: draft
 updated: 2026-11-05
 ---
 
 # Registre
 
-Statut de chaque énoncé. Règle de tri : une définition fixe le sens d'un mot ; tout énoncé qui peut être faux et qu'on admet sans preuve est un axiome. AXIOME : énoncé qui peut être faux, admis sans preuve par l'utilisateur, avec son paragraphe de refus. DÉFINITION : terme fixé, ou terme premier ; elle n'affirme rien qui puisse être faux. DÉMONTRÉ : dérivé d'axiomes, de définitions et d'observations. DÉMONTRÉ SOUS HYPOTHÈSE : dérivé avec l'hypothèse nommée parmi les prémisses ; ne vaut que si elle est vraie. SOUS RÉSERVE : la démonstration a une lacune nommée. HYPOTHÈSE : énoncé qui peut être faux, ni démontré ni admis, avec son paragraphe de refus (contrainte 8 du [[theisme-protocole]]). CONTESTÉ : écarté. Contenu et paragraphes de refus : [[theisme-cadre]] et [[theisme-m0-resultats]] ; décisions : [[theisme-journal]].
+Statut de chaque énoncé. Règle de tri : une définition fixe le sens d'un mot ; tout énoncé qui peut être faux et qu'on admet sans preuve est un axiome. AXIOME : énoncé qui peut être faux, admis sans preuve par l'utilisateur, avec son paragraphe de refus. DÉFINITION : terme fixé, ou terme premier ; elle n'affirme rien qui puisse être faux. DÉMONTRÉ : dérivé d'axiomes, de définitions et d'observations. DÉMONTRÉ SOUS HYPOTHÈSE : dérivé avec l'hypothèse nommée parmi les prémisses ; ne vaut que si elle est vraie. SOUS RÉSERVE : la démonstration a une lacune nommée. HYPOTHÈSE : énoncé qui peut être faux, ni démontré ni admis, avec son paragraphe de refus (contrainte 8 du [protocole](../methode/protocole.md)). CONTESTÉ : écarté. Contenu et paragraphes de refus : [cadre](cadre.md) et [m0-resultats](../modules/m0-resultats.md) ; décisions : [journal](../methode/journal.md).
 
 Niveau d'une démonstration : « dérivation », par les règles de R ; « RC », par le raisonnement par cas (R) ; « modèle », par un modèle ou un contre-modèle (cadre, §1). Tous les résultats démontrés sont établis sans observation (D15), sauf E1 et L7 (D16).
 
