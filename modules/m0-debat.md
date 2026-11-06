@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [question-de-dieu, debat, objections, verdicts]
 status: draft
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # M0 — Débat
@@ -184,7 +184,7 @@ Le texte consolidé est passé devant les quatre philosophes et le vérificateur
 | Refus de la règle d'admission : exceptions traitées inégalement ; coût de l'acceptation absent | vérificateur, naturaliste | R | contrainte 6 appliquée inégalement ; contrainte 4 | paragraphe réécrit |
 | Paragraphe de refus de Ac (réplique) | sceptique | R, précisé | la négation de la seconde clause n'est une contradiction que si la première est gardée | paragraphe de Ac |
 | Irréflexivité de la cause non écrite ; Pr entraîne `¬G` et L7 en dépendent | naturaliste, nécessitariste, sceptique ; vérificateur pour L7 | T | prouvé : un modèle avec `Cause(a, a)` rend Pr et `G` vrais ensemble ; L7 tombe sans elle | partie du sens de D4, inscrite dans les modèles du socle ; D4 citée aux pas ; colonne « Écarté » de D4 |
-| Paramètre binaire : faux dilemme ; raison de nature exclue par la seule syntaxe | nécessitariste, théiste, naturaliste | T | une valeur qui passe la contrainte 9 était exclue sans motif | troisième valeur transmise à M1, signalée (sert `G`) ; puis, par symétrie, sa valeur miroir, « retenues pour les seuls contingents », signalée (sert `¬G`) ; « aucune retenue », « toutes retenues » ; verdicts de Pr et Pr_c par valeur |
+| Paramètre binaire : faux dilemme ; raison de nature exclue par la seule syntaxe | nécessitariste, théiste, naturaliste | T | une valeur qui passe la contrainte 9 était exclue sans motif | valeur « retenues pour les seuls inévitables » transmise à M1, signalée (sert `G`) ; puis, par symétrie, sa valeur miroir, « retenues pour les seuls contingents », signalée (sert `¬G`) ; « aucune retenue », « toutes retenues » ; verdicts de Pr et Pr_c par valeur |
 | « Pr » nommerait deux thèses | naturaliste | J | aucune inférence fautive : chaque classement est indexé | indexation par valeur (décision sur le paramètre) |
 | La raison de nature ne serait pas un cercle déguisé | théiste | J | intuition, déclarée telle | charge transmise à M1 |
 | Critère de cercle (réplique) : une base M pour P est circulaire si P, joint au socle et aux identités de M, entraîne M | théiste | J | relève de M1 (règle 6) ; preuve valide, critère non démontré | « Transmis », ligne des raisons de soi |
@@ -220,9 +220,9 @@ Verdicts, du 2026-11-02 au 2026-11-03 :
 | Troisième passage | les 21 corrections ; les pas issus des décisions de recontrôle (D18 indexée, base d'intelligibilité (alors « base de raison »), universels (O), T11, H1′, modèles sans raison stipulée) | les 21 corrections sont appliquées ; valides : les cercles bloqués, le retrait d'une loi contredite, le refus de la clause d'identité, T9, H1′, les marques d'attente, l'emploi de D19 dans P1, L3, T3, T7 et L4, la réserve sur (c′) et le modèle B étant levée ; 2 invalides (T11, refus de l'observation atomique) et 8 à corriger | corrections |
 | Quatrième à septième passages | les 10 points du troisième | 8 corrigés au quatrième ; la clause d'identité pour `E(x)` corrigée au cinquième ; T11 corrigé au septième (copie dans toute situation, paire de la copie avec elle-même) | T11 DÉMONTRÉ |
 
-Tous les pas de la liste ont reçu un verdict de validité, après correction, sauf le paragraphe de refus de Nb et les rubriques 1, 2, 3 et 5 de « Positions après M0 », sans verdict consigné.
+Tous les pas de la liste ont reçu un verdict de validité, après correction. Le paragraphe de refus de Nb et les rubriques 1, 2, 3 et 5 de « Positions après M0 », restés sans verdict consigné, sont jugés valides au dernier recontrôle du contrôle de solidité (2026-11-06).
 
-Vérification en cours, pas modifiés au contrôle de solidité, après le passage devant la population : au [cadre](../socle/cadre.md), le modèle général, le modèle du socle et la correction (§1) ; les paragraphes de refus de « Nommer », du langage d'analyse, de la sémantique des énoncés atomiques et de FE ; les ajouts « sert G ou ¬G » des §2 et §3 ; D4 et sa colonne « Écarté », D1 (colonne « Écarté »), D6, D14, D17, D18, la sous-section de la base d'intelligibilité (énoncé atomique et son paragraphe, paramètres, clause d'identité) ; le complément d'« observation », la règle d'admission des observations, l'axiome d'occurrence et leurs paragraphes ; E1 sous Ac ; dans [m0-resultats](m0-resultats.md), L4 (étape 5 et portée de Pn_i), L6, L7, T6, T9, T11 (étape 3), les paragraphes de Pn, Pn_i, (c′), (c′_tot), Abs, Cont, Pr et Pr_c (quatre valeurs), Nb, les rubriques 2 et 3 de « Positions après M0 » et les lignes de « Transmis ».
+Vérification faite (2026-11-05 au 2026-11-06), pas modifiés au contrôle de solidité, après le passage devant la population : au [cadre](../socle/cadre.md), le modèle général, le modèle du socle et la correction (§1) ; les paragraphes de refus de « Nommer », du langage d'analyse, de la sémantique des énoncés atomiques et de FE ; les ajouts « sert G ou ¬G » des §2 et §3 ; D4 et sa colonne « Écarté », D1 (colonne « Écarté »), D6, D14, D17, D18, la sous-section de la base d'intelligibilité (énoncé atomique et son paragraphe, paramètres, clause d'identité) ; le complément d'« observation », la règle d'admission des observations, l'axiome d'occurrence et leurs paragraphes ; E1 sous Ac ; dans [m0-resultats](m0-resultats.md), L4 (étape 5 et portée de Pn_i), L6, L7, T6, T9, T11 (étape 3), les paragraphes de Pn, Pn_i, (c′), (c′_tot), Abs, Cont, Pr et Pr_c (quatre valeurs), Nb, les rubriques 2 et 3 de « Positions après M0 » et les lignes de « Transmis ». S'y sont ajoutés, au fil des recontrôles, Ac complété, la clause (3) d'AO complétée, la clause de D18 qui exclut des bases les prédicats portant sur une observation ou un enregistrement, et les étapes 4 et 5 de T11. Verdict du dernier recontrôle : après correction, aucun de ces pas n'est invalide ni sous réserve.
 
 ## Points ouverts
 

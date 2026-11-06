@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie]
 tags: [question-de-dieu, arbitrages, decisions]
 status: draft
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Journal des arbitrages
@@ -111,3 +111,11 @@ Décisions de l'utilisateur, avec ses mots quand ils fixent un sens, et leur eff
 | Valeurs du paramètre « raisons de soi retenues » | Une troisième valeur est transmise à M1 : « raisons de soi retenues pour les seuls inévitables », par identité ou par `□E(t)`, une seule valeur sous deux écritures, signalée (sert G) ; la charge de montrer qu'elle n'est pas un cercle déguisé revient à son tenant, en M1. La valeur extrême est renommée « aucune retenue » ; les verdicts de Pr et Pr_c sont indexés par valeur | D1 (colonne « Écarté »), D6, D18 ; Pr, Pr_c, L7 ; « Transmis » |
 | Valeurs du paramètre, libellé et valeur miroir | La valeur qui retient toute raison de soi s'appelle « toutes retenues ». Une quatrième valeur est transmise à M1 : « raisons de soi retenues pour les seuls contingents », signalée (sert ¬G : elle ferme L7 et garde la route de Pr vers ¬G), avec la même charge que la valeur réservée aux inévitables : montrer en M1 qu'elle n'est pas un cercle déguisé. Les valeurs sont : aucune retenue, retenues pour les seuls inévitables (`□E(t)`), retenues pour les seuls contingents, toutes retenues | D1 (colonne « Écarté »), D6, D18 ; Pr, Pr_c, L7 ; « Positions après M0 », rubrique 3 ; « Transmis » ; contrôle de symétrie du [m0-debat](../modules/m0-debat.md) |
 | Contrôle de solidité de M0, population | Les quatre philosophes et le vérificateur ont éprouvé le texte consolidé, au premier tour à l'aveugle puis en réplique. Verdicts du synthétiseur : 16 objections retenues, 7 rejetées, 8 transmises, toutes tranchées ci-dessus. Suite autorisée : corrections, recontrôle, contrôle d'intégrité, commit ; M1 n'est pas ouvert | [m0-debat](../modules/m0-debat.md), « Passage devant la population » ; cadre, registre, résultats de M0, fiches de position, sommaire |
+
+## 2026-11-06 — M0, consolidation
+
+| Objet | Décision de l'utilisateur | Effet |
+|---|---|---|
+| Quatrième valeur du paramètre « raisons de soi retenues » | Transmise à M1 sans exclusion. Son effet, Pr_c vraie par définition sous cette valeur, est un coût à peser en M1, non un motif de l'exclure. Les valeurs du paramètre sont des options de définition : elles ne reçoivent pas de paragraphe de refus | Résultats de M0, « Transmis » ; paragraphe de refus de la quatrième valeur retiré |
+| Axiome d'occurrence (Ac), existence de l'acte | Ac est complété : « tout enregistrement fait est un acte qui a lieu dans la situation réelle et y existe ; le retrait porte sur son contenu, jamais sur son occurrence ». Le passage de « a lieu » à « existe » ne vaut que pour les enregistrements faits ; la distinction entre exister et avoir lieu (D4, D6) reste intacte ailleurs | Ac et son paragraphe de refus ; refus du complément ; E1 et son refus ; registre ; fiches |
+| Admission des observations (AO), enregistrement fait | AO dit : « l'admission d'un enregistrement établit qu'il est fait, et le retrait de son contenu laisse cela établi » | Clause (3) d'AO et son paragraphe de refus ; refus de Ac ; registre |

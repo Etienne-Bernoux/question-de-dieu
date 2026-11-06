@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [question-de-dieu, registre]
 status: draft
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Registre
@@ -34,12 +34,12 @@ Niveau d'une démonstration : « dérivation », par les règles de R ; « RC »
 | N | Nécessitation | AXIOME | Stipulation |
 | SR | La situation réelle est l'une des situations possibles (§4) | AXIOME | Stipulation acceptée ; reclassée de DÉFINITION par la règle de tri ; classement confirmé par l'utilisateur (2026-11-05) |
 | — | Complément d'« observation » : pour une observation positive `F(a)`, `a` existe dans la situation réelle ; d'une observation `Cause(a, b)`, `b` existe par FE, `a` seulement par une observation positive qui porte sur lui ; une observation négative n'établit l'existence de rien (§4) | AXIOME | Utilisateur (Q8) ; reclassé de DÉFINITION par la règle de tri ; restreint aux observations positives (2026-11-05) |
-| AO | Admission des observations : un enregistrement est admis sous réserve ; deux enregistrements admis se contredisent si leur conjonction avec le seul socle se contredit (sinon, règle de D18) ; est retiré celui qu'aucun autre sens, instrument ou observateur ne reproduit, les deux s'ils sont dans le même cas ; le retrait n'atteint que les énoncés atomiques contredits et ce qui n'a plus de démonstration (§4) | AXIOME | Utilisateur ; réécrite après épreuve par la population et le vérificateur (2026-11-05) ; ne sert ni G ni ¬G |
-| Ac | Occurrence des enregistrements : tout enregistrement fait est un acte qui a lieu dans la situation réelle ; le retrait porte sur son contenu, jamais sur son occurrence (§4) | AXIOME | Population, au contrôle de solidité ; admis par l'utilisateur (2026-11-05) ; ne sert ni G ni ¬G |
+| AO | Admission des observations : un enregistrement est admis sous réserve ; deux enregistrements admis se contredisent si leur conjonction avec le seul socle se contredit (sinon, règle de D18) ; est retiré celui qu'aucun autre sens, instrument ou observateur ne reproduit, les deux s'ils sont dans le même cas ; le retrait n'atteint que les énoncés atomiques contredits et ce qui n'a plus de démonstration ; l'admission d'un enregistrement établit qu'il est fait, et le retrait de son contenu laisse cela établi (§4) | AXIOME | Utilisateur ; réécrite après épreuve par la population et le vérificateur (2026-11-05) ; troisième clause complétée par l'utilisateur (2026-11-06) ; ne sert ni G ni ¬G |
+| Ac | Occurrence des enregistrements : tout enregistrement fait est un acte qui a lieu dans la situation réelle et y existe ; le retrait porte sur son contenu, jamais sur son occurrence (§4) | AXIOME | Population, au contrôle de solidité ; admis par l'utilisateur (2026-11-05) ; « et y existe » ajouté par l'utilisateur (2026-11-06) ; ne sert ni G ni ¬G |
 | K | Distribution | DÉMONTRÉ (RC) | Sens de « nécessaire » (§1), S |
 | T | Factivité | DÉMONTRÉ (RC) | Sens de « nécessaire » (§1), SR |
 | U | Ensemble unique des situations possibles | DÉMONTRÉ (RC) | Sens de « nécessaire » (§1) |
-| E1 | Quelque chose existe | DÉMONTRÉ | Établi avec observation (le constat que l'acte de nier a lieu, admis sous AO ; Ac ; D8) ; intact sous AO par Ac (épreuve faite au contrôle de solidité) ; refus : nier le complément et Ac |
+| E1 | Quelque chose existe | DÉMONTRÉ | Établi avec observation (le constat que l'acte de nier a lieu, admis sous AO ; Ac ; D8) ; intact sous AO par Ac (épreuve faite au contrôle de solidité) ; refus : nier la première clause d'AO, ou le complément avec la première clause de Ac ou la phrase de la clause (3) d'AO sur l'enregistrement fait |
 
 ## Hypothèses
 
@@ -94,7 +94,7 @@ Niveau d'une démonstration : « dérivation », par les règles de R ; « RC »
 | D15 | Établi sans observation : démontré à partir du seul socle | DÉFINITION | Stipulation acceptée, précisée par l'utilisateur |
 | D16 | Établi avec observation | DÉFINITION | Stipulation acceptée |
 | D17 | Concevable : vrai dans un modèle du socle avec `∃x (x = x)` (E1 sans nom) | DÉFINITION | Stipulation acceptée, précisée par l'utilisateur |
-| D18 | Rendre intelligible dans une situation, base d'intelligibilité (énoncés atomiques, universels sans nom (R) ou (O)), clause d'identité, pont indexé ; pour `E(x)`, le pourquoi ; pour un autre énoncé, le comment ; paramètres fixés en M1 (universels employables dans une base, raisons de soi retenues, sous quatre valeurs : toutes retenues, retenues pour les seuls inévitables, retenues pour les seuls contingents, aucune retenue) | DÉFINITION | Utilisateur |
+| D18 | Rendre intelligible dans une situation, base d'intelligibilité (énoncés atomiques, dont aucun prédicat ne porte sur une observation ou un enregistrement comme tel (« observation », « enregistrement fait », « enregistrement admis », « constat » exclus) ; universels sans nom (R) ou (O)), clause d'identité, pont indexé ; pour `E(x)`, le pourquoi ; pour un autre énoncé, le comment ; paramètres fixés en M1 (universels employables dans une base, raisons de soi retenues, sous quatre valeurs : toutes retenues, retenues pour les seuls inévitables, retenues pour les seuls contingents, aucune retenue) | DÉFINITION | Utilisateur |
 | — | Énoncé atomique (D18) : prédicat `E`, `=`, la relation de cause, ou une propriété dont le modèle stipule l'extension ; un terme défini au §4 n'en fait pas partie | DÉFINITION | Utilisateur ; prédicats admis précisés (2026-11-05) |
 | — | Universel (O) d'une base d'intelligibilité : HYPOTHÈSE ; il peut figurer dans une base tant qu'aucune observation ne le contredit, et ce qu'il donne est alors sous hypothèse ; une observation contraire retire la loi avec les hypothèses employées avec elle | DÉMONTRÉ (règle de la base d'intelligibilité) | Utilisateur ; le statut se démontre de la caractérisation d'« observation » et de la contrainte 6, le retrait de A2, de l'absurde négatif et de la contrainte 7 (cadre, D18) ; classement confirmé (2026-11-05) |
 | D19 | Dépendre (pour exister) dans une situation ; sous FE, la clause « raison » a la même extension que la clause « cause » (T12) | DÉFINITION | Stipulation acceptée, précisée par l'utilisateur |
@@ -110,7 +110,7 @@ Niveau d'une démonstration : « dérivation », par les règles de R ; « RC »
 
 | ID | Énoncé | Statut | Niveau | Repose sur |
 |---|---|---|---|---|
-| Correction | Un énoncé démontré du socle et de prémisses est vrai dans toute situation de tout modèle du socle où elles le sont | DÉMONTRÉ | RC (récurrence sur la démonstration) | R, RC, N, §1 |
+| Correction | Un énoncé démontré du socle et de prémisses du langage objet, sans le complément, AO ni Ac, est vrai dans toute situation de tout modèle du socle où elles le sont | DÉMONTRÉ | RC (récurrence sur la démonstration) | R, RC, N, §1 |
 | T0 | `¬¬P ⊢ P` ne se dérive pas de A1, A2, A4 et des règles autres que RC ; il vaut sous B et S | DÉMONTRÉ | modèle | Matrices 1 et 0 |
 | T1 | Une définition de la forme `X ≝ F ∧ E` n'implique pas `∃x X(x)` | DÉMONTRÉ | RC, modèle | S, §1, correction |
 | T2 | « Quelque chose existe » n'est pas une vérité logique | DÉMONTRÉ | modèle | A1, §1 (domaine vide, noms, correction) |
@@ -133,10 +133,10 @@ Niveau d'une démonstration : « dérivation », par les règles de R ; « RC »
 | T6 | « Tout concevable est possible » mène à une contradiction | DÉMONTRÉ | RC, modèle | P1, T3c, D1, D2, D17, D19, D20, A2, A4, N, K, T, U, R, B |
 | T7 | P1 et `¬(◇G ∧ ◇¬G)` s'entraînent | DÉMONTRÉ | RC | B, S, §1, U |
 | T8 | `□(¬E(x) → ¬L)` et `□E(x)` s'entraînent | DÉMONTRÉ | RC | B, S, §1, N, identité |
-| T9 | Aucune chose n'est nécessaire au sens logique, tant que la base de concevabilité n'entraîne `E(a)` pour aucun nom `a` | DÉMONTRÉ | modèle | §1 (modèle du socle, identité, noms, « Nommer », langage d'analyse), D8, D17 |
+| T9 | Aucune chose n'est nécessaire au sens logique, tant que la base de concevabilité n'entraîne `E(a)` pour aucun nom `a` | DÉMONTRÉ | modèle | §1 (modèle du socle, identité, noms, « Nommer »), D8, D17 |
 | T10 | Si une situation possible est vide, `□¬G` | DÉMONTRÉ | RC | U, D1, D2, D8, D20, T, B, S, §1 |
-| T11 | `E(x)` se démontre d'une base d'intelligibilité si et seulement si elle contient `E(t)` ou `Cause(u, t)` et une chaîne d'identités de `t` à `x` | DÉMONTRÉ | RC (sens « si »), modèle (sens « seulement si ») | FE, §1 (noms hors domaine, extensions, identité entre situations, correction), D8, D18, B, S, sémantique des énoncés atomiques et modèles du socle (§1), énoncé atomique (D18 : prédicats admis), langage d'analyse (objets d'un modèle) |
-| T12 | Les bases minimales pour `E(x)` sont les raisons de soi `{E(t)} ∪ C` et les bases `{Cause(u, t)} ∪ C` ; la raison de l'existence d'une chose en un autre être est sa cause | DÉMONTRÉ ; condition d'usage : aucun axiome, hors `E` et FE, qui fasse entraîner l'existence par un énoncé atomique | RC | T11, FE, D4, D18, D19, §1 (identité, « Nommer »), B, S, sémantique des énoncés atomiques (§1), énoncé atomique (D18 : prédicats admis), irréflexivité (D4) |
+| T11 | `E(x)` se démontre d'une base d'intelligibilité si et seulement si elle contient `E(t)` ou `Cause(u, t)` et une chaîne d'identités de `t` à `x` | DÉMONTRÉ | RC (sens « si »), modèle (sens « seulement si ») | FE, §1 (noms hors domaine, extensions, identité entre situations, correction), D8, D18, B, S, sémantique des énoncés atomiques et modèles du socle (§1), énoncé atomique (D18 : prédicats admis) |
+| T12 | Les bases minimales pour `E(x)` sont les raisons de soi `{E(t)} ∪ C` et les bases `{Cause(u, t)} ∪ C` ; la raison de l'existence d'une chose en un autre être est sa cause | DÉMONTRÉ ; condition d'usage : aucun axiome, hors `E` et FE, qui fasse entraîner l'existence par un énoncé atomique d'une base (remplie pour Ac par D18 : aucun prédicat d'un tel énoncé ne porte sur une observation ou un enregistrement comme tel) | RC | T11, FE, D4, D18, D19, §1 (identité, « Nommer »), B, S, sémantique des énoncés atomiques (§1), énoncé atomique (D18 : prédicats admis), irréflexivité (D4) |
 
 ## Thèses à examiner
 

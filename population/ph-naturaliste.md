@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie]
 tags: [question-de-dieu, population, profil]
 status: draft
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Le naturaliste
@@ -58,7 +58,7 @@ Choix à faire lors de son premier engagement en M1 : son critère positif, c'es
 | M0 | F1 | accepte | une mesure s'écrit par un prédicat par valeur ; le nombre est au langage d'analyse (D14) ; sa thèse 1 dépend de cette écriture | la mesure range des choses sous des propriétés ; le nombre sert à les désigner | néant |
 | M0 | FE | accepte | sans FE, Pr_c équivaudrait à Nec sous « aucune retenue » | un effet existe là où il est produit ; avec sa thèse 1, ce que cause un objet mesuré est admis | néant |
 | M0 | Situation réelle parmi les possibles | accepte | néant propre | ce qui a lieu est possible (L5) | néant |
-| M0 | Complément d'« observation » (révision) | accepte, lu sur les seules observations positives | une observation `Cause(a, b)` ne donne que `E(b)` ; une observation négative n'établit l'existence de rien ; un acte qui a lieu existe (D8) | les actes comptent parmi ce qui existe ; voir la ligne Pc | néant |
+| M0 | Complément d'« observation » (révision) | accepte, lu sur les seules observations positives | une observation `Cause(a, b)` ne donne que `E(b)` ; une observation négative n'établit l'existence de rien ; un enregistrement fait, acte qui a lieu dans la situation réelle, y existe (Ac) | les actes comptent parmi ce qui existe ; voir la ligne Pc | néant |
 | M0 | AO | accepte, avec le critère de retrait admis, qu'il proposait | tout ce qui est établi avec observation est révisable, E1 excepté (Ac) | ce qui existe se sait sous réserve | tient ses constats pour révisables, y compris sur lui-même |
 | M0 | T3e | admet | une disjonction de nécessités ; sa thèse 3, précisée, ne l'exclut pas | `G` est nécessaire ou impossible | néant |
 | M0 | Irréflexivité de la cause | accepte, comme part du sens de D4 (« d'autre chose »), pas un axiome | prémisse d'une route vers `¬G` (Pr, sous « aucune retenue ») et d'une route vers un inévitable (L7) : ne sert aucun camp ; la thèse « une chose produit sa propre existence » reste examinable comme hypothèse, à la charge de qui la soutient | rien n'est cause de soi au sens de D4 | néant |
@@ -66,7 +66,7 @@ Choix à faire lors de son premier engagement en M1 : son critère positif, c'es
 | M0 | P1 | accepte : démontrée (L3) | avec `◇¬G` tenu, s'engage à `¬◇G` et `□¬G` (T3c, T3e) | néant | néant |
 | M0 | `¬G`, `◇¬G` | tient comme hypothèses, non établies | par T3, tient comme hypothèse que `G` est impossible (`□¬G`) : thèse d'impossibilité sans source dans le cadre, de même rang que `◇G` | aucun être ne dépend de rien dans toute situation, sous hypothèse | aucune garantie, venue d'un être qui ne dépend de rien, pour ce qui existe ni pour ce qui vaut |
 | M0 | Pn, Pn_i | écarte sans nier, Pn_i lue sur tout objet qui existe dans au moins une situation possible | L4 inutilisable ; nier Pn_i affirmerait un inévitable | n'exclut pas que la dépendance varie | néant |
-| M0 | Pc | suspend ; révision déclarée : retire Pc_r, assumée au premier tour sur une lecture fautive de sa thèse 1 | n'admet pas sans démonstration l'extension à l'inobservé ; sa thèse 1 est une condition nécessaire d'admission et ne présuppose pas Pc_r ; Pc_r serait prémisse de L7 (route vers un inévitable) ; sous FE, la part « raison » de Pc revient à sa part « cause » (T12) | une cause d'un objet mesuré n'est établie comme existante que par une observation positive qui porte sur elle | n'attribue pas d'existence à une cause au seul vu de son effet |
+| M0 | Pc | suspend ; révision déclarée : retire Pc_r (la part « cause » de Pc dans la seule situation réelle), assumée au premier tour sur une lecture fautive de sa thèse 1 | n'admet pas sans démonstration l'extension à l'inobservé ; sa thèse 1 est une condition nécessaire d'admission et ne présuppose pas Pc_r ; Pc_r serait prémisse de L7 (route vers un inévitable) ; sous FE, la part « raison » de Pc revient à sa part « cause » (T12) | une cause d'un objet mesuré n'est établie comme existante que par une observation positive qui porte sur elle | n'attribue pas d'existence à une cause au seul vu de son effet |
 | M0 | (b) | suspend | son fait brut n'en dépend pas ; (b), jointe à l'existence d'un être qui dépend, donne dans `s` un être sans cause : un fait brut sous « aucune retenue » ; sous « retenues pour les seuls inévitables », sauf s'il est inévitable ; sous « retenues pour les seuls contingents », s'il est inévitable ; sous « toutes retenues », jamais ; elle ne gêne donc pas sa thèse 2 | n'exclut, dans aucune situation, ni un dernier terme ni son absence | néant |
 | M0 | (c′), Sv, (c′_tot) jointe à ¬Sv | suspend | refuser Sv en acceptant (c′_tot) lui donnerait un inévitable (L6) : il garde (c′) suspendue ; « se combinent librement » et sa portée non définis | néant | néant |
 | M0 | `¬G`, `□¬G` (conséquences) | tient comme hypothèses | tout inévitable serait dépendant ; ne peut accepter ensemble un inévitable, Pn_i, Pc et (b_L4) (L4), ni, sous « aucune retenue » ou « retenues pour les seuls inévitables » et avec E1, Pr_c, Pc dans toute situation, (b) et Pn_i (L7) | si une chose existe partout, elle dépend de quelque chose quelque part | néant |
@@ -80,7 +80,8 @@ Choix à faire lors de son premier engagement en M1 : son critère positif, c'es
 ## À résoudre au passage suivant (règle 7)
 
 1. **Contradiction.** Ligne `¬G`, vision : « aucun être ne dépend de rien dans toute situation ». Un contingent qui n'a de cause dans aucune situation ne dépend de rien dans aucune (D19 ; là où il manque, FE exclut qu'il ait une cause) : la vision l'exclut, alors que sa thèse 2 et sa ligne Pr, Pr_c (« n'exclut pas un contingent sans cause ») l'admettent. Réécrire « aucun être inévitable ne dépend de rien dans toute situation », ou déclarer qu'il exclut tout contingent sans cause en toute situation.
-2. Ligne Ac à écrire : il préférait une autre forme ; Ac est admis (2026-11-05).
+2. Ligne Ac à écrire : il préférait une autre forme ; Ac est admis (2026-11-05), complété le 2026-11-06.
 3. Lignes (b) et AO, corrigées par le synthétiseur : à certifier.
 4. Les formulations nouvelles attendent qu'un membre d'une position opposée accepte qu'elles ne sont pas caricaturées.
 5. Thèse 2 et lignes (b) et Pr, Pr_c : la valeur « retenues pour les seuls contingents », ajoutée après coup (2026-11-05), est insérée par le formalisateur : à certifier.
+6. **Contradiction.** Ligne du complément : la vision « les actes comptent parmi ce qui existe » et la colonne des coûts « un enregistrement fait […] y existe (Ac) » admettent comme existant tout enregistrement fait, que « Nommer » permet de nommer ; sa thèse 1 n'admet comme existant que le mesuré et ce qui est en relation de cause avec lui, et sa ligne E1 borne l'exception à `∃x (x = x)`, sans nom. Ac, complété le 2026-11-06, donne cette existence à tout enregistrement fait : borner la vision ne suffit plus. Étendre l'exception déclarée aux enregistrements faits (Ac), ou montrer que tout enregistrement fait est en relation de cause avec un objet mesuré, ou ne pas accepter Ac sur son texte complété, avec le coût écrit au cadre (§4).

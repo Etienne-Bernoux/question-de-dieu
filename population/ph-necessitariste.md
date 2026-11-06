@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie]
 tags: [question-de-dieu, population, profil]
 status: draft
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Le nécessitariste impersonnel
@@ -50,7 +50,7 @@ Format : [population](population.md), « Fiches de position ».
 | M0 | U | accepte : démontré (RC) | AM ; `◇G ∧ ◇¬G` est exclu (T7, P1 étant démontrée) | un seul espace modal | « possible pour moi » = ignorance |
 | M0 | Identité entre situations, « Nommer », langage d'analyse, F1, situation réelle, complément d'« observation » | accepte | ensembles et suites rangés dans le langage d'analyse | un même être nécessaire d'une situation à l'autre | néant |
 | M0 | FE | accepte | néant propre : sous D18 et la sémantique des énoncés atomiques, la raison en un autre être est incluse dans la cause ; FE donne l'inclusion inverse (T12) | ce qui est produit existe là où il est produit | néant |
-| M0 | AO, Ac | accepte ; accepte Ac, la prémisse réflexive qu'il acceptait si elle était proposée comme axiome | E1, dont dépend sa voie vers `G`, est gardé par Ac | l'acte de penser existe, même quand son contenu est retiré | une observation se tient sous réserve ; la réviser n'est pas une défaite |
+| M0 | AO, Ac | accepte ; accepte Ac, la prémisse réflexive qu'il acceptait si elle était proposée comme axiome | E1, dont dépend sa voie vers `G`, est gardé par Ac | l'acte de penser existe (Ac), même quand son contenu est retiré | une observation se tient sous réserve ; la réviser n'est pas une défaite |
 | M0 | Irréflexivité de la cause (« aucune chose n'est cause de sa propre existence ») | accepte : partie du sens de D4 (« d'autre chose »), démontrée de D4, A1 et A4 | sa route vers `G` (L7) et la route de Pr vers `¬G` en dépendent également ; il ne la retient pas pour l'une en la suspendant pour l'autre ; « rien ne produit sa propre existence » reste une thèse sur le terme premier, sans emploi en M0 | exister par soi (D2), c'est n'avoir aucune cause, non être cause de soi : l'être nécessaire qu'il affirme ne se produit pas lui-même | néant |
 | M0 | E1 | accepte | engage peu | quelque chose existe | néant |
 | M0 | P1 | accepte : démontrée (L3), par la définition D2 | `◇G` pèse le poids de `G` (T3d) ; charge de justifier `◇G` | si `G`, `G` dans toute situation | néant |
@@ -77,6 +77,9 @@ Ligne de cohérence : la voie vers `G` repose sur E1, la thèse 3 (Pr_c, aucune 
 1. **Contradiction.** Ligne Nec : il écarte Nec sans la nier, mais la vision « des contingents peuvent exister » affirme sa négation (qu'une chose existe dans une situation possible et manque dans une autre). La nier, en en portant la charge, ou écrire « n'exclut pas que des contingents existent ».
 2. **Contradiction.** « Ce qu'il défend » (ligne 25) cite encore « la prémisse `◇G` » et « H2 au sens de la raison », contre ses lignes `◇G` et H2 : à aligner.
 3. AO : dire s'il accepte le critère de retrait admis (2026-11-05 : est retiré l'enregistrement qu'aucun autre sens, instrument ou observateur ne reproduit), qui n'est pas celui qu'il proposait.
-4. Thèse 2 : « elle se démontre » renvoie à la preuve de L7 appliquée dans une situation quelconque ; le vérificateur la contrôle au prochain passage.
+4. Levé (2026-11-06) : thèse 2, démonstration par la preuve de L7 appliquée dans une situation quelconque, contrôlée par le vérificateur (relecture ; contrôle mécanique, 158 modèles, aucun contre-exemple).
 5. Les formulations nouvelles attendent qu'un membre d'une position opposée accepte qu'elles ne sont pas caricaturées.
 6. Thèse 3 : la valeur « retenues pour les seuls contingents », ajoutée après coup (2026-11-05), est insérée par le formalisateur à côté de « toutes retenues » : à certifier.
+7. Ligne Pr (toute chose) : sous « retenues pour les seuls contingents », Pr entraîne `¬G`, que sa thèse 1 l'engage à nier ; sous « retenues pour les seuls inévitables », Pr équivaut à sa thèse 3 : choix à écrire.
+8. Ligne AO, Ac, vision : Ac donne l'existence d'un enregistrement fait ; « l'acte de penser existe (Ac) » ne vaut que pour l'acte de penser qui enregistre (le constat de son propre acte), non pour l'acte constaté, qui n'existe que par le complément, sous réserve : préciser.
+9. Ac complété par l'utilisateur (2026-11-06, « et y existe ») : confirmer l'acceptation sur le texte nouveau, qui compte tout enregistrement fait parmi le monde (D7).

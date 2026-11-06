@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie]
 tags: [question-de-dieu, population, profil]
 status: draft
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # Le théiste
@@ -77,3 +77,6 @@ Format : [population](population.md), « Fiches de position ».
 1. Ligne « irréflexivité de la cause (D4) » à écrire : sa route L7 l'emploie aux étapes 2 et 4.
 2. Circ : définition proposée pour M1 ; la charge de la faire admettre est la sienne.
 3. Les formulations nouvelles (thèse 3, lignes réécrites ou ajoutées au contrôle de solidité, case du tableau des contradicteurs) attendent qu'un membre d'une position opposée accepte qu'elles ne sont pas caricaturées.
+4. **Contradiction.** Thèse 2 : « il en est cause (D4) ou raison (D5), directement ou par intermédiaires » ; la ligne « Par intermédiaires » dit que la lecture par des suites n'est ni une cause ni une raison au sens de D4 et D18. Écrire « il en est cause (D4) ou raison (D5) directement, ou cause par intermédiaires (définition proposée pour M2) », ou réviser la ligne.
+5. Ligne Pr : sous « retenues pour les seuls contingents », Pr entraîne aussi `¬G`, que sa thèse 1 l'engage à refuser ; sous « retenues pour les seuls inévitables », Pr équivaut à sa thèse 3 : choix à écrire.
+6. Ac complété par l'utilisateur (2026-11-06, « et y existe ») : confirmer l'acceptation sur le texte nouveau, qui compte tout enregistrement fait parmi le monde (D7).
