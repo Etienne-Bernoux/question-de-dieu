@@ -53,4 +53,4 @@ Deux pièges invalident T3 si on les ignore :
 | H1′ | Tout être nécessaire est nécessaire au sens logique : miroir de H1, signalée, sert `¬G` | M6 |
 | H3 | Dieu est personnel | M4 |
 | H4 | Dieu est bon | M5 |
-| H1 | La validité de la logique dépend d'un être. Lecture matérielle triviale (T5) ; lecture stricte équivalente à l'existence d'un inévitable (T8). Lue avec D18 et sa clause de minimalité : si « la logique vaut » se démontre du socle, la seule base minimale est vide, et aucune base qui porte sur un être ne le rend intelligible ; H1 demande l'extension de la dépendance d'une validité annoncée pour M6 (D19, colonne « Écarté ») | M6 |
+| H1 | La validité de la logique dépend d'un être. Lecture matérielle triviale (T5) ; lecture stricte équivalente à l'existence d'un inévitable (T8). Lue avec D18 et sa clause de minimalité : si « la logique vaut » se démontre du socle, la seule base minimale est vide, et aucune base qui porte sur un être ne le rend intelligible ; H1 demande l'extension de la dépendance d'une validité annoncée pour M6 (D19, colonne « Sens non retenus ») | M6 |
