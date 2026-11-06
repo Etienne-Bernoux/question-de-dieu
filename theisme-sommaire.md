@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [theisme, sommaire, index]
 status: draft
-updated: 2026-11-03
+updated: 2026-11-05
 ---
 
 # Examen du théisme — sommaire
@@ -15,7 +15,7 @@ Examen, module par module, des prémisses qui fondent l'existence d'un Dieu bon 
 
 ## Où en est l'examen
 
-M0 est passé devant la population (2026-11-02) ; ses corrections sont appliquées et recontrôlées (2026-11-03) : M0 est clos ([[theisme-m0-debat]]). Le socle n'établit ni G ni ¬G ; P1 découle de D2, et la question se ramène à une prémisse sur ce qui est possible. M1 s'ouvre sur accord de l'utilisateur, par la certification des fiches de position.
+M0 est passé devant la population (2026-11-02) ; ses corrections ont été recontrôlées (2026-11-03). M0 est en consolidation : le texte consolidé est passé devant la population, l'utilisateur a tranché les décisions qui lui revenaient (2026-11-05), les corrections sont appliquées et leur recontrôle est en cours ([[theisme-m0-debat]]). Le socle n'établit ni G ni ¬G ; P1 découle de D2, et la question se ramène à une prémisse sur ce qui est possible. M1 s'ouvre sur accord de l'utilisateur, par la certification des fiches de position.
 
 ## Sens de lecture
 
@@ -44,9 +44,9 @@ Chaque énoncé vit à un seul endroit ; les autres notes y renvoient.
 
 | Module | Question | État |
 |---|---|---|
-| M0 | Que peut établir le socle sans observation (D15) ? | clos (2026-11-03) ; fiches de position à certifier à l'ouverture de M1 |
-| M1 | Toute chose a-t-elle une raison, externe ou par sa propre nature ? | à faire |
-| M2 | Le contingent a-t-il une raison ? Faut-il un être nécessaire ? (P1, H2) | à faire |
+| M0 | Que peut établir le socle sans observation (D15) ? | en consolidation : passage devant la population fait, décisions prises (2026-11-05), recontrôle en cours ; fiches de position à certifier à l'ouverture de M1 |
+| M1 | Toute chose qui existe a-t-elle une raison d'exister, une cause ou une raison de soi ? | à faire |
+| M2 | Le contingent a-t-il une raison ? Faut-il un être nécessaire ? (existence d'un inévitable, condition de L4 ; Pn_i, Pc, (c′) ; H2) | à faire |
 | M3 | Le monde a-t-il commencé ? Un passé infini est-il cohérent ? | à faire |
 | M4 | Le fondement est-il personnel, unique ? (H3) | à faire |
 | M5 | Le bien et le mal sont-ils objectifs ? (H4) | à faire |

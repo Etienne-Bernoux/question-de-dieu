@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [theisme, population, contradicteurs, orchestration]
 status: draft
-updated: 2026-11-02
+updated: 2026-11-05
 ---
 
 # Population d'agents
@@ -38,7 +38,7 @@ Le synthétiseur ne juge jamais un texte qu'il a écrit ; un agent qui ne lit qu
 | Agent | Modèle | Raison |
 |---|---|---|
 | Formalisateur, synthétiseur | Opus | rédiger et juger sont les tâches les plus difficiles de l'examen |
-| Vérificateur formel | Opus | son verdict de validité ne se discute pas ; une erreur passerait sans contrôle |
+| Vérificateur formel | Opus | son verdict de validité ne se conteste que par une preuve, jugée par le synthétiseur (règles de décision) ; une erreur passerait sans contrôle |
 | Les quatre philosophes | Opus, à partir de M1 | chercher des failles ; le critère de bascule ci-dessous est rempli au passage de M0 |
 
 Critère de bascule : si la plupart des objections des philosophes sont rejetées, ou si le vérificateur trouve des failles qu'aucun philosophe n'a vues, les philosophes passent sur Opus. Au passage de M0, la seconde condition est remplie : failles vues du seul vérificateur au premier tour, en réplique et sur la consultation Q9 ([[theisme-m0-debat]]). Rien ne montre qu'Opus les aurait vues : la mesure est à refaire en M1, en comptant les failles vues du seul vérificateur. Volume mesuré le 2026-11-01 : environ 48 Ko d'entrée par agent, environ quatorze appels par module.
@@ -49,7 +49,7 @@ Chacun tranche là où son jugement est indépendant de l'enjeu.
 
 | Question | Qui tranche | Règle |
 |---|---|---|
-| Un pas de démonstration est-il valide ? | le vérificateur formel | La validité ne se vote pas. Un pas déclaré invalide est corrigé. Contester ce verdict exige une preuve, jugée par le synthétiseur ; si le désaccord persiste, le pas est marqué contesté et ne sert plus tant qu'il n'est pas réglé |
+| Un pas de démonstration est-il valide ? | le vérificateur formel | La validité ne se vote pas. Un pas déclaré invalide est corrigé. Contester ce verdict exige une preuve, jugée par le synthétiseur ; si le désaccord persiste, le pas est marqué « en litige » et ne sert plus tant que le synthétiseur ne l'a pas réglé |
 | La formulation d'une position est-elle fidèle ? | le tenant et ses adversaires | Fidèle si son tenant la certifie et si au moins un membre d'une position opposée accepte qu'elle n'est pas caricaturée ; à défaut, l'utilisateur tranche |
 | Une objection est-elle retenue ? | le synthétiseur | Retenue si elle est prouvée, si le vérificateur ne trouve rien à redire à sa preuve, et si elle ne touche aucune décision de l'utilisateur ; sinon rejetée avec sa raison, ou transmise |
 | Une définition ou un axiome est-il admis ? | l'utilisateur | Les agents proposent, chiffrent les coûts et rédigent le paragraphe de refus |
@@ -62,11 +62,13 @@ Chaque membre se définit par des thèses explicites, jamais par un nom ou un co
 
 | Membre | Un être nécessaire existe-t-il ? | Est-il personnel ? | Ce qui fonde une connaissance | Profil |
 |---|---|---|---|---|
-| Le théiste | oui | oui | ce qui est établi sans observation peut établir une nécessité et les possibilités qui en découlent, aucune possibilité existentielle sans prémisse modale admise ; toute chose a une raison | [[theisme-ph-theiste]] |
+| Le théiste | oui | oui | ce qui est établi sans observation peut établir une nécessité et les possibilités qui en découlent, aucune possibilité existentielle sans prémisse modale admise ; tout contingent qui existe a une cause ; un être nécessaire a sa raison dans sa nature, si M1 l'admet | [[theisme-ph-theiste]] |
 | Le nécessitariste impersonnel | oui | non : aucun être nécessaire n'a la propriété H3 | ce qui est établi sans observation établit des nécessités sans contenu existentiel ; une possibilité existentielle, seulement par une prémisse modale admise | [[theisme-ph-necessitariste]] |
-| Le naturaliste | non, comme hypothèse assumée | sans objet | ce qui est établi sans observation ne conclut ni à l'existence ni à la non-existence de quoi que ce soit, hors la nécessité d'une vérité logique ; une observation parmi les prémisses est nécessaire, non suffisante | [[theisme-ph-naturaliste]] |
-| Le sceptique | suspend | suspend | rien n'est acquis sans démonstration, hors axiomes, définitions admis et observations | [[theisme-ph-sceptique]] |
+| Le naturaliste | non, comme hypothèse assumée | sans objet | ce qui est établi sans observation ne conclut, pris isolément, à aucun énoncé de la forme `∃x F(x)`, `◇∃x F(x)`, `□∃x F(x)`, ni à leur négation, hors la nécessité d'une vérité logique ; il peut conclure à des conditionnels et à des disjonctions entre eux (P1, T3e) ; une observation parmi les prémisses est nécessaire, non suffisante | [[theisme-ph-naturaliste]] |
+| Le sceptique | suspend | suspend | rien n'est acquis sans démonstration, hors axiomes et définitions admis, et observations admises sous réserve (AO) | [[theisme-ph-sceptique]] |
 | Le vérificateur formel | aucune position | aucune position | la seule validité des inférences | [[theisme-verificateur-formel]] |
+
+Termes des profils, stipulations de vocabulaire soumises à l'accord de l'utilisateur (contrainte 6 du [[theisme-protocole]]) : une **possibilité existentielle** est un énoncé de la forme `◇∃x F(x)` ou `◇E(a)` ; une **prémisse modale admise** est un axiome nouveau de la forme `◇P`, admis selon la contrainte 8 avec son paragraphe de refus.
 
 Un cinquième philosophe, centré sur la morale et le sens, rejoindra la population à l'ouverture de M5.
 
