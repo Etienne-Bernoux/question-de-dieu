@@ -26,6 +26,7 @@ M0 est passé devant la population (2026-11-02) ; ses corrections ont été reco
 | 3 | [m0-resultats](modules/m0/index.md) | `modules/m0/` | Ce que le socle établit sans observation (D15), et ce qui passe aux modules suivants | Dans l'ordre des modules |
 | 3 bis | [m0-debat](modules/m0/debat.md) | `modules/m0/` | Les objections reçues par M0, leurs verdicts et les décisions renvoyées au journal | Après la note de résultats du module |
 | 4 | [registre](socle/registre.md) | `socle/` | Le statut de chaque énoncé (axiome, définition, démontré, démontré sous hypothèse, sous réserve, hypothèse, contesté) | À consulter quand un texte cite un identifiant |
+| 4 bis | [lexique](lexique.md) | racine | La lecture en mots courants de chaque symbole et identifiant, avec son statut et le lien vers l'endroit où il est énoncé | À consulter quand un symbole ou un identifiant arrête la lecture |
 | 5 | [journal](methode/journal.md) | `methode/` | Les décisions de l'utilisateur, datées, avec ses mots | Pour savoir pourquoi un choix a été fait |
 | 6 | [verifications](annexes/verifications.md) | `annexes/` | Les calculs et le script exécuté qui prouvent les résultats mécaniques | Pour vérifier soi-même une preuve |
 | 7 | [population](population/population.md) | `population/` | Les agents qui produisent et éprouvent chaque module : partage des rôles, contradicteurs, règles communes, gabarit, profils | Pour savoir qui a critiqué quoi, et selon quelles règles |

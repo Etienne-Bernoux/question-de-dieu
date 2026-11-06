@@ -32,6 +32,6 @@ Le module M0 fixe les fondations : logique, sens de « nécessaire », d'« exis
 
 L'examen se lit en ligne sur [etienne-bernoux.github.io/question-de-dieu](https://etienne-bernoux.github.io/question-de-dieu/).
 
-[Le sommaire](sommaire.md) donne le sens de lecture et le plan des modules. [Le protocole](methode/protocole.md) fixe les règles du jeu. [La population](population/population.md) décrit chaque agent, ses règles et son profil. [Le journal](methode/journal.md) consigne chaque décision de l'auteur, datée, avec ses mots. [Le débat de M0](modules/m0/debat.md) montre les objections reçues et leurs verdicts.
+[Le sommaire](sommaire.md) donne le sens de lecture et le plan des modules. [Le lexique](lexique.md) dit comment lire chaque symbole et chaque identifiant, et où il est défini. [Le protocole](methode/protocole.md) fixe les règles du jeu. [La population](population/population.md) décrit chaque agent, ses règles et son profil. [Le journal](methode/journal.md) consigne chaque décision de l'auteur, datée, avec ses mots. [Le débat de M0](modules/m0/debat.md) montre les objections reçues et leurs verdicts.
 
 Texte sous licence [CC BY 4.0](LICENSE).

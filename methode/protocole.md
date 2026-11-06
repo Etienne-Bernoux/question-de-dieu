@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [question-de-dieu, demonstration, registre, protocole]
 status: draft
-updated: 2026-11-03
+updated: 2026-11-06
 ---
 
 # Protocole de l'examen
@@ -43,7 +43,8 @@ Livrables :
 - les notes de résultats du dossier `modules/mN/` : question, argument formalisé, verdict de validité, positions, ce qui est transmis ;
 - une note `modules/mN/debat` (population, « Traces ») ;
 - toute prémisse, axiome ou hypothèse, reçoit son paragraphe « si tu la nies, voici ce que cela implique » : il dit ce qu'implique la négation de la prémisse, qui n'est ni l'écarter (contrainte 7) ni poser une thèse plus forte ; il classe le coût (contrainte 3) et dit si la prémisse sert G ou ¬G (contrainte 8) ; tout nouvel axiome entre au cadre ; toute nouvelle définition, avec les sens écartés et pourquoi ;
-- registre, journal et vérifications mis à jour.
+- registre, journal et vérifications mis à jour ;
+- le lexique mis à jour pour tout symbole ou identifiant nouveau ([lexique](../lexique.md)).
 
 ## Règles de conduite
 
