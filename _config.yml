@@ -15,4 +15,4 @@ defaults:
   - scope:
       path: "README.md"
     values:
-      layout: default
+      layout: accueil

@@ -32,6 +32,7 @@ layout: default
   {%- if sub_label != "" and sub_url != page.url %} › <a href="{{ sub_url | relative_url }}">{{ sub_label }}</a>{% endif %}
   › <span aria-current="page">{{ label }}</span>
 </nav>
-<style>.fil-ariane{font-size:.9em;margin-bottom:1.5em;color:#727272}.fil-ariane span{color:#222}</style>
+<style>.fil-ariane{font-size:.9em;margin-bottom:1em;color:#727272}.fil-ariane span{color:#222}</style>
+{% include recherche-champ.html %}
 
 {{ content }}

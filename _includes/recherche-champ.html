@@ -1,0 +1,9 @@
+<form class="recherche-champ" action="{{ '/recherche.html' | relative_url }}" method="get" role="search">
+  <input type="search" name="q" placeholder="Rechercher dans l'examen" aria-label="Rechercher dans l'examen" value="">
+  <button type="submit">Rechercher</button>
+</form>
+<style>
+.recherche-champ{display:flex;gap:.4em;margin:0 0 1.2em}
+.recherche-champ input{flex:1;min-width:0;padding:.35em .5em;font:inherit;border:1px solid #ccc;border-radius:4px}
+.recherche-champ button{padding:.35em .8em;font:inherit;border:1px solid #ccc;border-radius:4px;background:#f6f6f6;cursor:pointer}
+</style>

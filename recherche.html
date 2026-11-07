@@ -1,0 +1,16 @@
+---
+title: "Question de Dieu : recherche"
+---
+<h1>Recherche</h1>
+<p id="recherche-etat">Saisis un ou plusieurs mots, un symbole ou un identifiant (par exemple <code>Pr_c</code>, <code>◇G</code>, « raison de soi » entre guillemets pour une expression exacte). Les accents et les majuscules sont ignorés.</p>
+<ol id="recherche-resultats"></ol>
+<style>
+#recherche-resultats{padding-left:1.2em}
+#recherche-resultats li{margin-bottom:1em}
+#recherche-resultats .extrait{display:block;font-size:.92em;color:#555}
+#recherche-resultats mark{background:#fff3a3;padding:0 .1em}
+</style>
+<script src="{{ '/assets/recherche.js' | relative_url }}"></script>
+<script>
+  RechercheQDD.demarrer({{ '/search.json' | relative_url | jsonify }});
+</script>
