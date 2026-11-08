@@ -6,7 +6,7 @@ projet: []
 domaine: [philosophie, logique]
 tags: [question-de-dieu, lexique]
 status: draft
-updated: 2026-11-06
+updated: 2026-11-08
 ---
 
 # Lexique
@@ -54,6 +54,8 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [`L`, dans T5 et T8](modules/m0/resultats.md) | une vérité logique quelconque |
 | [§1 à §5](socle/cadre/index.md) | les sections du cadre : 1 notation, 2 logique, 3 modalité, 4 définitions et termes premiers, 5 constat d'existence |
 | [`c`, `d`, `e`, `g`](modules/m0/hypotheses.md) | noms de choses dans les exemples et les contre-modèles ; `g` y est souvent un être nécessaire, `c` un contingent |
+| [`v`, `w`, `w1`, `w2`, `o′`, `c1`, `c2`, `cn`](modules/m1/resultats.md) | objets ajoutés dans les constructions de T17, T18 et T21 |
+| [`Ω`](modules/m1/resultats.md) | un ensemble d'énoncés atomiques, `E(t)` compris, ou de négations d'énoncés atomiques, sans universel : la forme de ce que donnent des observations admises |
 | [`x0`, `y1`, `z0`, `zn`, `zi+1`](modules/m0/resultats.md) | termes numérotés d'une suite de dépendance (L4, L7, (b_L4)) |
 | [`u1` à `un`](modules/m0/resultats.md) | les noms intermédiaires d'une chaîne d'identités (T11) |
 | [`s*`, `s_n`](modules/m0/hypotheses.md) | des situations des contre-modèles de (c′) et de L6 |
@@ -75,8 +77,9 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [D2](socle/cadre/4-definitions.md) | être nécessaire : inévitable (D20) et, dans toute situation possible, sans dépendance (D19) : c'est le sens de « par soi », non « sa propre raison d'exister » ; voir la définition ; à ne pas confondre avec `□`, nécessité d'un énoncé | définition |
 | [D3](socle/cadre/4-definitions.md) | contingent : qui pourrait ne pas exister | définition |
 | [D4](socle/cadre/4-definitions.md) | cause : ce qui produit l'existence ou l'occurrence d'autre chose ; rien n'est cause de soi | définition |
-| [D5](socle/cadre/4-definitions.md) | raison : le pourquoi de l'existence d'une chose, non le comment | définition |
-| [D6](socle/cadre/4-definitions.md) | fait brut : ce qui existe ou a lieu sans cause ni raison ; sa portée dépend d'un paramètre | définition |
+| [D5](socle/cadre/4-definitions.md) | raison : le pourquoi de l'existence d'une chose, au sens de ce qui la rend intelligible, non le comment, ni ce en vue de quoi elle existe (le dessein) ; sous « aucune retenue », valeur fixée en M1, une chose a une raison d'exister si et seulement si elle a une cause | définition |
+| [Dessein](modules/m1/bilan.md) | ce en vue de quoi une chose existe ; distinct de la raison (D5) et de la cause (D4) ; ses deux thèses, la providence (par une intention) et le hasard (sans intention, non sans cause), sont à examiner | à définir (M4) |
+| [D6](socle/cadre/4-definitions.md) | fait brut : ce qui existe ou a lieu sans cause ni raison ; pour l'existence, sous « aucune retenue », toute chose qui existe sans cause, dont tout être nécessaire qui existe | définition |
 | [D7](socle/cadre/4-definitions.md) | le monde : tout ce qui existe dans la situation réelle | définition |
 | [D8](socle/cadre/4-definitions.md) | exister : compter parmi ce qu'il y a dans une situation, sans restriction ; sans précision, dans la situation réelle | définition |
 | [D9](socle/cadre/4-definitions.md) | le contingent : tout ce qui existe et pourrait ne pas exister | définition |
@@ -103,7 +106,7 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [Énoncé atomique](socle/cadre/4-definitions.md) | énoncé simple, sans connecteur ni quantificateur ; les prédicats admis : voir la définition | définition |
 | [Base d'intelligibilité](socle/cadre/4-definitions.md) | ensemble d'énoncés dont on tire un énoncé visé (D18) ; voir la définition | définition |
 | [Pont](socle/cadre/4-definitions.md) | ce que veut dire « l'existence de x a sa raison en y » (D18) ; voir la définition | définition |
-| [Raison de soi](socle/cadre/4-definitions.md) | base qui donne l'existence d'une chose par la seule identité : « elle existe parce qu'elle existe » ; admise selon un paramètre | définition |
+| [Raison de soi](socle/cadre/4-definitions.md) | base qui donne l'existence d'une chose par la seule identité, au sens étroit : « elle existe parce qu'elle existe » ; aucune n'est retenue sous « aucune retenue » | définition |
 | [(R)](socle/cadre/4-definitions.md) | étiquette d'un universel de base démontré du seul socle | définition |
 | [(O)](socle/cadre/4-definitions.md) | étiquette d'un universel de base tiré de l'observation : il n'est qu'une hypothèse ; la règle qui le dit est démontrée | démontré |
 | [Base de concevabilité](socle/cadre/4-definitions.md) | le socle avec « quelque chose existe », sans nom (D17) | définition |
@@ -113,7 +116,13 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [Produire](socle/cadre/4-termes-premiers.md) | terme premier de D4, sans définition positive, borné par trois limites | définition |
 | [Nombre](socle/cadre/4-termes-premiers.md) | prédicat sans axiome, qui sert seulement à énoncer Nb | définition |
 | [Sens logique de « nécessaire »](socle/cadre/4-definitions.md) | « sa non-existence serait contradictoire » : sens écarté de D2, sans être réfuté | contesté |
-| [Clause d'identité](socle/cadre/4-definitions.md) | exigence de D18 qu'une base ne donne pas l'énoncé visé par la seule identité ; pour l'existence, réglée par le paramètre « raisons de soi retenues » | définition |
+| [Clause d'identité](socle/cadre/4-definitions.md) | exigence de D18 qu'une base ne donne pas l'énoncé visé par la seule identité ; pour l'existence, réglée par le paramètre « raisons de soi retenues » ; étendue à l'existence comme critère de cercle, non adoptée (M1) | définition |
+| [« Par la seule identité »](socle/cadre/4-definitions.md) | par le seul sens de `=`, avec D8, sans le calcul des connecteurs ni le sens de `□` (lecture fixée en M1) | définition |
+| [Partie modale, partie miroir](socle/cadre/4-definitions.md) | `□E(t)`, « il existe dans toute situation », et `E(t) ∧ ◇¬E(t)`, « il existe ici et pourrait manquer » : parties admises dans une base pour l'existence, écritures des deux valeurs sélectives ; sous « aucune retenue », elles ne donnent aucune raison d'exister (décision de l'utilisateur, 2026-11-07) ; cela ne dit rien de l'existence d'une cause, qui relève de Pr_c pour un contingent et de Pr pour un inévitable, toutes deux des hypothèses | définition |
+| [Loi_n](socle/cadre/4-definitions.md) | un universel ne compte comme loi, dans une base, que s'il est vrai dans toute situation possible | définition |
+| [Pert](socle/cadre/4-definitions.md) | une base dont un universel a une condition inerte, une loi plus générale sans elle étant vraie, ne donne pas de comment | définition |
+| [Retrait d'AO pour un ensemble contradictoire](socle/cadre/4-termes-premiers.md) | règle qui retire, dans un ensemble minimal d'enregistrements contradictoire avec le socle, ceux que rien ne reproduit, tous à égalité, et le contenu qui contredit Ac ; c'est la clause (2 bis) d'AO | axiome |
+| [Asymétrie du comment par une cause](socle/cadre/4-definitions.md) | une base qui emploie une loi tirée de l'observation ne donne le comment d'un fait que par des faits sur la chose ou sur ce qui la cause ; l'exemple du mât et de l'ombre | définition |
 | [Possibilité existentielle](population/population.md) | la possibilité qu'une chose existe ; terme des profils de la population | |
 | [Prémisse modale admise](population/population.md) | un axiome nouveau qui pose une possibilité, admis avec son paragraphe de refus ; terme des profils | |
 | [Par intermédiaires](modules/m0/bilan.md) | définition proposée pour M2 : être cause de l'existence d'une chose à travers une suite finie de causes ; non admise | |
@@ -152,16 +161,16 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [U](socle/cadre/3-modalite.md) | les situations possibles sont les mêmes d'où que l'on regarde | démontré |
 | [SR](socle/cadre/4-termes-premiers.md) | la situation réelle est l'une des situations possibles | axiome |
 | [Complément d'« observation »](socle/cadre/4-termes-premiers.md) | ce dont une observation positive dit qu'il a une propriété existe dans la situation réelle ; voir l'axiome pour le cas de la cause | axiome |
-| [AO](socle/cadre/4-termes-premiers.md) | admission des observations : admises sous réserve, retirées selon une règle quand elles se contredisent ; voir l'axiome | axiome |
+| [AO](socle/cadre/4-termes-premiers.md) | admission des observations : admises sous réserve, retirées selon une règle quand elles se contredisent, deux à deux ou en plus grand nombre (clause (2 bis)) ; voir l'axiome | axiome |
 | [Ac](socle/cadre/4-termes-premiers.md) | occurrence des enregistrements : tout enregistrement fait a lieu et existe dans la situation réelle ; on peut retirer son contenu, jamais son occurrence | axiome |
-| [Clauses (1) à (3) d'AO](socle/cadre/4-termes-premiers.md) | admission sous réserve (1) ; contradiction et retrait (2) ; retrait limité aux énoncés contredits, enregistrement établi comme fait (3) | axiome |
+| [Clauses (1) à (3) et (2 bis) d'AO](socle/cadre/4-termes-premiers.md) | admission sous réserve (1) ; contradiction et retrait (2) ; retrait limité aux énoncés contredits, enregistrement établi comme fait (3) ; retrait dans un ensemble minimal contradictoire, et du contenu qui contredit le socle ou Ac (2 bis, admise en M1) | axiome |
 
 ## Résultats
 
 | Identifiant | Lecture | Statut |
 |---|---|---|
 | [E1](socle/cadre/5-constat-existence.md) | quelque chose existe ; établi avec observation | démontré |
-| [Correction](socle/cadre/1-notation.md) | ce qui se démontre du socle sans le complément d'« observation », AO ni Ac est vrai dans tout modèle du socle ; d'où : un contre-modèle prouve qu'une démonstration est impossible | démontré |
+| [Correction](socle/cadre/1-notation.md) | ce qui se démontre du socle sans le complément d'« observation », AO ni Ac est vrai dans tout modèle du socle ; d'où : un contre-modèle prouve qu'une démonstration est impossible ; étendue en M1 aux énoncés sur un modèle entier et aux situations possibles | démontré |
 | [T0](modules/m0/resultats.md) | la double négation ne se dérive pas des règles seules ; elle vaut sous B et S | démontré |
 | [T1](modules/m0/resultats.md) | une définition qui contient l'existence ne prouve pas que la chose définie existe | démontré |
 | [T2](modules/m0/resultats.md) | « quelque chose existe » n'est pas une vérité logique | démontré |
@@ -190,6 +199,17 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [T11](modules/m0/resultats.md) | ce qui, dans une base, donne l'existence d'une chose nommée ; voir le résultat | démontré |
 | [T12](modules/m0/resultats.md) | la raison de l'existence d'une chose en un autre être est sa cause | démontré ; condition d'usage : aucun axiome, hors E et FE, qui fasse entraîner l'existence par un énoncé atomique d'une base |
 | [T12 (a) à (e)](modules/m0/resultats.md) | ses conséquences : aucune loi ne donne le pourquoi d'une existence (a) ; raisons de soi (b) ; bases par une cause (c) ; raison en autrui et cause coïncident (d, e) | démontré |
+| [Lemme de réduction](modules/m1/resultats.md) | ce que des observations admises donnent dans le langage objet a la forme `Ω` | démontré |
+| [Lemme du modèle canonique](socle/cadre/4-termes-premiers.md) | un ensemble `Ω` qui ne se contredit pas avec le socle a un modèle du socle ; avec la clause (2 bis) d'AO, tout ensemble d'observations admises en a un | démontré |
+| [T13](modules/m1/resultats.md) | les bases pour l'existence avec une partie modale ou miroir ; les deux écritures d'une valeur sélective ont la même extension | démontré |
+| [T14](modules/m1/resultats.md) | Circ range parmi les cercles toute raison de soi, non les bases par une cause ni les bases modales | démontré |
+| [T15](modules/m1/resultats.md) | aucune forme modale de `E` sur un seul nom ne donne l'existence aux seuls contingents | démontré |
+| [T16](modules/m1/resultats.md) | la raison d'un être nécessaire se fixe, sous chaque valeur du paramètre, par définition | démontré |
+| [T17](modules/m1/resultats.md) | ni Pr ni Pr_c, quand ce sont des thèses sur la cause, ne se tranchent par des observations | démontré |
+| [T18](modules/m1/resultats.md) | (b) se réfute par un cycle de cause observé et ne s'établit par aucune observation | démontré |
+| [T19](modules/m1/resultats.md) | sous « aucune retenue », E1 rend Pr, Pc et (b) incompatibles ensemble, deux d'entre elles restant compatibles | démontré |
+| [T20](modules/m1/resultats.md) | mêmes hypothèses, issues différentes selon la valeur du paramètre ; voir le résultat | démontré |
+| [T21](modules/m1/resultats.md) | le comment d'une loi ne vient que de lois tirées de l'observation | démontré |
 | [Modèles 1 et 2 de T6](modules/m0/resultats.md) | deux modèles du socle : dans le 1, G est vrai ; dans le 2, ¬G ; souvent cités comme témoins | |
 | [Modèle B](modules/m0/bilan.md) | modèle qui montre que P1 ne découlerait plus d'une lecture locale de D2 | |
 | [Matrices 0 à 4](annexes/verifications.md) | tables de valeurs qui testent les principes logiques : 0 pour B et S, 1 à 4 pour T0 et les refus de principes | |
@@ -207,7 +227,9 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [Pc](modules/m0/hypotheses.md) | une cause ou une raison existe là où elle est cause ou raison | hypothèse, signalée (sert G) |
 | [Pc comme axiome](modules/m0/hypotheses.md) | supposition non admise : si Pc entrait au socle, toute cause dépendrait de son effet ; Pc reste une hypothèse ; voir le paragraphe | aucun (supposition) ; Pc : hypothèse, signalée (sert G) |
 | [Pc_r](population/ph-naturaliste.md) | la part « cause » de Pc, dans la seule situation réelle ; retirée par le naturaliste | |
-| [(b)](modules/m0/hypotheses.md) | dans chaque situation, toute suite d'êtres dont chacun dépend du suivant, qu'on ne peut plus prolonger, s'arrête sur un être qui ne dépend de rien dans cette situation : ni cycle ni régression infinie | hypothèse, signalée (sert G) |
+| [(b)](modules/m0/hypotheses.md) | dans chaque situation, toute suite d'êtres dont chacun dépend du suivant, qu'on ne peut plus prolonger, s'arrête sur un être qui ne dépend de rien dans cette situation : ni cycle ni régression infinie ; les termes sont des objets, sans condition d'existence (lecture consignée en M1) | hypothèse, signalée (sert G) |
+| [(b_∃)](modules/m1/resultats.md) | variante de (b) où les termes existent dans au moins une situation possible | hypothèse, signalée (sert G) |
+| [(b_s)](modules/m1/resultats.md) | variante de (b) où les termes existent dans la situation considérée | hypothèse, signalée (sert G) |
 | [(b_L4)](modules/m0/hypotheses.md) | forme plus faible de (b), pour les seuls inévitables ; seule employée par L4 | hypothèse, signalée (sert G) |
 | [(c′)](modules/m0/hypotheses.md) | les êtres contingents se combinent librement ; portée à définir | hypothèse, signalée (sert G) ; portée à définir |
 | [(c′_tot)](modules/m0/hypotheses.md) | une situation possible ne contient aucun contingent | hypothèse, signalée (sert G), jointe à ¬Sv |
@@ -219,8 +241,8 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [¬P1](modules/m0/bilan.md) | négation de P1 ; revient à `◇G ∧ ◇¬G`, que P1 exclut | |
 | [Sv](modules/m0/hypotheses.md) | une situation possible est vide : rien n'y existe | hypothèse, signalée (sert ¬G, T10) |
 | [Cont](modules/m0/hypotheses.md) | rien n'est inévitable : toute chose manque dans au moins une situation | hypothèse, signalée (sert ¬G) ; plus faible que Sv |
-| [Pr](modules/m0/hypotheses.md) | dans toute situation, toute chose qui y existe y a une raison d'exister : une cause ou une raison de soi ; son effet dépend du paramètre « raisons de soi retenues » | hypothèse ; démontrée sous « toutes retenues » ; signalée, sert G sous « retenues pour les seuls inévitables », sert ¬G sous « retenues pour les seuls contingents » et « aucune retenue » |
-| [Pr_c](modules/m0/hypotheses.md) | dans toute situation, tout contingent qui y existe y a une raison d'exister ; même dépendance au paramètre | hypothèse ; démontrée sous « toutes retenues » et « retenues pour les seuls contingents » ; sous les deux autres valeurs, signalée (sert G : L7) |
+| [Pr](modules/m0/hypotheses.md) | dans toute situation, toute chose qui y existe y a une raison d'exister ; sous « aucune retenue », valeur fixée en M1 : toute chose qui existe a une cause | hypothèse, signalée (sert ¬G : elle l'entraîne) |
+| [Pr_c](modules/m0/hypotheses.md) | dans toute situation, tout contingent qui y existe y a une raison d'exister ; sous « aucune retenue » : tout contingent qui existe a une cause | hypothèse, signalée (sert G : L7) |
 | [Nb](modules/m0/hypotheses.md) | un nombre n'est pas un être : aucun nombre n'existe, dans aucune situation possible | hypothèse, indépendante du socle ; ne sert ni G ni ¬G |
 | [H1](socle/registre.md) | la validité de la logique et des mathématiques dépend d'un être | hypothèse |
 | [H1′](modules/m0/hypotheses.md) | miroir de H1 : tout être nécessaire l'est aussi au sens logique | hypothèse, signalée (sert ¬G) |
@@ -229,7 +251,8 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 | [H3](socle/registre.md) | Dieu est personnel (intelligence, volonté) | hypothèse |
 | [H4](socle/registre.md) | Dieu est bon | hypothèse |
 | [Unicité](modules/m0/bilan.md) | n'y a-t-il qu'un être nécessaire ? question transmise à M4 | |
-| [Circ](modules/m0/bilan.md) | critère de cercle proposé par le théiste pour M1 ; non admis | |
+| [Circ](modules/m1/definitions.md) | critère de cercle proposé par le théiste : une base est circulaire si l'énoncé visé, avec le socle et ses identités, entraîne chacune de ses parties ; non adopté en M1 | contesté |
+| [Circ′](modules/m1/definitions.md) | critère de cercle proposé par le formalisateur : une base pour l'existence est circulaire si elle la donne sans FE ; non adopté en M1 | contesté |
 | [Pn-N](modules/m0/debat.md) | énoncé périmé : « ne dépendre de rien appartient à la nature de tout être nécessaire » ; sans objet sous D2 | |
 | [`Q_x`](modules/m0/debat.md) | terme périmé des traces : la conjonction des propriétés de la nature de x | |
 | [R1, R2](methode/journal.md) | deux réparations du recontrôle : R1, des universels dans une base ; R2, la raison d'exister renvoyée à M1 | |
@@ -245,19 +268,23 @@ Plusieurs lettres servent à deux usages : `T` est un principe modal, la série 
 
 | Identifiant | Lecture | Statut |
 |---|---|---|
-| [Raisons de soi retenues](socle/cadre/4-definitions.md) | paramètre de D18, fixé en M1 : à quelles choses on accorde « elle existe parce qu'elle existe » comme raison d'exister | définition |
-| [Toutes retenues](socle/cadre/4-definitions.md) | valeur : toute chose qui existe a une raison de soi | |
-| [Retenues pour les seuls inévitables](socle/cadre/4-definitions.md) | valeur : seul un être inévitable a une raison de soi ; valeur signalée (sert G) | |
-| [Retenues pour les seuls contingents](socle/cadre/4-definitions.md) | valeur : seul un contingent a une raison de soi ; valeur signalée (sert ¬G) | |
-| [Aucune retenue](socle/cadre/4-definitions.md) | valeur : aucune chose n'a de raison de soi ; une raison d'exister ne peut être qu'une cause | |
-| [Universels employables dans une base](socle/cadre/4-definitions.md) | paramètre de D18, fixé en M1 : quelles lois peuvent entrer dans une base ; il ne touche pas l'existence | définition |
+| [Raisons de soi retenues](socle/cadre/4-definitions.md) | paramètre de D18 : à quelles choses on accorde « elle existe parce qu'elle existe » comme raison d'exister ; fixé en M1 à « aucune retenue » | définition |
+| [Toutes retenues](socle/cadre/4-definitions.md) | valeur : toute chose qui existe a une raison de soi | non retenue (M1) |
+| [Retenues pour les seuls inévitables](socle/cadre/4-definitions.md) | valeur : seul un être inévitable a une raison de soi ; valeur signalée (sert G) | non retenue (M1) ; charge non remplie |
+| [Retenues pour les seuls contingents](socle/cadre/4-definitions.md) | valeur : seul un contingent a une raison de soi ; valeur signalée (sert ¬G) | non retenue (M1) ; charge non remplie |
+| [Aucune retenue](socle/cadre/4-definitions.md) | valeur : aucune chose n'a de raison de soi ; une raison d'exister ne peut être qu'une cause | retenue (M1) |
+| [Universels employables dans une base](socle/cadre/4-definitions.md) | paramètre de D18 : quelles lois peuvent entrer dans une base ; il ne touche pas l'existence ; fixé en M1 à « universels (R) et (O) » | définition |
+| [Aucun universel](modules/m1/parametres.md) | valeur : aucune loi dans une base ; tout comment se réduit à des faits singuliers | non retenue (M1) |
+| [Universels (R) seuls](modules/m1/parametres.md) | valeur : seules les lois démontrées du seul socle entrent dans une base | non retenue (M1) |
+| [Universels (R) et (O)](socle/cadre/4-definitions.md) | valeur : les lois démontrées et celles tirées de l'observation entrent dans une base | retenue (M1) |
+| [Écriture par identité, écriture modale, écriture miroir](modules/m1/resultats.md) | les façons d'écrire une valeur sélective : raison de soi, base `{□E(t)} ∪ C`, base `{E(t) ∧ ◇¬E(t)} ∪ C` | |
 
 ## Modules et questions
 
 | Identifiant | Lecture |
 |---|---|
 | [M0](modules/m0/index.md) | ce que le socle établit sans observation ; clos |
-| [M1](sommaire.md) | toute chose qui existe a-t-elle une raison d'exister ? |
+| [M1](modules/m1/index.md) | toute chose qui existe a-t-elle une raison d'exister ? |
 | [M2](sommaire.md) | le contingent a-t-il une raison ? faut-il un être nécessaire ? |
 | [M3](sommaire.md) | le monde a-t-il commencé ? un passé infini est-il cohérent ? |
 | [M4](sommaire.md) | le fondement est-il personnel, unique ? |

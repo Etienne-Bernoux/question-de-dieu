@@ -26,7 +26,9 @@ L'auteur décide seul des définitions et des axiomes, et de tout point encore d
 
 ## Où en est l'examen
 
-Le module M0 fixe les fondations : logique, sens de « nécessaire », d'« exister », de « cause » et de « raison ». Il est clos (2026-11-06) : tous ses pas sont valides au dernier recontrôle. Sept contradictions dans les fiches de position restent à résoudre par les philosophes eux-mêmes, au passage suivant. Le socle n'établit ni que Dieu existe ni qu'il n'existe pas ; la question se ramène à une prémisse sur ce qui est possible. Les modules suivants examinent tour à tour la raison d'exister, l'être nécessaire, le commencement du monde, le caractère personnel du fondement, la morale, la fiabilité de la raison, le sens de l'existence et les objections.
+Le module M0 fixe les fondations : logique, sens de « nécessaire », d'« exister », de « cause » et de « raison ». Il est clos (2026-11-06) : tous ses pas sont valides au dernier recontrôle. Le socle n'établit ni que Dieu existe ni qu'il n'existe pas ; la question se ramène à une prémisse sur ce qui est possible.
+
+Le module M1 examine la raison d'exister. Il est clos (2026-11-08). Une raison d'exister est une cause, et rien n'a sa raison en soi : un être nécessaire, s'il existe, n'a donc pas de raison, et n'en a pas besoin. Aucune observation ne tranche si tout ce qui pourrait ne pas exister a une cause, et une route reste ouverte de chaque côté. Le pourquoi d'une existence (sa raison) est distingué du dessein (en vue de quoi elle existe), renvoyé au module sur le caractère personnel du fondement. Les modules suivants examinent tour à tour l'être nécessaire, le commencement du monde, le caractère personnel du fondement, la morale, la fiabilité de la raison, le sens de l'existence et les objections.
 
 ## Par où commencer
 

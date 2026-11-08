@@ -19,6 +19,7 @@ layout: default
   {%- case parts[1] -%}
     {%- when "cadre" -%}{%- assign sub_label = "Cadre admis" -%}{%- assign sub_url = "/socle/cadre/" -%}
     {%- when "m0" -%}{%- assign sub_label = "M0" -%}{%- assign sub_url = "/modules/m0/" -%}
+    {%- when "m1" -%}{%- assign sub_label = "M1" -%}{%- assign sub_url = "/modules/m1/" -%}
   {%- endcase -%}
 {%- endif -%}
 {%- assign raw = page.title | remove_first: "Question de Dieu : " -%}
